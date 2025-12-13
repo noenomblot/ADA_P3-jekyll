@@ -21,9 +21,8 @@ author: "ADAptive Thinkers"
 
 navbar-links:
   About Us: "aboutme"
-  Resources:
-    - Our Datasets: "#"
-    - Github: "https://github.com/epfl-ada/ada-2025-project-adaptivethinkers2025"
+  GitHub: "https://github.com/epfl-ada/ada-2025-project-adaptivethinkers2025"
+
 
 ################
 # --- Logo --- #
