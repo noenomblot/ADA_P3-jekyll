@@ -131,28 +131,27 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-# Couleur de fond principale des pages (très légère, ton pêche/orange)
-page-col: "#FFF4E6"
+# Fond principal de la page : crème orangé (rappelle les visages)
+page-col: "#FFE3C4"
 
-# Couleur du texte principal
-text-col: "#1A1A1B"
+# Couleur du texte principal : très foncé
+text-col: "#15171A"
 
-# Couleur des liens (orange type Reddit)
-link-col: "#FF4500"
+# Liens : orange Reddit-ish, surbrillance plus vive
+link-col: "#FF6A1A"
+hover-col: "#FF4500"
 
-# Couleur des liens au survol (orange un peu plus foncé)
-hover-col: "#CC3700"
+# Navbar : bleu nuit comme le fond de l'image, avec texte clair
+navbar-col: "#081824"
+navbar-text-col: "#FDEFD8"
+navbar-border-col: "#FF6A1A"
 
-# Barre de navigation (blanc) et texte
-navbar-col: "#FFFFFF"
-navbar-text-col: "#1A1A1B"
-navbar-border-col: "#FF4500"
+# Footer : même bleu nuit, texte gris clair, liens crème/orange
+footer-col: "#081824"
+footer-text-col: "#B7BDC9"
+footer-link-col: "#FDEFD8"
+footer-hover-col: "#FF6A1A"
 
-# Footer (blanc) et texte/liens
-footer-col: "#FFFFFF"
-footer-text-col: "#777777"
-footer-link-col: "#1A1A1B"
-footer-hover-col: "#FF4500"
 
 
 # Alternatively, the navbar, footer, and page background can be set to an image
