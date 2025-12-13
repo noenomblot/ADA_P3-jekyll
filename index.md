@@ -12,26 +12,27 @@ Most of the time, people post and comment inside a single subreddit, reinforcing
 
 But what happens when **the world shakes**?
 
-- A presidential election.
-- A blockbuster release.
+- A presidential election.  
+- A blockbuster release.  
 - A global crisis.
 
 Do these events:
-- create **new links** between communities that usually never talk to each other?
-- turn some subreddits into **temporary “bridges”**?
+
+- create **new links** between communities that usually never talk to each other?  
+- turn some subreddits into temporary **“bridges”**?  
 - leave **long-term scars** in the network, or do things quickly go back to “normal”?
 
 In this data story, we will explore these questions using the **Reddit Socio-Reddit Hyperlinks dataset**, and additional information about real-world events.
 
-We will structure the story around three main research questions:
+We structure the story around three main research questions:
 
 - **RQ1 – Do big events trigger bursts of new links between communities that usually barely connect?**  
 - **RQ2 – Which communities act as early signalers or temporary bridges during these events?**  
 - **RQ3 – Do these event-driven ties disappear quickly, or do some become part of the long-term backbone of the network?**  
 
-> 🔎 **Note:** all the plots you see below (histograms, pie charts, correlation plots, etc.) come from a *previous* ADA project about movies and diversity.  
-> We temporarily keep them as **examples of how to embed graphs** in the website.  
-> They will be progressively replaced with our own figures as our analysis evolves.
+> 🔎 *All the graphs you see below come from a previous ADA project about movies and diversity.  
+> We temporarily keep them as **examples of how to embed figures** in the website.  
+> They will be progressively replaced with our own Reddit plots as our analysis evolves.*
 
 {: .text-justify}
 
@@ -43,24 +44,24 @@ We will structure the story around three main research questions:
 
 ## 1. From Hyperlinks to Communities
 
-In our final version, this section will:
+In the final version, this section will:
 
 - explain how we build the **Reddit hyperlink network**:
-  - each node = a subreddit,
-  - each edge = a hyperlink from a post in subreddit A pointing to subreddit B.
+  - each node = a subreddit  
+  - each edge = a hyperlink from a post in subreddit A pointing to subreddit B
 - show basic **descriptive statistics**:
-  - number of posts, number of subreddits, number of edges,
-  - degree distribution (which subreddits are the biggest “hubs”?).
-- describe our **preprocessing choices**:
-  - how we handle bots and spammy subreddits,
-  - how we deal with time (aggregating links per day / per week).
-- introduce the **community detection**:
-  - which method we use (e.g. Louvain),
-  - how we interpret the main clusters (politics, movies, gaming, etc.).
+  - number of posts, subreddits, edges  
+  - degree distribution, top “hub” communities
+- describe our **preprocessing**:
+  - how we handle bots / spammy subreddits  
+  - how we aggregate edges over time (per day/week)
+- introduce our **community detection**:
+  - which algorithm we use (e.g. Louvain)  
+  - how we interpret the main clusters (politics, movies, gaming, etc.)
 
-Below, we keep some of last year’s content as **layout examples**.
+Below, we keep a few blocks from the previous project as layout examples.
 
-### Example: How to Present Datasets
+### Example: Dataset Description Block
 
 <div style="display: flex; align-items: center; justify-content: center;">
     <!-- Left Side: Image -->
@@ -77,7 +78,7 @@ Below, we keep some of last year’s content as **layout examples**.
             <li>Actor Ethnicity</li>
             <li>Box Office Revenue</li>
         </ul>
-        <i>We will replace this with a similar bullet list describing our Reddit hyperlink dataset (columns, time range, etc.).</i>
+        <i>We will later replace this with a similar bullet list describing our Reddit hyperlink dataset (columns, time range, etc.).</i>
     </div>
 </div>
 
@@ -87,9 +88,9 @@ Below, we keep some of last year’s content as **layout examples**.
     <div style="margin-right: 20px;">
         <b>Example of enriched datasets:</b>
         <ul>
-            <li>IMDb ratings and titles.</li>
+            <li>IMDb datasets and ratings.</li>
             <li>Awards and nominations.</li>
-            <li>Mappings between different ID systems.</li>
+            <li>Mapping between different ID systems.</li>
         </ul>
         <i>In our project, this block will describe external data we add (event lists, Google Trends, etc.).</i>
     </div>
@@ -111,43 +112,23 @@ We will later replace this with a plot of our own (e.g., distribution of hyperli
 
 ---
 
-### 1.1 Our Research Questions (Template)
-
-In the actual version of the story, this section will:
-
-- recap our three research questions in a visual / friendly way,
-- give the reader an intuition of:
-  - what a “cross-link” between communities means,
-  - why events might create temporary bridges,
-  - what it would mean for a tie to “persist” after the event.
-
-For now, we keep this as a **placeholder** and will enrich it once all results are finalized.
-
----
-
 ## 2. Event-Born Links: Short Flares or Lasting Imprints?
 
-In this part of the story, we want to focus on **RQ1 and RQ3**:
+Here we will focus on **RQ1 and RQ3**:
 
-- How many **new edges** between communities appear during major events?
-- Are these edges connecting communities that were almost disconnected before?
-- Once the event is over, how fast do these edges **disappear**?
+- How many **new edges** between communities appear during major events?  
+- Do these edges connect communities that were almost disconnected before?  
+- Once the event is over, how fast do these edges **disappear**?  
 - For edges that survive, do they become part of a new “baseline” interaction?
 
-Concretely, we plan to:
+Planned content (to be filled once analyses are ready):
 
-- label edges that are **“born” during an event window**,
-- track whether the same subreddit pairs interact again after:
-  - 7 days, 30 days, 90 days, etc. (simple survival curves),
-- compare:
-  - edges born during events vs edges born in “normal” periods,
-- summarize everything into:
-  - a few **intuitive plots** (barplots, survival curves),
-  - and **simple takeaways** (e.g. “Most event-born ties vanish quickly, but a small fraction become stable.”).
+- define what we call an **“event-born edge”**  
+- compare event vs non-event periods  
+- build simple **survival curves** for edge persistence  
+- discuss which types of events create longer-lasting ties.
 
-Below, we keep two example pie charts from the previous project to remember how to embed such figures.
-
-### Example: Grouping Categories (Old Ethnicity Plots)
+### Example: Old Ethnicity Plots (Kept for Layout)
 
 <p align="center">
 <img src="assets/img/Intouchable.gif" alt=""/>
@@ -161,27 +142,9 @@ Below, we keep two example pie charts from the previous project to remember how 
     {% include ethnic_groups_piechart.html %}
 </div>
 
-*These two pie charts were used to show how ethnicities were grouped into larger categories.  
-Later, we might use similar plots to show how subreddits are grouped into communities (clusters) in our network.*
+*Later, we might reuse this layout to show how subreddits are grouped into clusters (politics, movies, etc.).*
 
 ---
-
-### Example: Distribution and Evolution of a Score
-
-In the previous project, this section introduced a **diversity score** and its evolution over time.
-
-In our case, this is where we will:
-
-- define a **simple metric** related to event-born edges, for example:
-  - fraction of edges that connect previously unconnected communities,
-  - or an “event novelty index” for each event.
-- show how this metric is distributed across events,
-- highlight a few particularly interesting cases (very high / very low novelty).
-
-Below, we keep the original figures as examples of:
-
-- histogram layout,
-- time series layout.
 
 <div style="text-align: center; font-size: 80%; line-height: 1.2;">
     {% include diversity_histogram_essai.html %}
@@ -191,84 +154,45 @@ Below, we keep the original figures as examples of:
     {% include average_diversity_per_year.html %}
 </div>
 
+*Example histogram + time series layout that we will reuse with our own Reddit metrics.*
+
 ---
 
-## 3. Example Section: Styled Highlight Box (To Reuse)
+## 3. Example Highlight Box (To Reuse)
 
-The “Movie Success Criteria” block below is a **nice visual element** from the previous project.  
-We keep it as an example of:
+The “Movie Success Criteria” block below is a nice visual element that we plan to reuse.  
+We will adapt the text later, for example to define:
 
-- how to highlight an important definition,
-- how to break the text flow with a colored box.
+- our **event windows** (pre / during / post)  
+- or what counts as a **“new cross-link”** and as a **“persistent tie”**.
 
-Later, we can reuse this exact layout for something like:
-
-- **“Event Window Definitions”** (pre-event / during / post-event),
-- or **“What we call a ‘new cross-link’”**,
-- or **“How we define long-term persistence”**.
-
-For now, we simply keep the include:
+For now, we keep it as an example:
 
 {% include ingredients_of_success.html %}
 
 ---
 
-## 4. Zooming into Events and Communities
+## 4. Zooming into Events and Communities (Template)
 
-This big section will eventually correspond to:
+In the final story, this section will be the core of **RQ2**:
 
-- **RQ2 (bridges / early signalers)**,
-- and the more detailed event-level analysis.
+- Identify which communities act as **bridges** during events.
+- Compare how different types of communities react:
+  - e.g. political vs cinema clusters.
+- Look at a detailed **case study**:
+  - e.g. US election and the behaviour of key political subreddits.
 
-We plan to split it into three main parts:
+Planned structure:
 
-1. **Overall network patterns**
-   - How does global edge activity change around events?
-   - Do we see bursts of cross-community edges?
-2. **Zoom by community type (e.g. politics vs cinema)**
-   - A political event vs a cinema event:
-     - which clusters react more strongly,
-     - how cross-links behave in each case.
-3. **Deep dive into a political cluster**
-   - Focus on a specific cluster (e.g. US politics),
-   - track who talks to whom before / during / after a key event,
-   - identify subreddits that become **temporary bridges**.
+1. **Global view** – how activity changes around events.  
+2. **Politics vs Cinema** – two worlds reacting differently.  
+3. **Inside a political cluster** – who talks to whom during the US election?  
 
-Pour ne pas perdre les exemples de graphs, on garde quelques blocs de la section “The Truth of Data” comme **gabarits**. Chaque sous-partie ci-dessous est un exemple de visualization qu’on pourra adapter.
-
-### 4.1 Overall Patterns (Template)
-
-*In the final version, this part will:*
-
-- compare **event days vs normal days** in terms of:
-  - number of edges,
-  - number of cross-community edges,
-  - number of “first-time” edges between community pairs.
-- possibly use:
-  - boxplots or barplots to compare distributions,
-  - simple statistical tests (t-tests or non-parametric tests),
-  - small text explaining whether the differences are large or small.
+Below, we keep some of last year’s plots purely as layout templates (group comparisons, side-by-side figures, etc.).
 
 <div style="text-align: center; font-size: 80%; line-height: 1.2;">
     {% include diversity_success.html %}
 </div>
-
-*Example layout from last year’s project (successful vs unsuccessful movies).  
-We will replace this with a comparison of “event vs non-event” periods.*
-
----
-
-### 4.2 Example: Group Comparison + Test
-
-Below are examples of how to present:
-
-- a **difference of means** (t-test),
-- and a **correlation plot**.
-
-In our story, similar layouts could be used to show:
-
-- whether “event-born edges” differ significantly from “normal edges”,
-- or whether some event-level metric is correlated with network outcomes.
 
 <div style="text-align: center; font-size: 80%; line-height: 1.2;">
     {% include t_test_Overall_success.html %}
@@ -278,24 +202,9 @@ In our story, similar layouts could be used to show:
     {% include corr_Success_Spearman.html %}
 </div>
 
+*Later, these layouts can host comparisons such as “event vs non-event”, “bridge communities vs others”, etc.*
+
 ---
-
-### 4.3 Template for More Detailed Criteria
-
-The following subsections (Box Office, Ratings, Nominations) come from the cinema project.  
-We keep them as **structural templates** to remind ourselves how to:
-
-- split a long analysis into several sub-criteria,
-- show one or two plots side-by-side,
-- combine text + graph in a readable way.
-
-In our Reddit project, the equivalents could be:
-
-- 4.3.1 Cross-links volume per community type  
-- 4.3.2 Sentiment or polarity of cross-links  
-- 4.3.3 Persistence of ties after the event
-
-#### <span class="criteria-icon">💰</span> Example layout: “Box Office” section
 
 <div style="text-align: center; font-size: 80%; line-height: 1.2;">
     {% include diversity_box_office.html %}
@@ -310,10 +219,6 @@ In our Reddit project, the equivalents could be:
         {% include corr_Movie_box_office_revenue_Pearson.html %}
     </div>
 </div>
-
-*We will later reuse this structure for one of our own event-related comparisons (e.g. strong vs weak events, or high vs low persistence).*
-
-#### <span class="criteria-icon">⭐</span> Example layout: “Ratings” section
 
 <div style="text-align: center; font-size: 80%; line-height: 1.2;">
     {% include diversity_ratings.html %}
@@ -333,8 +238,6 @@ In our Reddit project, the equivalents could be:
     {% include propensity_score_matching_ratings.html %}
 </div>
 
-#### <span class="criteria-icon">🏆</span> Example layout: “Nominations” section
-
 <div style="text-align: center; font-size: 80%; line-height: 1.2;">
     {% include diversity_nominations.html %}
 </div>
@@ -344,7 +247,7 @@ In our Reddit project, the equivalents could be:
         {% include t_test_Nomination.html %}
     </div>
 
-    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    <div style="text-align: center; font-size: 80%; line-height: 1.2%;">
         {% include corr_Nomination_Spearman.html %}
     </div>
 </div>
@@ -357,22 +260,19 @@ In our Reddit project, the equivalents could be:
 <img src="assets/img/omar_sy_triste.gif" alt=""/>
 </p>
 
-In the final version of the project, this conclusion section will:
+In the final story, this conclusion will:
 
-- summarize our key findings, for example:
-  - “Big events create many short-lived bridges, but only a small fraction of ties persist.”
-  - “Certain communities systematically act as bridges across clusters.”
-  - “Some event-driven ties become part of the long-term backbone of Reddit.”
-- discuss what this means for:
-  - **echo chambers**,
-  - information diffusion,
-  - the role of “bridge communities” during crises.
-- reflect on the limitations:
-  - only one dataset, one time range,
-  - only hyperlink-based interactions,
-  - possible biases in the events we select.
+- summarise our main findings:
+  - how often events create only short-lived bridges,  
+  - which communities act as repeat “bridges”,  
+  - which event-born ties seem to become structural.
+- discuss what this means for **echo chambers** and information flow on Reddit.  
+- reflect on the **limitations**:
+  - one dataset, one time period  
+  - hyperlink-based interactions only  
+  - possible biases in event selection.
 
-For now, we keep this as a **template** and will fill it once all analyses are complete.
+For now, we keep it as a template and will fill it once analyses are complete.
 
 {: .text-justify}
 
