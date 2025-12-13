@@ -2,7 +2,7 @@
 layout: page
 title: "Reddit Rewired: Event-Driven Bridges"
 subtitle: How global events reshape (or fail to reshape) Reddit communities
-cover-img: /assets/img/header_img.png
+cover-img: /assets/img/reddit_header.png
 ---
 
 ## Introduction
