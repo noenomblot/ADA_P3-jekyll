@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: ADAptative Thinkers Website
+title: "Reddit Rewired: Event-Driven Bridges"
 
 # Your name to show in the footer
-author: Inspiration Team
+author: "ADAptive Thinkers 2025"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -22,8 +22,8 @@ author: Inspiration Team
 navbar-links:
   About Us: "aboutme"
   Resources:
-    - Our Datasets: "https://drive.google.com/drive/folders/15jMzHA16hZhBR0086Y3cT6uLr1BEbrLo?usp=drive_link"
-    - Github: "https://github.com/epfl-ada/ada-2024-project-inspiration"
+    - Our Datasets: "#"
+    - Github: "https://github.com/epfl-ada/ada-2025-project-adaptivethinkers2025"
 
 ################
 # --- Logo --- #
@@ -131,19 +131,29 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
+# Couleur de fond principale des pages (très légère, ton pêche/orange)
+page-col: "#FFF4E6"
 
-page-col: "#FFF8D3"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
+# Couleur du texte principal
+text-col: "#1A1A1B"
+
+# Couleur des liens (orange type Reddit)
+link-col: "#FF4500"
+
+# Couleur des liens au survol (orange un peu plus foncé)
+hover-col: "#CC3700"
+
+# Barre de navigation (blanc) et texte
 navbar-col: "#FFFFFF"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-text-col: "#1A1A1B"
+navbar-border-col: "#FF4500"
+
+# Footer (blanc) et texte/liens
 footer-col: "#FFFFFF"
 footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-link-col: "#1A1A1B"
+footer-hover-col: "#FF4500"
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
