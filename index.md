@@ -281,11 +281,13 @@ For now, we keep it as a template and will fill it once analyses are complete.
 ## References
 
 <ul>
-    <li>
-        <i>Example reference from previous project:</i><br>
-        <a href="https://socialsciences.ucla.edu/wp-content/uploads/2024/06/UCLA-Hollywood-Diversity-Report-2024-Film-Streaming-5-23-2024.pdf" target="_blank">
-            UCLA Social Sciences. <i>Hollywood Diversity Report 2024: Film and Streaming</i>.
-        </a><br>
-        <i>We will replace this list with our own references (papers on Reddit, event networks, etc.).</i>
-    </li>
+  <li>
+    SNAP – Stanford Network Analysis Project.  
+    <i>Reddit Hyperlinks Network (soc-RedditHyperlinks)</i>.  
+    Available at:
+    <a href="https://snap.stanford.edu/data/soc-RedditHyperlinks.html" target="_blank">
+      https://snap.stanford.edu/data/soc-RedditHyperlinks.html
+    </a>.
+  </li>
 </ul>
+
