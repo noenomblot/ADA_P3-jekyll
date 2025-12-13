@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About me
-subtitle: Meet the Inspiration Team
+title: About us
+subtitle: Meet the ADAptive Thinkers 2025 Team
 ---
 
 Here are its inspiring members:
 
-- Albane Sautier
-- Berend Slager
-- Francesco Saint-Supéry
-- Flore Mueth
-- Mathilde Ballot
+- Jonathan Luthi
+- Charbel El Khoury
+- Souheil Haddad
+- Stéphane Dupertuis-dit-Neveu
+- Noé Nomblot
