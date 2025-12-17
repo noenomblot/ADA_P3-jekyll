@@ -283,7 +283,7 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
 
 <div style="width:100%; height:600px; background: #eee;">
   <iframe
-    src="{{ 'assets\clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
+    src="{{ 'clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
     style="width:100%; height:100%; border:none;">
   </iframe>
 </div>
@@ -291,7 +291,7 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'assets\clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
+      src="{{ 'clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -330,7 +330,7 @@ period.
 <figure id="fig-cluster-graph-force-awakens">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'assets\clusters\temporal_cluster_graph_force_awakens.html' | relative_url }}"
+      src="{{ 'clusters\temporal_cluster_graph_force_awakens.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -364,7 +364,7 @@ emerge and persist. The short term effect can clearly be seen in [Figure 3](#fig
 <figure id="fig-cluster-graph-gameofthrones">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'assets\clusters\temporal_cluster_graph_gameofthrones.html' | relative_url }}"
+      src="{{ 'clusters\temporal_cluster_graph_gameofthrones.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
