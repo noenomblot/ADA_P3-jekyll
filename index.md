@@ -270,6 +270,8 @@ social communities absorb political debate at scale.
   loading="lazy">
 </iframe>
 
+test
+
 
 Yet even here, the structure holds. Political interaction does not expand durably
 into entertainment communities. The same bridges are reused — none are newly built.
