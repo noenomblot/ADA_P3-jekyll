@@ -286,20 +286,6 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure 1a.</strong> Daily hyperlink activities around the US election.
-  </figcaption>
-</figure>
-
-in assets:
-
-<figure id="fig-cluster-graph-US-election">
-  <div class="plotly-embed">
-    <iframe
       src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
       loading="lazy">
     </iframe>
@@ -348,6 +334,8 @@ period.
     <strong>Figure 2.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
   </figcaption>
 </figure>
+
+
 
 Despite being one of the biggest cultural releases of the decade, *Star Wars*
 produces no increase in political interaction. Political communities remain
