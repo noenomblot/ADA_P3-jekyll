@@ -252,148 +252,188 @@ Below, we keep some of last year’s plots purely as layout templates (group com
     </div>
 </div>
 
-How politics, culture, and social life interact on Reddit
+## 4. Focus on Communities  
+### How politics, culture, and social life interact on Reddit
 
-Across dozens of large-scale events between 2014 and 2016, one central insight emerges:
+Across dozens of large-scale events between 2014 and 2016, one central insight emerges:  
 Reddit reacts strongly to major shocks — but it almost never rewires itself.
 
-Rather than permanently reshaping who talks to whom, events temporarily redistribute attention, emotion, and intensity along pre-existing community boundaries. Whether interactions spill across communities depends far more on the symbolic nature of an event than on its objective scale or media coverage.
+Instead of permanently reshaping who talks to whom, events temporarily redistribute
+attention, emotion, and intensity along pre-existing community boundaries. Whether
+interactions spill across communities depends far more on the *symbolic nature* of
+the event than on its objective scale or media coverage.
 
-This section focuses on one core axis of that behavior: the relationship between politics, entertainment, and social life on Reddit — and its striking asymmetries.
+This section focuses on one core axis of that behavior:  
+the relationship between **politics, entertainment, and social life** on Reddit —
+and its striking asymmetries.
 
-When politics hits, does culture react?
-Politics → Entertainment / Movies / TV
+---
 
-We first examine whether major political shocks pull entertainment communities into the conversation.
+### When politics hits, does culture react?  
+**Politics → Entertainment / Movies / TV**
 
-Crimea Annexation (2014): geopolitics without cultural spillover
+We first examine whether major political shocks pull entertainment communities into
+the conversation.
 
-Despite global media coverage and rising international tension, the annexation of Crimea remains almost entirely confined to news and geopolitics communities. Interaction levels with entertainment remain flat, no durable bridges emerge, and several ties even weaken.
+#### Crimea Annexation (2014) — geopolitics without cultural spillover
 
-Geopolitical distance matters. When a political event feels remote — geographically or emotionally — it does not penetrate cultural spaces.
+Despite global media coverage and rising international tension, the annexation of
+Crimea remains almost entirely confined to news and geopolitics communities.
+Interaction levels with entertainment remain flat, no durable bridges emerge, and
+several ties even weaken.
 
-Brexit Referendum (2016): politics enters daily life, but stops short of culture
+Geopolitical distance matters. When a political event feels remote — geographically
+or emotionally — it does not penetrate cultural spaces.
 
-Brexit represents a clear step forward in spillover. Political discussion expands outward into social and everyday communities, reflecting how deeply the referendum affected identity, family, and daily conversation.
+#### Brexit Referendum (2016) — politics enters daily life, but stops short of culture
 
-However, this expansion remains fragile. While interaction intensity rises temporarily, no long-term cultural bridges form. Entertainment communities remain largely untouched. Politics becomes personal — but not cultural.
+Brexit represents a clear step forward in spillover. Political discussion expands
+outward into social and everyday communities, reflecting how deeply the referendum
+affected identity, family, and daily conversation.
 
-US Presidential Election (2016): maximum polarization, minimal rewiring
+However, this expansion remains fragile. While interaction intensity rises
+temporarily, no long-term cultural bridges form. Entertainment communities remain
+largely untouched. Politics becomes personal — but not cultural.
 
-The election of Donald Trump generates the strongest emotional response in the dataset. Sentiment polarizes sharply, existing ties are used more intensely, and social communities absorb political debate at scale.
+#### US Presidential Election (2016) — maximum polarization, minimal rewiring
 
-Yet even here, the structure holds. Political interaction does not expand durably into entertainment communities. The same bridges are reused — none are newly built. Politics amplifies emotion, not structure.
+The election of Donald Trump generates the strongest emotional response in the
+dataset. Sentiment polarizes sharply, existing ties are used more intensely, and
+social communities absorb political debate at scale.
 
-Politics → Entertainment: key takeaways
+Yet even here, the structure holds. Political interaction does not expand durably
+into entertainment communities. The same bridges are reused — none are newly built.
+Politics amplifies emotion, not structure.
+
+#### Politics → Entertainment: what we learn
 
 Across all three political events:
 
-Politics sometimes spills into social spaces
-
-Politics rarely spills into entertainment
-
-Politics never durably rewires cultural communities
+- Politics sometimes spills into social spaces  
+- Politics rarely spills into entertainment  
+- Politics never durably rewires cultural communities  
 
 Entertainment remains structurally insulated from political shocks.
 
-Does culture ever pull politics in?
-Entertainment → Politics
+---
 
-To test the reverse direction, we analyze three of the largest cultural events of the period.
+### Does culture ever pull politics in?  
+**Entertainment → Politics**
 
-Star Wars: The Force Awakens (2015): massive attention, zero political pull
+To test the reverse direction, we analyze three of the largest cultural events of the
+period.
 
-Despite being one of the biggest cultural releases of the decade, Star Wars produces no increase in political interaction. Political communities remain structurally unchanged — if anything, interaction slightly declines.
+#### Star Wars: *The Force Awakens* (2015) — massive attention, zero political pull
+
+Despite being one of the biggest cultural releases of the decade, *Star Wars*
+produces no increase in political interaction. Political communities remain
+structurally unchanged — if anything, interaction slightly declines.
 
 Popularity alone is not enough.
 
-Oscars 2016 (#OscarsSoWhite): culture brushes politics, briefly
+#### Oscars 2016 (*#OscarsSoWhite*) — culture brushes politics, briefly
 
-Unlike Star Wars, the Oscars explicitly intersect with political themes such as diversity, representation, and inequality. Here, we observe a short-lived increase in interaction between entertainment and politics.
+Unlike *Star Wars*, the Oscars explicitly intersect with political themes: diversity,
+representation, and inequality. Here, we observe a short-lived increase in
+interaction between entertainment and politics.
 
-The effect does not stabilize. No new bridges form, correlations return to baseline, and the network quickly relaxes. Culture can open political conversations — but it does not reorganize them.
+But the effect does not stabilize. No new bridges form, correlations return to
+baseline, and the network quickly relaxes. Culture can open political conversations —
+but it does not reorganize them.
 
-Game of Thrones, Season 6 (2016): culture rewires itself, not politics
+#### Game of Thrones, Season 6 (2016) — culture rewires itself, not politics
 
-The Season 6 premiere of Game of Thrones creates one of the strongest internal cultural reconfigurations in the dataset. New entertainment-to-entertainment ties emerge and persist.
+The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
+cultural reconfigurations in the dataset. New entertainment-to-entertainment ties
+emerge and persist.
 
-Yet political interaction declines. As culture intensifies, politics fades into the background. Entertainment pulls inward, not outward.
+Yet political interaction declines. As culture intensifies, politics fades into the
+background. Entertainment pulls inward, not outward.
 
-Entertainment → Politics: a clear asymmetry
+#### Entertainment → Politics: a clear asymmetry
 
 Across all entertainment events:
 
-No lasting political spillover
-
-No new political bridges
-
-Political communities remain structurally insulated
+- No lasting political spillover  
+- No new political bridges  
+- Political communities remain structurally insulated  
 
 Politics can leak into culture — but culture does not flow back into politics.
-Notably, even when entertainment events are explicitly politicized (e.g. #OscarsSoWhite), they fail to generate durable political spillover, highlighting that politicization alone is insufficient without identity-level conflict.
 
-Social communities: where politics actually lands
+Notably, even when entertainment events are explicitly politicized (e.g.
+*#OscarsSoWhite*), they fail to generate durable political spillover. Politicization
+alone is insufficient without identity-level conflict.
+
+---
+
+### Social communities: where politics actually lands
 
 While entertainment remains insulated, social communities behave very differently.
+A clear gradient of political spillover emerges:
 
-A gradient of political spillover
+- Crimea → minimal social impact  
+- Brexit → partial, unstable spillover  
+- Trump election → strong and significant social embedding  
 
-Crimea: minimal social impact
+When politics touches identity, legitimacy, and everyday norms, social communities
+become central arenas of debate. Yet even here, Reddit’s structure resists permanent
+change:
 
-Brexit: partial, unstable spillover
+- Existing ties intensify  
+- Emotions surge  
+- The architecture remains intact  
 
-Trump election: strong and significant social embedding
+---
 
-When politics touches identity, legitimacy, and everyday norms, social communities become central arenas of debate. Yet even here, Reddit’s structure resists permanent change:
+### Terrorism vs. health: symbolism matters more than severity
 
-Existing ties intensify
+#### Charlie Hebdo (2015) — politics becomes social
 
-Emotions surge
+Because the attack directly targeted expression and satire, political discourse
+spills powerfully into both social and humor communities. Interaction increases are
+strong and statistically significant. Politics becomes a symbolic social movement.
 
-The underlying architecture remains intact
+#### Paris Attacks (2015) — emotion without structural change
 
-Terrorism vs. health: symbolism matters more than severity
-Charlie Hebdo (2015): politics becomes social and symbolic
+The November attacks trigger intense emotional reactions, but no lasting political
+embedding in social spaces. Grief and solidarity surge — structure does not shift.
 
-Because the attack directly targeted expression and satire, political discourse spills powerfully into both social and humor communities. Interaction increases are strong and statistically significant. Politics becomes a symbolic social movement.
+#### Ebola (2014) — fear without diffusion
 
-Paris Attacks (2015): emotion without structural change
+Ebola generates fear, but no political or social spillover. Health discussion
+contracts inward, remaining technical and informational. Severity alone is not
+enough; symbolism is decisive.
 
-The November attacks trigger intense emotional reactions, but no lasting political embedding in social spaces. Grief and solidarity surge — structure does not shift.
+---
 
-Ebola (2014): fear without diffusion
-
-Ebola generates fear, but no political or social spillover. Health discussion contracts inward, remaining technical and informational. Severity alone is not enough. Symbolism is decisive.
-
-Sports, gaming, and collective attention
+### Sports, gaming, and collective attention
 
 Outside politics, other domains reveal the same structural logic:
 
-Sports events (World Cup, Olympics, Super Bowl) strongly activate social interaction, but never permanently rewire it
-
-Gaming spills into social space only when it alters offline behavior (e.g. Pokémon GO), not through hype alone
-
-Technology launches remain socially insulated unless they create collective participation
+- Sports events strongly activate social interaction — but never permanently rewire it  
+- Gaming spills into social space only when it alters offline behavior (e.g. Pokémon GO)  
+- Technology launches remain socially insulated unless they create collective participation  
 
 Across all cases, attention synchronizes communities — structure resists change.
 
-Final takeaway
+---
 
-Across politics, culture, social life, sports, gaming, and health, Reddit follows a consistent rule:
+### Final takeaway
 
-Major events change how Reddit talks — not who talks to whom.
+Across politics, culture, social life, sports, gaming, and health, Reddit follows a
+consistent rule:
 
-Political shocks amplify emotion and sometimes spill into social spaces
+**Major events change how Reddit talks — not who talks to whom.**
 
-Cultural shocks reorganize culture internally but leave politics untouched
+Political shocks amplify emotion and sometimes spill into social spaces.  
+Cultural shocks reorganize culture internally but leave politics untouched.  
+Health crises concentrate discussion without diffusion.  
+Social communities absorb identity-driven conflict — but temporarily.
 
-Health crises concentrate discussion without diffusion
-
-Social communities absorb identity-driven conflict — but temporarily
-
-Reddit reacts.
-Reddit adapts.
+Reddit reacts.  
+Reddit adapts.  
 But Reddit almost never rewires.
+
 
 ---
 
