@@ -68,7 +68,7 @@ Planned content (to be filled once analyses are ready):
 - discuss which types of events create longer-lasting ties.
 
 
-## 4. Zooming into Events and Communities (Template)
+## 3. Zooming into Events and Communities (Template)
 
 In the final story, this section will be the core of **RQ2**:
 
