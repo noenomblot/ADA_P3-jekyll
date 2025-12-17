@@ -284,7 +284,7 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
 
 <div style="width:100%; height:600px; background: #eee;">
   <iframe
-    src="{{ 'clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
+    src="{{ 'clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
     style="width:100%; height:100%; border:none;">
   </iframe>
 </div>
@@ -292,7 +292,7 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
+      src="{{ 'clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -300,6 +300,47 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
     <strong>Figure 1.</strong> Daily hyperlink activities around the US election.
   </figcaption>
 </figure>
+
+<div style="text-align:center;">
+  <iframe
+    src="{{ 'asset/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+    width="100%"
+    height="650"
+    style="border:none;">
+  </iframe>
+</div>
+
+
+in asset
+
+<div style="width:100%; height:600px; background: #eee;">
+  <iframe
+    src="{{ 'asset/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+    style="width:100%; height:100%; border:none;">
+  </iframe>
+</div>
+
+<figure id="fig-cluster-graph-US-election">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'asset/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 1.</strong> Daily hyperlink activities around the US election.
+  </figcaption>
+</figure>
+
+<div style="text-align:center;">
+  <iframe
+    src="{{ 'clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+    width="100%"
+    height="650"
+    style="border:none;">
+  </iframe>
+</div>
+
 
 
 Yet even here, the structure holds. Political interaction does not expand durably
