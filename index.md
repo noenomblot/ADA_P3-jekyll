@@ -262,6 +262,15 @@ The election of Donald Trump generates the strongest emotional response in the
 dataset. Sentiment polarizes sharply, existing ties are used more intensely, and
 social communities absorb political debate at scale.
 
+<iframe
+  src="{{ '/figures/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+  width="100%"
+  height="600"
+  style="border:none;"
+  loading="lazy">
+</iframe>
+
+
 Yet even here, the structure holds. Political interaction does not expand durably
 into entertainment communities. The same bridges are reused — none are newly built.
 Politics amplifies emotion, not structure.
