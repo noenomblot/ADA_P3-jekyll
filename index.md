@@ -295,7 +295,17 @@ For now, we keep it as a template and will fill it once analyses are complete.
 ---
 ## 6. Graphs from previous project
 Below, we keep a few blocks from the previous project as layout examples.
+> 🔎 *All the graphs you see below come from a previous ADA project about movies and diversity.  
+> We temporarily keep them as **examples of how to embed figures** in the website.  
+> They will be progressively replaced with our own Reddit plots as our analysis evolves.*
 
+{: .text-justify}
+
+<p align="center">
+    <img src="assets/img/great_success.jpg" alt="" width="300"/> <!-- Example image kept from previous project -->
+</p>
+
+---
 ### Example: Dataset Description Block
 
 <div style="display: flex; align-items: center; justify-content: center;">
@@ -456,17 +466,7 @@ For now, we keep it as an example:
 {% include ingredients_of_success.html %}
 
 ---
-> 🔎 *All the graphs you see below come from a previous ADA project about movies and diversity.  
-> We temporarily keep them as **examples of how to embed figures** in the website.  
-> They will be progressively replaced with our own Reddit plots as our analysis evolves.*
 
-{: .text-justify}
-
-<p align="center">
-    <img src="assets/img/great_success.jpg" alt="" width="300"/> <!-- Example image kept from previous project -->
-</p>
-
----
 ## References
 
 <ul>
