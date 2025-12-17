@@ -1124,18 +1124,5 @@ pre {
   }
 }
 
-/* --- Plotly embeddings --- */
 
-.plotly-embed {
-  position: relative;
-  width: 100%;
-  height: 600px;   /* adjust if needed */
-  margin: 1.5rem 0;
-}
-
-.plotly-embed iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-}
 
