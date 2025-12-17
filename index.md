@@ -437,10 +437,9 @@ change:
 #### Charlie Hebdo (2015) — politics becomes social
 
 Because the attack directly targeted expression and satire, political discourse
-spills powerfully into both social and humor communities. Interaction increases are
-strong and statistically significant. Politics becomes a symbolic social movement.
+spills powerfully into both social and humor communities. 
 
-In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france".
+In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france". It also has to be mentioned, that both "france" and "paris" are mainly french speaking. We suppose this will lessen the hyperlinks to and from those subreddits, but this is outside the scope of this project.
 
 <figure id="fig-cluster-graph-charlie-hebdo">
   <div class="plotly-embed">
@@ -455,6 +454,17 @@ In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of 
 </figure>
 
 
+We can see that this event does **not** show a significant peak [Figure 5](#fig-before-after-graph-charlie-hebdo) when compared with the periods before and after. This is true for even small periods of time, this means even the momentary impact of the event in this cluster is surprisingly small.
+
+<figure id="fig-before-after-graph-charlie-hebdo">
+  <p align="center">
+    <img src="assets/img/plots/before_after_during_World_Geography_2015_01_07.png" alt=""/>
+  </p>
+  <figcaption>
+    <strong>Figure 5.</strong> Activities 1 year before and after the terrorist attacks.
+  </figcaption>
+</figure>
+
 
 #### Paris Attacks (2015) — emotion without structural change
 
@@ -466,16 +476,29 @@ In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of 
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 5.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
+    <strong>Figure 6.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
   </figcaption>
 </figure>
 
-[Figure 5](#fig-cluster-graph-bataclan) shows similar trends as [Figure 4](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
+[Figure 6](#fig-cluster-graph-bataclan) shows similar trends as [Figure 5](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
 
-The November attacks trigger intense emotional reactions, but no lasting political
-embedding in social spaces. Grief and solidarity surge — structure does not shift.
+The difference between the two events is even more visible when comparing the before and after of the two terrorist attacks. The attack on November 13 is significantly more important in the whole cluster than the the posts in a year before and after (See [Figure 7](#fig-before-after-graph-bataclan)).
+
+
+<figure id="fig-before-after-graph-bataclan">
+  <p align="center">
+    <img src="assets/img/plots/before_after_during_World_Geography_2015_11_13.png" alt=""/>
+  </p>
+  <figcaption>
+    <strong>Figure 7.</strong> Activities 1 year before and after the terrorist attacks.
+  </figcaption>
+</figure>
+
+The November attacks trigger intense emotional reactions, but no lasting political embedding in social spaces. Grief and solidarity surge — but no permanent shift in the structure takes place.
 
 #### Ebola (2014) — fear without diffusion
+
+**I vote to exclude this here**
 
 Ebola generates fear, but no political or social spillover. Health discussion
 contracts inward, remaining technical and informational. Severity alone is not
