@@ -160,7 +160,28 @@ under pressure, channels attention through established pathways, and then
 stabilizes without forming new durable connections.
 
 ---
+### Cluster-level sentiment dynamics
 
+While event-driven structural changes are extremely rare, sentiment reacts strongly
+to major events — but in a highly non-uniform way across communities. Importantly,
+the clusters experiencing the largest sentiment shifts are not the clusters where
+events originate. Political, entertainment, and gaming communities primarily act as
+sources of information and attention, rather than as sites of peak emotional
+expression.
+
+Instead, the strongest sentiment gains consistently appear in peripheral or
+low-constraint clusters such as NSFW, Food, Finance, Humor / Reddit, and General.
+These communities are loosely tied to specific topics and allow more expressive,
+informal, or affective discourse. Across political crises, cultural shocks, and
+entertainment releases, they function as emotional spillover zones, absorbing
+reactions that remain weakly expressed in event-specific clusters.
+
+This displacement of sentiment helps explain the network’s structural resilience.
+Emotional intensity is redistributed away from tightly organized communities,
+preventing local overload and reducing the incentive for new structural connections
+to form. In this sense, sentiment diffuses broadly while structure remains
+conservative: Reddit processes emotion through redirection rather than rewiring.
+---
 ### What this tells us about event-driven connectivity
 
 These findings suggest that Reddit’s community structure is highly resilient.
