@@ -267,7 +267,7 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
     <iframe
-      src="{{ '/assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+      src="{{ 'assets\img\clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -300,6 +300,20 @@ To test the reverse direction, we analyze three of the largest cultural events o
 period.
 
 #### Star Wars: *The Force Awakens* (2015) — massive attention, zero political pull
+
+[Figure 2](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* and we see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
+
+<figure id="fig-cluster-graph-force-awakens">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets\img\clusters\temporal_cluster_graph_force_awakens.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 2.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
+  </figcaption>
+</figure>
 
 Despite being one of the biggest cultural releases of the decade, *Star Wars*
 produces no increase in political interaction. Political communities remain
