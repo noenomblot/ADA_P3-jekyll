@@ -442,7 +442,7 @@ strong and statistically significant. Politics becomes a symbolic social movemen
 
 In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france".
 
-figure id="fig-cluster-graph-charlie-hebdo">
+<figure id="fig-cluster-graph-charlie-hebdo">
   <div class="plotly-embed">
     <iframe
       src="{{ 'assets/img/clusters/temporal_cluster_graph_Charlie_Hebdo.html' | relative_url }}"
