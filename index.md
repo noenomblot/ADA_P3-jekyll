@@ -260,13 +260,14 @@ largely untouched. Politics becomes personal — but not cultural.
 
 The election of Donald Trump generates the strongest emotional response in the
 dataset. Sentiment polarizes sharply, existing ties are used more intensely, and
-social communities absorb political debate at scale. As shown in [Figure 1](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors are.
+social communities absorb political debate at scale. As shown in [Figure 1](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
+
 
 
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
     <iframe
-      src="{{ '/figures/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+      src="{{ '/assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -274,8 +275,6 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
     <strong>Figure 1.</strong> Daily hyperlink activities around the US election.
   </figcaption>
 </figure>
-
-
 
 
 Yet even here, the structure holds. Political interaction does not expand durably
