@@ -76,6 +76,7 @@ links between major thematic communities evolve *before*, *during*, and *after*
 key global events.
 
 ---
+We define an event-born edge as an inter-cluster hyperlink that appears for the first time during the event window and was absent in a matched pre-event baseline.
 
 ### Political shocks: strong spillovers, no structural creation
 
