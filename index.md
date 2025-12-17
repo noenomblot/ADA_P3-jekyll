@@ -59,58 +59,7 @@ In the final version, this section will:
   - which algorithm we use (e.g. Louvain)  
   - how we interpret the main clusters (politics, movies, gaming, etc.)
 
-Below, we keep a few blocks from the previous project as layout examples.
 
-### Example: Dataset Description Block
-
-<div style="display: flex; align-items: center; justify-content: center;">
-    <!-- Left Side: Image -->
-    <div style="margin-right: 20px;">
-        <img src="assets/img/video_camera.png" alt="" style="max-width: 150px; height: auto;">
-    </div>
-    
-    <!-- Right Side: Text -->
-    <div>
-        <b>Example dataset description from a previous project:</b>
-        <ul>
-            <li>Movie Name</li>
-            <li>Release Year</li>
-            <li>Actor Ethnicity</li>
-            <li>Box Office Revenue</li>
-        </ul>
-        <i>We will later replace this with a similar bullet list describing our Reddit hyperlink dataset (columns, time range, etc.).</i>
-    </div>
-</div>
-
-
-<div style="display: flex; align-items: center; justify-content: center;">
-    <!-- Left Side: Text -->
-    <div style="margin-right: 20px;">
-        <b>Example of enriched datasets:</b>
-        <ul>
-            <li>IMDb datasets and ratings.</li>
-            <li>Awards and nominations.</li>
-            <li>Mapping between different ID systems.</li>
-        </ul>
-        <i>In our project, this block will describe external data we add (event lists, Google Trends, etc.).</i>
-    </div>
-    
-    <!-- Right Side: Image -->
-    <div>
-        <img src="assets/img/oscar.png" alt="" style="max-width: 150px; height: auto;">
-    </div>
-</div>
-
-<div style="text-align: center; font-size: 20%; line-height: 1; display: inline-block;">
-    {% include distribution_realease_date.html %}
-</div>
-
-*Example figure from the previous project showing movie release dates.  
-We will later replace this with a plot of our own (e.g., distribution of hyperlinks per day or per year).*
-
-{: .text-justify}
-
----
 
 ## 2. Event-Born Links: Short Flares or Lasting Imprints?
 
@@ -128,49 +77,6 @@ Planned content (to be filled once analyses are ready):
 - build simple **survival curves** for edge persistence  
 - discuss which types of events create longer-lasting ties.
 
-### Example: Old Ethnicity Plots (Kept for Layout)
-
-<p align="center">
-<img src="assets/img/Intouchable.gif" alt=""/>
-</p>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include ethnicities_piechart.html %}
-</div>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include ethnic_groups_piechart.html %}
-</div>
-
-*Later, we might reuse this layout to show how subreddits are grouped into clusters (politics, movies, etc.).*
-
----
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include diversity_histogram_essai.html %}
-</div>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include average_diversity_per_year.html %}
-</div>
-
-*Example histogram + time series layout that we will reuse with our own Reddit metrics.*
-
----
-
-## 3. Example Highlight Box (To Reuse)
-
-The “Movie Success Criteria” block below is a nice visual element that we plan to reuse.  
-We will adapt the text later, for example to define:
-
-- our **event windows** (pre / during / post)  
-- or what counts as a **“new cross-link”** and as a **“persistent tie”**.
-
-For now, we keep it as an example:
-
-{% include ingredients_of_success.html %}
-
----
 
 ## 4. Zooming into Events and Communities (Template)
 
@@ -372,6 +278,84 @@ Reddit adapts.
 But Reddit almost never rewires.
 
 
+
+
+## 5. What This Means for Echo Chambers (Conclusion Template)
+
+<p align="center">
+<img src="assets/img/omar_sy_triste.gif" alt=""/>
+</p>
+
+In the final story, this conclusion will:
+
+- summarise our main findings:
+  - how often events create only short-lived bridges,  
+  - which communities act as repeat “bridges”,  
+  - which event-born ties seem to become structural.
+- discuss what this means for **echo chambers** and information flow on Reddit.  
+- reflect on the **limitations**:
+  - one dataset, one time period  
+  - hyperlink-based interactions only  
+  - possible biases in event selection.
+
+For now, we keep it as a template and will fill it once analyses are complete.
+
+{: .text-justify}
+
+---
+## 6. Graphs from previous project
+Below, we keep a few blocks from the previous project as layout examples.
+
+### Example: Dataset Description Block
+
+<div style="display: flex; align-items: center; justify-content: center;">
+    <!-- Left Side: Image -->
+    <div style="margin-right: 20px;">
+        <img src="assets/img/video_camera.png" alt="" style="max-width: 150px; height: auto;">
+    </div>
+    
+    <!-- Right Side: Text -->
+    <div>
+        <b>Example dataset description from a previous project:</b>
+        <ul>
+            <li>Movie Name</li>
+            <li>Release Year</li>
+            <li>Actor Ethnicity</li>
+            <li>Box Office Revenue</li>
+        </ul>
+        <i>We will later replace this with a similar bullet list describing our Reddit hyperlink dataset (columns, time range, etc.).</i>
+    </div>
+</div>
+
+
+<div style="display: flex; align-items: center; justify-content: center;">
+    <!-- Left Side: Text -->
+    <div style="margin-right: 20px;">
+        <b>Example of enriched datasets:</b>
+        <ul>
+            <li>IMDb datasets and ratings.</li>
+            <li>Awards and nominations.</li>
+            <li>Mapping between different ID systems.</li>
+        </ul>
+        <i>In our project, this block will describe external data we add (event lists, Google Trends, etc.).</i>
+    </div>
+    
+    <!-- Right Side: Image -->
+    <div>
+        <img src="assets/img/oscar.png" alt="" style="max-width: 150px; height: auto;">
+    </div>
+</div>
+
+<div style="text-align: center; font-size: 20%; line-height: 1; display: inline-block;">
+    {% include distribution_realease_date.html %}
+</div>
+
+*Example figure from the previous project showing movie release dates.  
+We will later replace this with a plot of our own (e.g., distribution of hyperlinks per day or per year).*
+
+{: .text-justify}
+
+---
 Below, we keep some of last year’s plots purely as layout templates (group comparisons, side-by-side figures, etc.).
 
 <div style="text-align: center; font-size: 80%; line-height: 1.2;">
@@ -439,28 +423,47 @@ Below, we keep some of last year’s plots purely as layout templates (group com
 
 
 ---
-
-## 5. What This Means for Echo Chambers (Conclusion Template)
+### Example: Old Ethnicity Plots (Kept for Layout)
 
 <p align="center">
-<img src="assets/img/omar_sy_triste.gif" alt=""/>
+<img src="assets/img/Intouchable.gif" alt=""/>
 </p>
 
-In the final story, this conclusion will:
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include ethnicities_piechart.html %}
+</div>
 
-- summarise our main findings:
-  - how often events create only short-lived bridges,  
-  - which communities act as repeat “bridges”,  
-  - which event-born ties seem to become structural.
-- discuss what this means for **echo chambers** and information flow on Reddit.  
-- reflect on the **limitations**:
-  - one dataset, one time period  
-  - hyperlink-based interactions only  
-  - possible biases in event selection.
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include ethnic_groups_piechart.html %}
+</div>
 
-For now, we keep it as a template and will fill it once analyses are complete.
+*Later, we might reuse this layout to show how subreddits are grouped into clusters (politics, movies, etc.).*
 
-{: .text-justify}
+---
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include diversity_histogram_essai.html %}
+</div>
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include average_diversity_per_year.html %}
+</div>
+
+*Example histogram + time series layout that we will reuse with our own Reddit metrics.*
+
+---
+
+## 3. Example Highlight Box (To Reuse)
+
+The “Movie Success Criteria” block below is a nice visual element that we plan to reuse.  
+We will adapt the text later, for example to define:
+
+- our **event windows** (pre / during / post)  
+- or what counts as a **“new cross-link”** and as a **“persistent tie”**.
+
+For now, we keep it as an example:
+
+{% include ingredients_of_success.html %}
 
 ---
 
