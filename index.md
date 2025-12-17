@@ -170,6 +170,32 @@ that already exist.
 This raises an important question for the remainder of the analysis:
 **Are there any events that truly break this pattern?**
 
+#### Game of Thrones, Season 6 (2016) — when fiction creates new bridges
+
+The release of *Game of Thrones* Season 6 marks a rare departure from Reddit’s usual
+structural stability.
+
+Unlike political crises or mass sporting events, the premiere generates twelve
+entirely new inter-cluster relationships between Entertainment / Movies / TV and
+Politics / News communities. These links are absent in the two months preceding the
+event and persist beyond the immediate post-event window.
+
+This indicates genuine structural novelty: for once, a global cultural event does
+not merely amplify existing pathways — it creates new ones.
+
+The persistence of these connections is nonetheless nuanced. While the new links
+remain present in the network, their interaction intensity declines rapidly after
+the event. The overall persistence score reflects this dynamic: the structure
+survives, but the activity does not.
+
+This pattern contrasts sharply with political shocks such as the 2016 US
+presidential election, where interaction surges dramatically but no new structural
+connections emerge.
+
+Taken together, these cases reveal a key asymmetry: fictional universes can
+temporarily rewire the network, whereas political crises primarily reuse existing
+bridges.
+
 ## 3. Zooming into Events and Communities (Template)
 
 In the final story, this section will be the core of **RQ2**:
