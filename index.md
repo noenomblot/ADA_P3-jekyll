@@ -282,12 +282,6 @@ The election of Donald Trump generates the strongest emotional response in the
 dataset. Sentiment polarizes sharply, existing ties are used more intensely, and
 social communities absorb political debate at scale. As shown in [Figure 1](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
 
-<div style="width:100%; height:600px; background: #eee;">
-  <iframe
-    src="{{ 'clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-    style="width:100%; height:100%; border:none;">
-  </iframe>
-</div>
 
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
@@ -297,33 +291,16 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 1.</strong> Daily hyperlink activities around the US election.
+    <strong>Figure 1a.</strong> Daily hyperlink activities around the US election.
   </figcaption>
 </figure>
 
-<div style="text-align:center;">
-  <iframe
-    src="{{ 'asset/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-    width="100%"
-    height="650"
-    style="border:none;">
-  </iframe>
-</div>
-
-
-in asset
-
-<div style="width:100%; height:600px; background: #eee;">
-  <iframe
-    src="{{ 'asset/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-    style="width:100%; height:100%; border:none;">
-  </iframe>
-</div>
+in assets:
 
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'asset/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -331,15 +308,6 @@ in asset
     <strong>Figure 1.</strong> Daily hyperlink activities around the US election.
   </figcaption>
 </figure>
-
-<div style="text-align:center;">
-  <iframe
-    src="{{ 'clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-    width="100%"
-    height="650"
-    style="border:none;">
-  </iframe>
-</div>
 
 
 
@@ -372,7 +340,7 @@ period.
 <figure id="fig-cluster-graph-force-awakens">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'clusters\temporal_cluster_graph_force_awakens.html' | relative_url }}"
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_force_awakens.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -406,7 +374,7 @@ emerge and persist. The short term effect can clearly be seen in [Figure 3](#fig
 <figure id="fig-cluster-graph-gameofthrones">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'clusters\temporal_cluster_graph_gameofthrones.html' | relative_url }}"
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_gameofthrones.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
