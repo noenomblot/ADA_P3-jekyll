@@ -440,6 +440,22 @@ Because the attack directly targeted expression and satire, political discourse
 spills powerfully into both social and humor communities. Interaction increases are
 strong and statistically significant. Politics becomes a symbolic social movement.
 
+In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france".
+
+figure id="fig-cluster-graph-charlie-hebdo">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_Charlie_Hebdo.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 4.</strong> Daily hyperlink activities around the terrorist attacks on Charlie Hebdo in January 2015.
+  </figcaption>
+</figure>
+
+
+
 #### Paris Attacks (2015) — emotion without structural change
 
 <figure id="fig-cluster-graph-bataclan">
@@ -450,9 +466,11 @@ strong and statistically significant. Politics becomes a symbolic social movemen
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 4.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
+    <strong>Figure 5.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
   </figcaption>
 </figure>
+
+[Figure 5](#fig-cluster-graph-bataclan) shows similar trends as [Figure 4](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
 
 The November attacks trigger intense emotional reactions, but no lasting political
 embedding in social spaces. Grief and solidarity surge — structure does not shift.
