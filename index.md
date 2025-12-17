@@ -188,71 +188,7 @@ Planned structure:
 2. **Politics vs Cinema** – two worlds reacting differently.  
 3. **Inside a political cluster** – who talks to whom during the US election?  
 
-Below, we keep some of last year’s plots purely as layout templates (group comparisons, side-by-side figures, etc.).
 
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include diversity_success.html %}
-</div>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include t_test_Overall_success.html %}
-</div>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include corr_Success_Spearman.html %}
-</div>
-
-*Later, these layouts can host comparisons such as “event vs non-event”, “bridge communities vs others”, etc.*
-
----
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include diversity_box_office.html %}
-</div>
-
-<div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
-    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
-        {% include t_test_Box_office_revenue.html %}
-    </div>
-
-    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
-        {% include corr_Movie_box_office_revenue_Pearson.html %}
-    </div>
-</div>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include diversity_ratings.html %}
-</div>
-
-<div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
-    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
-        {% include t_test_Ratings.html %}
-    </div>
-
-    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
-        {% include corr_Ratings_Pearson.html %}
-    </div>
-</div>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include propensity_score_matching_ratings.html %}
-</div>
-
-<div style="text-align: center; font-size: 80%; line-height: 1.2;">
-    {% include diversity_nominations.html %}
-</div>
-
-<div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
-    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
-        {% include t_test_Nomination.html %}
-    </div>
-
-    <div style="text-align: center; font-size: 80%; line-height: 1.2%;">
-        {% include corr_Nomination_Spearman.html %}
-    </div>
-</div>
-
-## 4. Focus on Communities  
 ### How politics, culture, and social life interact on Reddit
 
 Across dozens of large-scale events between 2014 and 2016, one central insight emerges:  
@@ -269,7 +205,8 @@ and its striking asymmetries.
 
 ---
 
-### When politics hits, does culture react?  
+### When politics hits, does culture react? 
+Viewed through our three research questions, these results paint a consistent picture: major events do create bursts of cross-community interaction (RQ1), but only a small subset of communities — primarily social and, in rare symbolic cases, humor — act as temporary bridges (RQ2). Crucially, these event-driven ties almost always fade, leaving the long-term structure of the network largely unchanged (RQ3).
 **Politics → Entertainment / Movies / TV**
 
 We first examine whether major political shocks pull entertainment communities into
@@ -433,6 +370,72 @@ Social communities absorb identity-driven conflict — but temporarily.
 Reddit reacts.  
 Reddit adapts.  
 But Reddit almost never rewires.
+
+
+Below, we keep some of last year’s plots purely as layout templates (group comparisons, side-by-side figures, etc.).
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include diversity_success.html %}
+</div>
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include t_test_Overall_success.html %}
+</div>
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include corr_Success_Spearman.html %}
+</div>
+
+*Later, these layouts can host comparisons such as “event vs non-event”, “bridge communities vs others”, etc.*
+
+---
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include diversity_box_office.html %}
+</div>
+
+<div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
+    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
+        {% include t_test_Box_office_revenue.html %}
+    </div>
+
+    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
+        {% include corr_Movie_box_office_revenue_Pearson.html %}
+    </div>
+</div>
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include diversity_ratings.html %}
+</div>
+
+<div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
+    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
+        {% include t_test_Ratings.html %}
+    </div>
+
+    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
+        {% include corr_Ratings_Pearson.html %}
+    </div>
+</div>
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include propensity_score_matching_ratings.html %}
+</div>
+
+<div style="text-align: center; font-size: 80%; line-height: 1.2;">
+    {% include diversity_nominations.html %}
+</div>
+
+<div style="display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;">
+    <div style="text-align: center; font-size: 80%; line-height: 1.2;">
+        {% include t_test_Nomination.html %}
+    </div>
+
+    <div style="text-align: center; font-size: 80%; line-height: 1.2%;">
+        {% include corr_Nomination_Spearman.html %}
+    </div>
+</div>
+
 
 
 ---
