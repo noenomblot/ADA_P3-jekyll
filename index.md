@@ -421,6 +421,18 @@ strong and statistically significant. Politics becomes a symbolic social movemen
 
 #### Paris Attacks (2015) — emotion without structural change
 
+<figure id="fig-cluster-graph-bataclan">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_bataclan.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 4.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
+  </figcaption>
+</figure>
+
 The November attacks trigger intense emotional reactions, but no lasting political
 embedding in social spaces. Grief and solidarity surge — structure does not shift.
 
