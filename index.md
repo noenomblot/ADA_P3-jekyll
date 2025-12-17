@@ -67,6 +67,108 @@ Planned content (to be filled once analyses are ready):
 - build simple **survival curves** for edge persistence  
 - discuss which types of events create longer-lasting ties.
 
+Major real-world events often trigger visible surges of activity on Reddit.
+But do they actually reshape how communities connect to each other — or do they
+merely amplify existing pathways?
+
+To answer this question, we focus on **inter-cluster relationships**, tracking how
+links between major thematic communities evolve *before*, *during*, and *after*
+key global events.
+
+---
+
+### Political shocks: strong spillovers, no structural creation
+
+#### US Presidential Election (2016) — Politics → Social
+
+The 2016 US presidential election represents the most intense political shock in
+our dataset. On Reddit, political discussion spills decisively into social and
+relational communities.
+
+Interactions between Politics / News and Social clusters increase sharply and
+remain elevated well beyond the event window. Several existing inter-cluster ties
+strengthen substantially, and sentiment shifts are pronounced, both positively
+and negatively.
+
+Yet despite this intensity, the underlying network structure remains unchanged.
+No new inter-cluster relationships emerge, and no lasting structural bridges are
+created. The same pathways are reused more intensively, but no new ones are added.
+
+This pattern highlights a key distinction: high impact does not necessarily imply
+structural novelty.
+
+#### Charlie Hebdo Attacks (2015) — Politics → Humor
+
+The Charlie Hebdo attacks generate a different kind of political shock — one that
+directly targets satire, free expression, and cultural identity.
+
+Here, interactions between Politics / News and Humor / Reddit, as well as broader
+cultural clusters, intensify strongly. A wide range of existing inter-cluster ties
+strengthen simultaneously, reflecting collective emotional processing across
+diverse communities.
+
+Once again, however, no new inter-cluster relationships appear. The event amplifies
+communication across many existing channels, but does not produce new long-term
+structural connections.
+
+Political crises, even when emotionally charged and culturally symbolic, appear to
+activate the network without rewiring it.
+
+---
+
+### Collective entertainment: broad engagement, limited persistence
+
+#### Super Bowl XLIX (2015) — Sports → Social
+
+The Super Bowl produces a short-lived but widespread social response. Sports
+discussions spill into general, social, and entertainment-related clusters, with
+many existing inter-cluster ties strengthening temporarily.
+
+The persistence of these effects is moderate: interaction levels remain somewhat
+elevated after the event, but gradually return toward baseline. No new inter-cluster
+relationships are created, and weakened ties re-emerge shortly after.
+
+This suggests that shared cultural spectacles mobilize attention broadly, but
+rarely leave lasting structural traces.
+
+#### Pokémon GO Launch (2016) — Gaming → Social
+
+The launch of *Pokémon GO* generates one of the most diffuse engagement patterns in
+the dataset. Gaming communities connect more intensely with Social, General, and
+Technology-related clusters, reflecting the game’s broad demographic reach.
+
+Despite this unusually wide spillover, the pattern remains consistent with
+previous cases: existing inter-cluster ties strengthen, sentiment shifts slightly,
+but no new structural links emerge. The network absorbs the shock through
+amplification rather than expansion.
+
+---
+
+### A consistent pattern: amplification without rewiring
+
+Across political crises, cultural tragedies, and mass entertainment events, a
+striking regularity emerges:
+
+- No event creates new inter-cluster relationships at the structural level  
+- Events consistently strengthen pre-existing bridges between communities  
+- These effects are often partially lasting, but do not redefine the long-term
+  backbone of the network  
+
+In other words, Reddit reacts strongly — but conservatively. The network flexes
+under pressure, channels attention through established pathways, and then
+stabilizes without forming new durable connections.
+
+---
+
+### What this tells us about event-driven connectivity
+
+These findings suggest that Reddit’s community structure is highly resilient.
+Even moments of shared global attention rarely create genuinely new links between
+distant communities. Instead, events activate and intensify latent connections
+that already exist.
+
+This raises an important question for the remainder of the analysis:
+**Are there any events that truly break this pattern?**
 
 ## 3. Zooming into Events and Communities (Template)
 
