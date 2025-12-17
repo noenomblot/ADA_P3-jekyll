@@ -267,7 +267,7 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'assets\img\clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
+      src="{{ 'assets\clusters\temporal_cluster_graph_US_election.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -306,7 +306,7 @@ period.
 <figure id="fig-cluster-graph-force-awakens">
   <div class="plotly-embed">
     <iframe
-      src="{{ 'assets\img\clusters\temporal_cluster_graph_force_awakens.html' | relative_url }}"
+      src="{{ 'assets\clusters\temporal_cluster_graph_force_awakens.html' | relative_url }}"
       loading="lazy">
     </iframe>
   </div>
@@ -335,7 +335,21 @@ but it does not reorganize them.
 
 The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
 cultural reconfigurations in the dataset. New entertainment-to-entertainment ties
-emerge and persist.
+emerge and persist. The short term effect can clearly be seen in [Figure 3](#fig-cluster-graph-gameofthrones), which shows markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency compared to *The Force Awakens* release is likely also due to the continual nature of the serial format.
+
+<figure id="fig-cluster-graph-gameofthrones">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets\clusters\temporal_cluster_gameofthrones.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 3.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
+  </figcaption>
+</figure>
+
+
 
 Yet political interaction declines. As culture intensifies, politics fades into the
 background. Entertainment pulls inward, not outward.
