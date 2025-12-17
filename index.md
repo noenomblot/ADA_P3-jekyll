@@ -80,7 +80,7 @@ We define an event-born edge as an inter-cluster hyperlink that appears for the 
 
 ### Political shocks: strong spillovers, no structural creation
 
-#### US Presidential Election (2016) — Politics → Social
+#### US Presidential Election (2016) — Political Shock
 
 The 2016 US presidential election represents the most intense political shock in
 our dataset. On Reddit, political discussion spills decisively into social and
@@ -98,7 +98,7 @@ created. The same pathways are reused more intensively, but no new ones are adde
 This pattern highlights a key distinction: high impact does not necessarily imply
 structural novelty.
 
-#### Charlie Hebdo Attacks (2015) — Politics → Humor
+#### Charlie Hebdo Attacks (2015) — Political Crisis
 
 The Charlie Hebdo attacks generate a different kind of political shock — one that
 directly targets satire, free expression, and cultural identity.
@@ -119,7 +119,7 @@ activate the network without rewiring it.
 
 ### Collective entertainment: broad engagement, limited persistence
 
-#### Super Bowl XLIX (2015) — Sports → Social
+#### Super Bowl XLIX (2015) — Global Sports Event
 
 The Super Bowl produces a short-lived but widespread social response. Sports
 discussions spill into general, social, and entertainment-related clusters, with
@@ -132,7 +132,7 @@ relationships are created, and weakened ties re-emerge shortly after.
 This suggests that shared cultural spectacles mobilize attention broadly, but
 rarely leave lasting structural traces.
 
-#### Pokémon GO Launch (2016) — Gaming → Social
+#### Pokémon GO Launch (2016) — Cultural Phenomenon
 
 The launch of *Pokémon GO* generates one of the most diffuse engagement patterns in
 the dataset. Gaming communities connect more intensely with Social, General, and
