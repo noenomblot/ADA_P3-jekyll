@@ -30,17 +30,7 @@ We structure the story around three main research questions:
 - **RQ2 – Which communities act as early signalers or temporary bridges during these events?**  
 - **RQ3 – Do these event-driven ties disappear quickly, or do some become part of the long-term backbone of the network?**  
 
-> 🔎 *All the graphs you see below come from a previous ADA project about movies and diversity.  
-> We temporarily keep them as **examples of how to embed figures** in the website.  
-> They will be progressively replaced with our own Reddit plots as our analysis evolves.*
 
-{: .text-justify}
-
-<p align="center">
-    <img src="assets/img/great_success.jpg" alt="" width="300"/> <!-- Example image kept from previous project -->
-</p>
-
----
 
 ## 1. From Hyperlinks to Communities
 
@@ -466,7 +456,17 @@ For now, we keep it as an example:
 {% include ingredients_of_success.html %}
 
 ---
+> 🔎 *All the graphs you see below come from a previous ADA project about movies and diversity.  
+> We temporarily keep them as **examples of how to embed figures** in the website.  
+> They will be progressively replaced with our own Reddit plots as our analysis evolves.*
 
+{: .text-justify}
+
+<p align="center">
+    <img src="assets/img/great_success.jpg" alt="" width="300"/> <!-- Example image kept from previous project -->
+</p>
+
+---
 ## References
 
 <ul>
