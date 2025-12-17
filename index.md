@@ -196,6 +196,25 @@ Taken together, these cases reveal a key asymmetry: fictional universes can
 temporarily rewire the network, whereas political crises primarily reuse existing
 bridges.
 
+#### Not all cultural blockbusters rewire the network  
+*Star Wars: The Force Awakens* (2015)
+
+Despite its global reach and massive online engagement, the release of *Star Wars:
+The Force Awakens* does not produce meaningful structural reconfiguration of the
+Reddit network. Existing connections between entertainment communities and the
+broader Reddit ecosystem are activated and sometimes intensified, but no new
+inter-cluster relationships emerge that alter the long-term architecture.
+
+This contrast highlights an important distinction: scale alone is insufficient to
+rewire the network. While *Game of Thrones* Season 6 introduces genuinely new
+connections across communities, *Star Wars* primarily mobilizes pre-existing
+fandom structures.
+
+Taken together, these cases suggest that narrative discontinuity and episodic
+anticipation — rather than sheer popularity — are key drivers of structural
+novelty in event-driven connectivity.
+
+
 ## 3. Zooming into Events and Communities (Template)
 
 In the final story, this section will be the core of **RQ2**:
