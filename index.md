@@ -357,7 +357,7 @@ The daily activity in the cluster predictably increases over time if only due to
 Analyzing the top communities in the entertainment cluster, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
 
 <figure id="fig-plot-top-subreddits-entertainment">
-  <div class="plotly-embed">
+  <div class="plotly-embed-smaller">
     <iframe
       src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
       loading="lazy">
@@ -384,7 +384,7 @@ Analyzing the top communities in the entertainment cluster, we can notice most o
   </figcaption>
 </figure>
 
-
+Despite the seemingly visual increase in activity that day, we cannot confirm any significant or lasting effect following on the whole cluster following the film's release. However what we are able to tell is that in the ego-network of the subreddit "starwars", the ties to a subreddit called "starwarsspeculation" got strengthened. This makes sense, as a new film in a long series always leads to new and exciting speculations by fans on what future movie instances in the star wars universe bring forth.
 
 Despite being one of the biggest cultural releases of the decade, *Star Wars*
 produces no increase in political interaction. Political communities remain
@@ -421,8 +421,6 @@ emerge and persist. The short term effect can clearly be seen in [Figure 3](#fig
 </figure>
 
 It is hard to conclusively tell if there is really lasting change in the subreddit structure, though there seems to be a slight increase in subreddit activity at the event, which could translate into a lasting change after.
-
-
 
 It is also interesting to look at the relation between the two main *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Our statistical analysis shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test shows a value of 0.484 which is a moderate increase in activity, though with a p value of 0.16, we cannot conclude the effect being due to the episode's release.
 

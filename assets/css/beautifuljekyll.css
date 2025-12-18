@@ -1135,6 +1135,13 @@ pre {
   margin: 1.5rem 0;
 }
 
+.plotly-embed-smaller {
+  position: relative;
+  width: 100%;
+  height: 400px;   /* adjust if needed */
+  margin: 1.5rem 0;
+}
+
 .plotly-embed iframe {
   width: 100%;
   height: 100%;
