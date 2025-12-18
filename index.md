@@ -274,9 +274,6 @@ and its striking asymmetries.
 Viewed through our three research questions, these results paint a consistent picture: major events do create bursts of cross-community interaction (RQ1), but only a small subset of communities — primarily social and, in rare symbolic cases, humor — act as temporary bridges (RQ2). Crucially, these event-driven ties almost always fade, leaving the long-term structure of the network largely unchanged (RQ3).
 **Politics → Entertainment / Movies / TV**
 
-We first examine whether major political shocks pull entertainment communities into
-the conversation.
-
 In the politics/news cluster, the biggest subreddits in terms of subreddit interactions are unsurprisingly political. The biggest being "the_donald" a right wing (now banned) subreddit supporting Donald Trump especially during the 2016 US presidential election. The second biggest is "conspiracy" and the third and fourth "politics" and "news", two subreddits also strongly involved in the US election cycle of 2016. It has to be noted that "politics" and "news" tend to be anti-Trump and are taken as "the_donald"s counter-pole in our analysis.
 
 <figure id="fig-plot-top-subreddits-politics">
@@ -361,23 +358,25 @@ The pause does not last though. The connections forged during the elections are 
 
 #### Crimea Annexation (2014) — geopolitics without cultural spillover
 
-Despite global media coverage and rising international tension, the annexation of
+**I'll look into either this or Brexit more exactly. The other I'll only write short sentence about**
+
+*Despite global media coverage and rising international tension, the annexation of
 Crimea remains almost entirely confined to news and geopolitics communities.
 Interaction levels with entertainment remain flat, no durable bridges emerge, and
-several ties even weaken.
+several ties even weaken.*
 
-Geopolitical distance matters. When a political event feels remote — geographically
-or emotionally — it does not penetrate cultural spaces.
+*Geopolitical distance matters. When a political event feels remote — geographically
+or emotionally — it does not penetrate cultural spaces.*
 
 #### Brexit Referendum (2016) — politics enters daily life, but stops short of culture
 
-Brexit represents a clear step forward in spillover. Political discussion expands
+*Brexit represents a clear step forward in spillover. Political discussion expands
 outward into social and everyday communities, reflecting how deeply the referendum
-affected identity, family, and daily conversation.
+affected identity, family, and daily conversation.*
 
-However, this expansion remains fragile. While interaction intensity rises
+*However, this expansion remains fragile. While interaction intensity rises
 temporarily, no long-term cultural bridges form. Entertainment communities remain
-largely untouched. Politics becomes personal — but not cultural.
+largely untouched. Politics becomes personal — but not cultural.*
 
 
 
@@ -467,6 +466,8 @@ Popularity alone is not enough.
 
 #### Oscars 2016 (*#OscarsSoWhite*) — culture brushes politics, briefly
 
+**I'll write a short sentence about it later, but we could also delete it this part.**
+
 Unlike *Star Wars*, the Oscars explicitly intersect with political themes: diversity,
 representation, and inequality. Here, we observe a short-lived increase in
 interaction between entertainment and politics.
@@ -501,41 +502,6 @@ Now the logical follow up question would be to see the values after the release 
 
 We cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and clearly state there is no discernable decrease after the season ended.
 
-
-#### Entertainment → Politics: a clear asymmetry
-
-Across all entertainment events:
-
-- No lasting political spillover  
-- No new political bridges  
-- Political communities remain structurally insulated  
-
-Politics can leak into culture — but culture does not flow back into politics.
-
-Notably, even when entertainment events are explicitly politicized (e.g.
-*#OscarsSoWhite*), they fail to generate durable political spillover. Politicization
-alone is insufficient without identity-level conflict.
-
----
-
-### Social communities: where politics actually lands
-
-While entertainment remains insulated, social communities behave very differently.
-A clear gradient of political spillover emerges:
-
-- Crimea → minimal social impact  
-- Brexit → partial, unstable spillover  
-- Trump election → strong and significant social embedding  
-
-When politics touches identity, legitimacy, and everyday norms, social communities
-become central arenas of debate. Yet even here, Reddit’s structure resists permanent
-change:
-
-- Existing ties intensify  
-- Emotions surge  
-- The architecture remains intact  
-
----
 
 ### Terrorism vs. health: symbolism matters more than severity
 
@@ -612,7 +578,7 @@ The difference between the two events is even more visible when comparing the be
 
 #### Ebola (2014) — fear without diffusion
 
-**I vote to exclude this here**
+**I vote to exclude this. It covers a too big of a period and is impossible to analyze**
 
 Ebola generates fear, but no political or social spillover. Health discussion
 contracts inward, remaining technical and informational. Severity alone is not
@@ -620,9 +586,55 @@ enough; symbolism is decisive.
 
 ---
 
+### Sports
+
+#### Some important championship. Maybe football world championship, maybe super bowl, maybe olympic games.
+
+---
+
+### Gaming
+
+The cluster of gaming is big and, in Reddit terms, rather important. It's main contributors to the hyperlink lists are a mix of game specific subreddits such as "leagueoflegends", "dota" or "smashbros" or general gaming subreddits like "gaming", "gamingcirclejerk" or in a farther sense also "pcmasterrace". 
+
+<figure id="fig-plot-top-subreddits-gaming">
+  <div class="plotly-embed-smaller">
+    <iframe
+      src="{{ 'assets/img/plots/top-subreddit-interaction-gaming.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Top subreddits in the gaming cluster by number of interactions.
+  </figcaption>
+</figure>
+
+#### Pokemon Go; an initial trend or long lasting connections?
+
+In this analysis, we concentrate ourselves not on an important event inside an existing structure, like we could do for some world championship in League of Legends or CS:GO, but rather the impact of a new game: Pokémon Go.
+
+Pokémon Go, the mobile game which popularized the use of augmented reality technology, was released on most of the world in June 2016. Unsurprisingly, most subreddits relating to it where only started after its release. An important exception is the main subreddit "pokemongo" which was probably created when the game was first still in development. The cluster graph in [figure ???](#fig-cluster-graph-pokemongo) indicates strongly when most of the regional "sub-communities" of the main subreddit were created.
+
+<figure id="fig-cluster-graph-pokemongo">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_pokemongo.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Daily hyperlink activities around releases of Pokémon Go around the world.
+  </figcaption>
+</figure>
+
+In June alone, the main subreddit "pokemongo" formed relations with at least 89 subreddits which were linked to or linked from at least once more in the next two months. Supporting our theory of the game's release being the reason for increased local connections are statistical t tests which admit a p value against the null hypothesis of there being no relation of 0.045 between the subreddits "pokemon" and "pokemongo. This together with a big Cohen's d 0f 0.618, lets us conclude that there, in fact, is a correlation between the release of the game Pokémon Go and the subreddit hyperlinks connecting to the subreddit "pokemongo".
+
+---
+
 ### Sports, gaming, and collective attention
 
 Outside politics, other domains reveal the same structural logic:
+
+**I want to analyze at least one or two sporting event and one or two gaming stuff (pokemon GO + ?). Additionally I want to analyze one or two holidays. Christmas would be funny.**
 
 - Sports events strongly activate social interaction — but never permanently rewire it  
 - Gaming spills into social space only when it alters offline behavior (e.g. Pokémon GO)  
@@ -630,7 +642,7 @@ Outside politics, other domains reveal the same structural logic:
 
 Across all cases, attention synchronizes communities — structure resists change.
 
----
+
 
 ### Final takeaway
 
