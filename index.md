@@ -277,6 +277,51 @@ Viewed through our three research questions, these results paint a consistent pi
 We first examine whether major political shocks pull entertainment communities into
 the conversation.
 
+In the politics/news cluster, the biggest subreddits in terms of subreddit interactions are unsurprisingly political. The biggest being "the_donald" a right wing (now banned) subreddit supporting Donald Trump especially during the 2016 US presidential election. The second biggest is "conspiracy" and the third and fourth "politics" and "news", two subreddits also strongly involved in the US election cycle of 2016. It has to be noted that "politics" and "news" tend to be anti-Trump and are taken as "the_donald"s counter-pole in our analysis.
+
+<figure id="fig-plot-top-subreddits-politics">
+  <div class="plotly-embed-smaller">
+    <iframe
+      src="{{ 'assets/img/plots/top-subreddit-interaction-politics.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Top subreddits in the politics/news cluster.
+  </figcaption>
+</figure>
+
+The temporal graph in [figure ???](#fig-normalized-weekly-politics) clearly shows how important the US elections were in the discussions. Towards the elections on November 8th 2016, the hyperlinks increase continuously and then beginning of December they suddenly fall. Interesting also is the peak in October 2015, but we where unable to find any event related reason why a peak would happen at that time.
+
+
+<figure id="fig-normalized-weekly-politics">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plots/normalized_weekly_politics.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Hyperlink activities over time in the politics/news cluster.
+  </figcaption>
+</figure>
+
+In [figure ???](#fig-sliding-event-intensity) the sliding event intensity is shown. For this graph, the absolute number of hyperlinks was averaged inside a timeframe of 3 days to show the the local trends without taking into account the constant rising in post numbers. What really comes apparent are two things: The first is that with increasing number of hyperlinks, the variation in number of posts becomes more erratic. This may be due to a fast reaction of the subreddits on events, but it could also be due to increasing numbers of multiple link targets in one post as more posts with links happen overall. 
+
+The second thing to note is the intensity of the "post-election" collapse in link numbers. Even when averaging the surrounding days, the intensity falls significantly and permanently. The existence of this depression supports the thesis that the erratic-ness of the post intensity is due to world events, as after the major world event, the erratic-ness decreases as well.
+
+<figure id="fig-sliding-event-intensity">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plots/sliding_event_intensity_politics.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Sliding event intensity in the politics/news cluster.
+  </figcaption>
+</figure>
+
 #### Crimea Annexation (2014) — geopolitics without cultural spillover
 
 Despite global media coverage and rising international tension, the annexation of
@@ -315,7 +360,6 @@ social communities absorb political debate at scale. As shown in [Figure ???](#f
     <strong>Figure ???.</strong> Daily hyperlink activities around the US election.
   </figcaption>
 </figure>
-
 
 
 Yet even here, the structure holds. Political interaction does not expand durably
@@ -523,7 +567,7 @@ The difference between the two events is even more visible when comparing the be
 
 
 <figure id="fig-before-after-graph-bataclan">
-  <div class="plotly-embed">
+  <div class="plotly-embed-smaller">
     <iframe
       src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_11_13.html' | relative_url }}"
       loading="lazy">
