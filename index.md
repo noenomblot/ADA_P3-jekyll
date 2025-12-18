@@ -501,7 +501,7 @@ We can see that this event does **not** show a significant peak [Figure ???](#fi
   </figcaption>
 </figure>
 
-Looking more exactly at the relationship of the subreddits "france" and "paris", it is possible to firstly deduce a newly formed, lasting relationship between the two with a p-value of 0.085 not quite confirming but strongly suggesting the bond being due to the event on January 7th. This 
+Looking more exactly at the relationship of the subreddits "france" and "paris", it is possible to firstly deduce a newly (re-) formed but temporary relationship between the two, due to the event on January 7th. This being said, the connections between the two subreddits are sparse and far between, a statistical analysis will quickly find the connection to be significant even if it only lasts a few days or weeks. What we can say with certainty, is that the sentiment of those connections is more positive than most of the rest of the time in that year. This is without a doubt due to expressions of sympathy from one to another.
 
 #### Paris Attacks (2015) — emotion without structural change
 
@@ -519,7 +519,7 @@ Looking more exactly at the relationship of the subreddits "france" and "paris",
 
 [Figure ???](#fig-cluster-graph-bataclan) shows similar trends as [Figure ???](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
 
-The difference between the two events is even more visible when comparing the before and after of the two terrorist attacks. The attack on November 13 is significantly more important in the whole cluster than the the posts in a year before and after (See [Figure ???](#fig-before-after-graph-bataclan)).
+The difference between the two events is even more visible when comparing the before and after of the two terrorist attacks. The attack on November 13 is significantly more important in the whole cluster than the the posts in a year before and after (See [Figure ???](#fig-before-after-graph-bataclan)) The earlier mentioned temporary increase in relationship between "france" and "paris" in the attacks on Charlie Hebdo can be seen in the whole cluster for the attacks in November.
 
 
 <figure id="fig-before-after-graph-bataclan">
@@ -534,7 +534,8 @@ The difference between the two events is even more visible when comparing the be
   </figcaption>
 </figure>
 
-The November attacks trigger intense emotional reactions, but no lasting political embedding in social spaces. Grief and solidarity surge — but no permanent shift in the structure takes place.
+
+
 
 #### Ebola (2014) — fear without diffusion
 
