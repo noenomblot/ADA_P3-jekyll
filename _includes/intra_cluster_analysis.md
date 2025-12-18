@@ -337,13 +337,13 @@ Ebola generates fear, but no political or social spillover. Health discussion
 contracts inward, remaining technical and informational. Severity alone is not
 enough; symbolism is decisive.
 
----
+
 
 ### Sports
 
 #### Some important championship. Maybe football world championship, maybe super bowl, maybe olympic games.
 
----
+
 
 ### Gaming
 
@@ -384,7 +384,7 @@ In June alone, the main subreddit "pokemongo" formed relations with at least 89 
 ### Other sport?
 
 Would be interesting to see if a big event (such as LoL championships) which is not important for the wider public but important for a big subreddit has a cluster-wide impact. We could theorize, that only big events or events in big subreddits are important for the whole cluster.
----
+
 
 ### Others? collective attention
 
