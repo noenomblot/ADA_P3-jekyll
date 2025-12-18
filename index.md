@@ -340,9 +340,37 @@ Entertainment remains structurally insulated from political shocks.
 To test the reverse direction, we analyze three of the largest cultural events of the
 period.
 
+<figure id="fig-plot-normalized-weekly-entertainment">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plots/normalized_weekly_Entertainment.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Weekly activity in the Entertainment subreddit.
+  </figcaption>
+</figure>
+
+The daily activity in the cluster predictably increases over time if only due to increased size of reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event.
+
+Analyzing the top communities in the entertainment cluster, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
+
+<figure id="fig-plot-top-subreddits-entertainment">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Top subreddits in the entertainment cluster by number of interactions.
+  </figcaption>
+</figure>
+
 #### Star Wars: *The Force Awakens* (2015) — massive attention, zero political pull
 
-[Figure 2](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* and we see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
+[Figure 2](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
 
 <figure id="fig-cluster-graph-force-awakens">
   <div class="plotly-embed">
@@ -392,10 +420,16 @@ emerge and persist. The short term effect can clearly be seen in [Figure 3](#fig
   </figcaption>
 </figure>
 
+It is hard to conclusively tell if there is really lasting change in the subreddit structure, though there seems to be a slight increase in subreddit activity at the event, which could translate into a lasting change after.
 
 
-Yet political interaction declines. As culture intensifies, politics fades into the
-background. Entertainment pulls inward, not outward.
+
+It is also interesting to look at the relation between the two main *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Our statistical analysis shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test shows a value of 0.484 which is a moderate increase in activity, though with a p value of 0.16, we cannot conclude the effect being due to the episode's release.
+
+Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th, and indeed, we a decay in activity between the two subreddits. This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can clearly reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.75, 
+
+We cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and clearly state there is no discernable decrease after the season ended.
+
 
 #### Entertainment → Politics: a clear asymmetry
 
