@@ -306,11 +306,11 @@ The temporal graph in [figure ???](#fig-normalized-weekly-politics) clearly show
   </figcaption>
 </figure>
 
-In [figure ???](#fig-sliding-event-intensity) the sliding event intensity is shown. For this graph, the absolute number of hyperlinks was averaged inside a timeframe of 3 days to show the the local trends without taking into account the constant rising in post numbers. What really comes apparent are two things: The first is that with increasing number of hyperlinks, the variation in number of posts becomes more erratic. This may be due to a fast reaction of the subreddits on events, but it could also be due to increasing numbers of multiple link targets in one post as more posts with links happen overall. 
+In [figure ???](#fig-sliding-event-intensity-politics) the sliding event intensity is shown. For this graph, the absolute number of hyperlinks was averaged inside a timeframe of 3 days to show the the local trends without taking into account the constant rising in post numbers. What really comes apparent are two things: The first is that with increasing number of hyperlinks, the variation in number of posts becomes more erratic. This may be due to a fast reaction of the subreddits on events, but it could also be due to increasing numbers of multiple link targets in one post as more posts with links happen overall. 
 
 The second thing to note is the intensity of the "post-election" collapse in link numbers. Even when averaging the surrounding days, the intensity falls significantly and permanently. The existence of this depression supports the thesis that the erratic-ness of the post intensity is due to world events, as after the major world event, the erratic-ness decreases as well.
 
-<figure id="fig-sliding-event-intensity">
+<figure id="fig-sliding-event-intensity-politics">
   <div class="plotly-embed">
     <iframe
       src="{{ 'assets/img/plots/sliding_event_intensity_politics.html' | relative_url }}"
@@ -321,6 +321,43 @@ The second thing to note is the intensity of the "post-election" collapse in lin
     <strong>Figure ???.</strong> Sliding event intensity in the politics/news cluster.
   </figcaption>
 </figure>
+
+#### US Presidential Election (2016) — maximum polarization, minimal rewiring
+
+ As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald", "conspiracy", "politics" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
+
+
+<figure id="fig-cluster-graph-US-election">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Daily hyperlink activities around the US election.
+  </figcaption>
+</figure>
+
+The difference of intra-cluster daily post counts before and after November 8th is shown in [figure ???](#fig-before-after-graph-US-election) and it confirms what we saw in the [temporal graph earlier:](#fig-normalized-weekly-politics) The hyperlinks between communities increase significantly around the election and then decrease again in the period after.
+
+<figure id="fig-before-after-graph-US-election">
+  <div class="plotly-embed-smaller">
+    <iframe
+      src="{{ 'assets/img/plots/before-after-comparison_politics_2016_11_08.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Activities the year before and after the US election.
+  </figcaption>
+</figure>
+
+We may even statistically capture this increase in posts. If our hypothesis is that an increase of hyperlink connections between "politcs" and "the_donald" is due to an event with our null hypothesis being that this is not the case, we may do a t-test during the run-up of the election and evaluate it's p-value. On the date of the election, we obtain a p-value of 0.081. While this is not decisive, it strongly indicates a statistical correlation between the event and the increase in hyperlink connections.
+
+Using the same methodology between the subreddits "the_donald" and "conspiracy", an even stronger evidence is obtained. The p-value is 0.034, a value which lets us completely reject the null hypothesis. For both relations there is a statistically shown low stability of connections. Which, again considering the "post-election" collapse, makes sense. At least for a short moment, people distanced themselves from politics.
+
+The pause does not last though. The connections forged during the elections are here to stay. The links from "the_donald" with "politics" due to the election fade very slowly with a statistical half life of the connection being 55 weeks. This is very long, for comparison, the half life between "the_donald" and "news" is 22 weeks. In the case of "conspiracy" and "the_donald", the connection does not even decay, but rather increase in the weeks following. A trend well reflected in real life during both of Donald Trump's periods in office.
 
 #### Crimea Annexation (2014) — geopolitics without cultural spillover
 
@@ -342,29 +379,7 @@ However, this expansion remains fragile. While interaction intensity rises
 temporarily, no long-term cultural bridges form. Entertainment communities remain
 largely untouched. Politics becomes personal — but not cultural.
 
-#### US Presidential Election (2016) — maximum polarization, minimal rewiring
 
-The election of Donald Trump generates the strongest emotional response in the
-dataset. Sentiment polarizes sharply, existing ties are used more intensely, and
-social communities absorb political debate at scale. As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
-
-
-<figure id="fig-cluster-graph-US-election">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Daily hyperlink activities around the US election.
-  </figcaption>
-</figure>
-
-
-Yet even here, the structure holds. Political interaction does not expand durably
-into entertainment communities. The same bridges are reused — none are newly built.
-Politics amplifies emotion, not structure.
 
 #### Politics → Entertainment: what we learn
 
@@ -396,9 +411,23 @@ period.
   </figcaption>
 </figure>
 
-The daily activity in the cluster predictably increases over time if only due to increased size of reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event.
+The daily activity in the cluster predictably increases over time if only due to increased size of reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event. No event is dominating enough for it to be easily visible on the temporal graph and the amount of posts increases near linearly over time.
 
-Analyzing the top communities in the entertainment cluster, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
+<figure id="fig-sliding-event-intensity-entertainment">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plots/sliding_event_intensity_entertainment.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure ???.</strong> Sliding event intensity in the entertainment cluster.
+  </figcaption>
+</figure>
+
+Analyzing the sliding event intensity of the entertainment cluster in [figure ???](#fig-sliding-event-intensity-entertainment) with the [sliding event intensity of the politics cluster](fig-sliding-event-intensity-politics) seen earlier, it is possible to make out how the erraticness of the cluster intensity. While the sliding event intensity of the politics cluster changes over time based on an event, the entertainment cluster sliding event intensity has near unchanging peak-to-peak values and frequency. 
+
+Back inside the entertainment cluster when analyzing the top subreddits by hyperlink numbers, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
 
 <figure id="fig-plot-top-subreddits-entertainment">
   <div class="plotly-embed-smaller">
