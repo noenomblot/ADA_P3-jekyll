@@ -301,7 +301,7 @@ largely untouched. Politics becomes personal — but not cultural.
 
 The election of Donald Trump generates the strongest emotional response in the
 dataset. Sentiment polarizes sharply, existing ties are used more intensely, and
-social communities absorb political debate at scale. As shown in [Figure 1](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
+social communities absorb political debate at scale. As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
 
 
 <figure id="fig-cluster-graph-US-election">
@@ -312,7 +312,7 @@ social communities absorb political debate at scale. As shown in [Figure 1](#fig
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 1.</strong> Daily hyperlink activities around the US election.
+    <strong>Figure ???.</strong> Daily hyperlink activities around the US election.
   </figcaption>
 </figure>
 
@@ -370,7 +370,7 @@ Analyzing the top communities in the entertainment cluster, we can notice most o
 
 #### Star Wars: *The Force Awakens* (2015) — massive attention, zero political pull
 
-[Figure 2](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
+[Figure ???](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
 
 <figure id="fig-cluster-graph-force-awakens">
   <div class="plotly-embed">
@@ -380,7 +380,7 @@ Analyzing the top communities in the entertainment cluster, we can notice most o
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 2.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
+    <strong>Figure ???.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
   </figcaption>
 </figure>
 
@@ -406,7 +406,7 @@ but it does not reorganize them.
 
 The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
 cultural reconfigurations in the dataset. New entertainment-to-entertainment ties
-emerge and persist. The short term effect can clearly be seen in [Figure 3](#fig-cluster-graph-gameofthrones), which shows markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency compared to *The Force Awakens* release is likely also due to the continual nature of the serial format.
+emerge and persist. The short term effect can clearly be seen in [Figure ???](#fig-cluster-graph-gameofthrones), which shows markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency compared to *The Force Awakens* release is likely also due to the continual nature of the serial format.
 
 <figure id="fig-cluster-graph-gameofthrones">
   <div class="plotly-embed">
@@ -416,7 +416,7 @@ emerge and persist. The short term effect can clearly be seen in [Figure 3](#fig
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 3.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
+    <strong>Figure ???.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
   </figcaption>
 </figure>
 
@@ -471,7 +471,7 @@ change:
 Because the attack directly targeted expression and satire, political discourse
 spills powerfully into both social and humor communities. 
 
-In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france". It also has to be mentioned, that both "france" and "paris" are mainly french speaking. We suppose this will lessen the hyperlinks to and from those subreddits, but this is outside the scope of this project.
+In [Figure ???](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france". It also has to be mentioned, that both "france" and "paris" are mainly french speaking. We suppose this will lessen the hyperlinks to and from those subreddits, but this is outside the scope of this project.
 
 <figure id="fig-cluster-graph-charlie-hebdo">
   <div class="plotly-embed">
@@ -481,22 +481,27 @@ In [Figure 4](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of 
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 4.</strong> Daily hyperlink activities around the terrorist attacks on Charlie Hebdo in January 2015.
+    <strong>Figure ???.</strong> Daily hyperlink activities around the terrorist attacks on Charlie Hebdo in January 2015.
   </figcaption>
 </figure>
 
 
-We can see that this event does **not** show a significant peak [Figure 5](#fig-before-after-graph-charlie-hebdo) when compared with the periods before and after. This is true for even small periods of time, this means even the momentary impact of the event in this cluster is surprisingly small.
+We can see that this event does **not** show a significant peak [Figure ???](#fig-before-after-graph-charlie-hebdo) when compared with the periods before and after. This is true for even small periods of time, this means even the momentary impact of the event in this cluster is surprisingly small.
+
 
 <figure id="fig-before-after-graph-charlie-hebdo">
-  <p align="center">
-    <img src="assets/img/plots/before_after_during_World_Geography_2015_01_07.png" alt=""/>
-  </p>
+  <div class="plotly-embed-smaller">
+    <iframe
+      src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_01_07.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
   <figcaption>
-    <strong>Figure 5.</strong> Activities 1 year before and after the terrorist attacks.
+    <strong>Figure ???.</strong> Activities the year before and after the terrorist attacks.
   </figcaption>
 </figure>
 
+Looking more exactly at the relationship of the subreddits "france" and "paris", it is possible to firstly deduce a newly formed, lasting relationship between the two with a p-value of 0.085 not quite confirming but strongly suggesting the bond being due to the event on January 7th. This 
 
 #### Paris Attacks (2015) — emotion without structural change
 
@@ -508,21 +513,24 @@ We can see that this event does **not** show a significant peak [Figure 5](#fig-
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 6.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
+    <strong>Figure ???.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
   </figcaption>
 </figure>
 
-[Figure 6](#fig-cluster-graph-bataclan) shows similar trends as [Figure 5](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
+[Figure ???](#fig-cluster-graph-bataclan) shows similar trends as [Figure ???](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
 
-The difference between the two events is even more visible when comparing the before and after of the two terrorist attacks. The attack on November 13 is significantly more important in the whole cluster than the the posts in a year before and after (See [Figure 7](#fig-before-after-graph-bataclan)).
+The difference between the two events is even more visible when comparing the before and after of the two terrorist attacks. The attack on November 13 is significantly more important in the whole cluster than the the posts in a year before and after (See [Figure ???](#fig-before-after-graph-bataclan)).
 
 
 <figure id="fig-before-after-graph-bataclan">
-  <p align="center">
-    <img src="assets/img/plots/before_after_during_World_Geography_2015_11_13.png" alt=""/>
-  </p>
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_11_13.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
   <figcaption>
-    <strong>Figure 7.</strong> Activities 1 year before and after the terrorist attacks.
+    <strong>Figure ???.</strong> Hyperlink activities in the geography cluster a year before and after the november attacks.
   </figcaption>
 </figure>
 
