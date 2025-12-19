@@ -31,6 +31,25 @@ We structure the story around three main research questions:
 - **RQ3 – Do these event-driven ties disappear quickly, or do some become part of the long-term backbone of the network?**  
 
 
+
+## 1. From Hyperlinks to Communities
+
+In the final version, this section will:
+
+- explain how we build the **Reddit hyperlink network**:
+  - each node = a subreddit  
+  - each edge = a hyperlink from a post in subreddit A pointing to subreddit B
+- show basic **descriptive statistics**:
+  - number of posts, subreddits, edges  
+  - degree distribution, top “hub” communities
+- describe our **preprocessing**:
+  - how we handle bots / spammy subreddits  
+  - how we aggregate edges over time (per day/week)
+- introduce our **community detection**:
+  - which algorithm we use (e.g. Louvain)  
+  - how we interpret the main clusters (politics, movies, gaming, etc.)
+
+
 ### When the world sneezes, Reddit catches a cold
 
 When a major world event occurs — an election night, a surprise product launch, or a
@@ -59,25 +78,6 @@ and measuring the persistence of relationships formed under the pressure of majo
 events. What emerges is a portrait of online communities that are highly reactive
 yet structurally resilient, revealing how digital spaces mirror — and sometimes
 amplify — the rhythms of the real world.
-
-
-## 1. From Hyperlinks to Communities
-
-In the final version, this section will:
-
-- explain how we build the **Reddit hyperlink network**:
-  - each node = a subreddit  
-  - each edge = a hyperlink from a post in subreddit A pointing to subreddit B
-- show basic **descriptive statistics**:
-  - number of posts, subreddits, edges  
-  - degree distribution, top “hub” communities
-- describe our **preprocessing**:
-  - how we handle bots / spammy subreddits  
-  - how we aggregate edges over time (per day/week)
-- introduce our **community detection**:
-  - which algorithm we use (e.g. Louvain)  
-  - how we interpret the main clusters (politics, movies, gaming, etc.)
-
 
 
 ## 2. Event-Born Links: Short Flares or Lasting Imprints?
