@@ -36,71 +36,68 @@ structurally resilient, illustrating how digital spaces mirror — and at times
 amplify — the rhythms of the real world.
 
 
+## Adapting the data
 
-## 1. From Hyperlinks to Communities
+When major events unfold in the real world, their impact is rarely uniform.
+Elections polarize, disasters attract collective attention, and cultural moments
+ripple unevenly across social groups. On Reddit, these dynamics leave observable
+traces: bursts of activity, sudden cross-community interactions, and shifts in
+sentiment that mirror offline societal responses. Yet such patterns are not
+immediately visible in raw platform data — they must first be uncovered.
 
-In the final version, this section will:
+At first glance, Reddit appears as a dense web of interactions, where millions of
+posts and hyperlinks form an overwhelming mass. Within this mass, however, not all
+activity reflects genuine human behavior. Automated accounts contribute
+disproportionately to content production, often amplifying specific narratives,
+inflating connectivity, or sustaining discussions beyond the span of human
+attention. Without addressing this distortion, network analysis risks conflating
+artificial signals with authentic social reactions.
 
-- explain how we build the **Reddit hyperlink network**:
-  - each node = a subreddit  
-  - each edge = a hyperlink from a post in subreddit A pointing to subreddit B
-- show basic **descriptive statistics**:
-  - number of posts, subreddits, edges  
-  - degree distribution, top “hub” communities
-- describe our **preprocessing**:
-  - how we handle bots / spammy subreddits  
-  - how we aggregate edges over time (per day/week)
-- introduce our **community detection**:
-  - which algorithm we use (e.g. Louvain)  
-  - how we interpret the main clusters (politics, movies, gaming, etc.)
+To isolate human-driven dynamics, abnormal posting behavior is identified using
+unsupervised anomaly detection. We construct a high-dimensional feature space that
+combines textual characteristics, posting dynamics, and sentiment statistics,
+capturing how content is produced, expressed, and propagated over time. Due to
+strong correlations and redundancy within this space, Principal Component Analysis
+(PCA) is applied to project the data onto a lower-dimensional subspace that
+preserves the dominant variance structure. Retaining components that explain 90%
+of the total variance substantially reduces dimensionality while maintaining the
+behavioral signatures required for discrimination.
 
-## Part 2: Adapting the data
+On this reduced representation, an Isolation Forest model is used to detect
+anomalous activity patterns. By recursively partitioning the feature space through
+random splits, the model isolates observations that require fewer splits to
+separate — a hallmark of rare or irregular behavior. Subreddits exhibiting
+consistently short isolation paths are therefore flagged as disproportionately
+bot-like, enabling highly automated sources of activity to be filtered from the
+network. The resulting scores allow subreddits to be ranked by their estimated
+proportion of bot-generated content. The accompanying figure highlights the
+fifteen subreddits with the highest estimated bot-post rates.
 
-On online discussion platforms such as Reddit, automated accounts (“bots”) can
-substantially influence information dynamics by amplifying specific topics,
-spreading misinformation, or artificially sustaining conversations. Identifying
-and filtering these accounts is therefore a critical preprocessing step before
-any network analysis, as bot activity can distort link structures and bias both
-clustering and sentiment results.
+Even after filtering automated behavior, Reddit’s structure remains far from
+homogeneous. Aggregating all interactions into a single global network obscures
+important heterogeneity and gives rise to statistical artifacts, including effects
+consistent with Simpson’s paradox, where trends observed at the aggregate level
+disappear or reverse when examined within subgroups. As in offline societies,
+different communities respond to the same event in fundamentally different ways.
 
-To detect bot-like behavior, we rely on unsupervised anomaly detection methods, as
-no labeled ground truth is available. We exploit the textual, behavioral, and
-sentiment features provided in the dataset, resulting in an initial set of 85
-features per subreddit.
+To capture this structure, hyperlink interactions are regrouped into clusters
+representing broad thematic categories such as politics, sports, gaming, and world
+news. At this level of abstraction, the network begins to resemble familiar social
+systems. Certain communities act as hubs during moments of heightened attention,
+mediating information flow across topics, while others remain more insulated and
+locally focused. Connections form rapidly in response to events, intensify under
+shared attention, and either decay or persist depending on the nature of the
+trigger.
 
-Our approach combines two main techniques. First, we apply Principal Component
-Analysis (PCA) to reduce the dimensionality of the feature space while preserving
-most of its informational content. We retain 90% of the total variance, which is
-captured by 48 principal components. This step limits noise and redundancy while
-maintaining the dominant behavioral patterns.
+The network visualization presented here depicts the fourteen most interconnected
+clusters among the twenty identified across Reddit. Even at this aggregated scale,
+clear structural patterns emerge: some thematic clusters function as hubs,
+facilitating information flow across multiple communities, while others occupy
+more peripheral positions with narrower, topic-focused interactions. The following
+sections build on these observations by examining how these structures evolve in
+response to external events and how different types of connections are
+strengthened or weakened over time.
 
-Second, we use an Isolation Forest model on the reduced feature space to identify
-abnormal activity patterns consistent with automated behavior. The resulting
-scores allow us to estimate the relative prevalence of bot-like activity across
-subreddits. The figure below presents the fifteen subreddits with the highest
-estimated bot-post rates according to this model.
-
-From a network-analysis perspective, filtering out subreddits with extreme bot
-activity is essential. Our objective is to model Reddit as a social information
-network driven by human interactions, where edges represent meaningful exchanges
-between communities. High levels of automation would otherwise introduce spurious
-links and artificially inflate connectivity.
-
-In parallel, our early analyses of event-driven effects at the global network
-level revealed a classical case of Simpson’s paradox: trends observed within
-specific subgroups disappeared or reversed when aggregating the entire network.
-This observation reinforced the need for clustering the network prior to
-interpretation.
-
-The clustered network presented here highlights the fourteen most connected
-clusters among the twenty identified across Reddit. Even at this coarse level,
-clear structural patterns emerge. Some clusters act as hubs, connecting a wide
-range of communities, while others remain more peripheral with narrower, topic-
-focused interactions.
-
-In the sections that follow, we build on this clustered representation to examine
-how information flows across Reddit and how different types of communities respond
-to major real-world events.
 
 
 ## 2. Event-Born Links: Short Flares or Lasting Imprints?
