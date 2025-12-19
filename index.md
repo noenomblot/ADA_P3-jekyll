@@ -155,6 +155,11 @@ also peaked around the United States presidential election on 8 November 2016,
 which resulted in the election of Donald Trump and triggered intense discussion
 both domestically and internationally.
 
+<p align="center">
+  <img src="assets/img/Crimee.jpg" width="600">
+</p>
+
+
 A second category focuses on large-scale sports events, which tend to attract
 widespread attention beyond national boundaries. The opening of the FIFA World Cup
 in Brazil on 12 June 2014 initiated one of the most watched sporting tournaments in
