@@ -83,9 +83,6 @@ Planned structure:
 
   #### US Presidential Election (2016) — maximum polarization, minimal rewiring
 
-  <details markdown="1">
-    <summary>Politics</summary>
-
 
     As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald", "conspiracy", "politics" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
 
@@ -122,7 +119,7 @@ Planned structure:
 
     The pause does not last though. The connections forged during the elections are here to stay. The links from "the_donald" with "politics" due to the election fade very slowly with a statistical half life of the connection being 55 weeks. This is very long, for comparison, the half life between "the_donald" and "news" is 22 weeks. In the case of "conspiracy" and "the_donald", the connection does not even decay, but rather increase in the weeks following. A trend well reflected in real life during both of Donald Trump's periods in office.
 
-  </details>
+
 
   #### Crimea Annexation (2014) — geopolitics without cultural spillover
 
@@ -351,8 +348,93 @@ enough; symbolism is decisive.
 
 ### Sports
 
-#### Some important championship. Maybe football world championship, maybe super bowl, maybe olympic games.
+  Sports is something, which in the media depends heavily on an event-based schedule. The question which poses itself is always "When is the next championship?", "Did you see the Champions League final?" and "What do you do the next Super Bowl?", and this over many types of sports. But does this high saturation of "big" events drown out everything else, or can we still see a cluster-wide reaction on a specific sports competition?
 
+  Let's begin with the biggest subreddits. For Europeans it may seem surprising that "nfl" is the top subreddit and decidedly not "soccer", or football as it is better known as. But, because reddit was, and still is, mainly US American, the most [popular US sport](https://theenterpriseworld.com/most-popular-sports-in-the-usa/) is also dominant here. "soccer" is only third, after the in the US and Europe popular ice hockey subreddit. "cfb", "nfl_draft" and "oaklandraiders" are all football related and "mls" the north american soccer league subreddit.
+
+  <figure id="fig-plot-top-subreddits-sports">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plots/top-subreddit-interaction-sports.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Top subreddits in the sports cluster by number of interactions.
+    </figcaption>
+  </figure>
+
+  The popularity of american football is immediatly visible in both the [normalized temporal graph](#fig-normalized-weekly-sports) and the [sliding event intensity graph](#fig-sliding-event-intensity-sports). Every peak in the early parts of every year corresponds to the yearly Super Bowl, the final of the NFL league every year and a huge event in the US.
+
+  <figure id="fig-normalized-weekly-sports">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/normalized_weekly_sports.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Hyperlink activities over time in the politics/news cluster.
+    </figcaption>
+  </figure>
+
+  <figure id="fig-sliding-event-intensity-sports">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/sliding_event_intensity_sports.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Sliding event intensity in the politics/news cluster.
+    </figcaption>
+  </figure>
+
+#### Super Bowl 2016 (February 2016)
+
+  As the peaks are visible to such an extent, it would be interesting to see, if any other sport championship can even be noticed in our analysis. For this, we first have to establish the dominance of the Super Bowl. In the graph taking into account the hyperlink engagement [the year before and after](fig-before-after-graph-super-bowl), there is a clear dominance of this event on February 2nd over any other events the same year.
+
+  <figure id="fig-before-after-graph-super-bowl">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plots/before-after-comparison_sports_2016_02_07' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Activities the year before and after the 2016 Super Bowl.
+    </figcaption>
+  </figure>
+
+  In terms of inter-subreddit relations, many links to subreddit showed only temporary connections. For example it's connection to "nflrountable" and "footballstrategy" disappeared nearly completely afterwards. It also stirred up emotions, an example being the improvement of emotional tone with the New Orleans team's subreddit "saints" and at the same time it also worsened it's tone with for example with the subreddit of San Francisco's team "49ers". 
+
+  It would be possible to do a whole data analysis project only on the Super Bowl and how it is perceived on Reddit, but this is out of the scope of this project, as our goal here is to compare it to another event impacting the same cluster.
+
+
+
+#### European Championships 2016 (June/July 2016)
+
+  This other event is the UEFA European Championships 2016 in France. It took place from 10th of June to 10th of July. 
+  
+  The [engagement graph of the year](#fig-before-after-graph-europe-cup-2016) shows what we already could have expected from the cluster wide temporal graph. There is no specific increase in activity in the whole cluster during the time of the championship. It even seems like the engagement decreased.
+
+  <figure id="fig-before-after-graph-europe-cup-2016">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plots/before-after-comparison_sports_2016_06_25' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Activities the year before and after the European Championships 2016.
+    </figcaption>
+  </figure>
+
+  One could only speculate for this decrease in engagement, but one reasonable theory seems to be the rational of why the championship is at the time it is. The theory being that during the summer, most big sports leagues are on pause, be that the NFL, NHL or the European football leagues. Having no club-based sports could concentrate the engagement into few subreddits or even halt it completely. This would be interesting to analyze, but unfortunately it is not possible with the current dataset. Looking again at the [sliding event intensity graph](#fig-sliding-event-intensity-sports), the decreasing engagement in the beginning of June can clearly be seen.
+
+  The ego network of "soccer" reveals more or less what you'd expect. Similarly to the "nfl" subreddit, there are a lot of emotional shifts in relations with subreddits, for example a positive shift with "soccercirclejerk", a subreddit making fun of the main "soccer" subreddit, or a negative shift with Arsenal London's subreddit "gunners", though those shifts are not as strong as around the Super Bowl.
+
+  It would also be possible to do a more extensive analysis on the European Championships and how it interacts with Reddit, especially taking into account the in Europe very popular local club seasons. Though this, like a possible study around the Super Bowl, is outside the scope of this project.
 
 
 ### Gaming
