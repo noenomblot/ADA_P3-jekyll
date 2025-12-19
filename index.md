@@ -72,7 +72,7 @@ behavioral signatures required for discrimination.
     components. The dashed line indicates the 90% variance threshold.
   </figcaption>
 </figure>
-
+<br>
 
 On this reduced representation, an Isolation Forest model is used to detect
 anomalous activity patterns. By recursively partitioning the feature space through
@@ -95,7 +95,7 @@ fifteen subreddits with the highest estimated bot-post rates.
     motivating their exclusion from subsequent network analyses.
   </figcaption>
 </figure>
-
+<br>
 
 
 Even after filtering automated behavior, Reddit’s structure remains far from
