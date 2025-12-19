@@ -171,6 +171,13 @@ and sporting event in the United States, and the opening ceremony of the Rio de
 Janeiro Olympic Games on 5 August 2016, marking the start of a globally followed
 international competition.
 
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+  <img src="assets/img/fifaWorldCup.jpg" width="250">
+  <img src="assets/img/SuperBowl.jpg" width="250">
+  <img src="assets/img/JO2016.jpg" width="250">
+</div>
+
+
 Entertainment-related events are also included due to their strong cultural
 resonance and their ability to generate large volumes of online interaction. The
 release of *Star Wars: The Force Awakens* on 18 December 2015 marked the return of a
