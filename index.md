@@ -126,7 +126,7 @@ trigger.
     mediating information flow across the network.
   </figcaption>
 </figure>
-
+<br>
 
 The network visualization presented here depicts the fourteen most interconnected
 clusters among the twenty identified across Reddit. Even at this aggregated scale,
