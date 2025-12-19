@@ -137,6 +137,128 @@ sections build on these observations by examining how these structures evolve in
 response to external events and how different types of connections are
 strengthened or weakened over time.
 
+## Event-driven dynamics across the Reddit network
+After filtering the dataset to remove bot-generated content and clustering posts to
+better reflect real-world thematic interactions, the analysis turns to Reddit’s
+response to major external events. These events are selected to span a wide range
+of domains — political, social, cultural, and recreational — in order to examine
+how different types of stimuli propagate through the Reddit network and activate
+distinct communities.
+
+The first group of events consists of major political developments with global
+relevance. The annexation of Crimea by Russia on 18 March 2014 marked a turning
+point in international relations and generated sustained political debate across
+online platforms. Similarly, the Brexit referendum held on 23 June 2016, in which
+the United Kingdom voted to leave the European Union, represented a historic
+political decision with far-reaching consequences. Political engagement on Reddit
+also peaked around the United States presidential election on 8 November 2016,
+which resulted in the election of Donald Trump and triggered intense discussion
+both domestically and internationally.
+
+A second category focuses on large-scale sports events, which tend to attract
+widespread attention beyond national boundaries. The opening of the FIFA World Cup
+in Brazil on 12 June 2014 initiated one of the most watched sporting tournaments in
+the world. This was followed by Super Bowl XLIX on 1 February 2015, a major cultural
+and sporting event in the United States, and the opening ceremony of the Rio de
+Janeiro Olympic Games on 5 August 2016, marking the start of a globally followed
+international competition.
+
+Entertainment-related events are also included due to their strong cultural
+resonance and their ability to generate large volumes of online interaction. The
+release of *Star Wars: The Force Awakens* on 18 December 2015 marked the return of a
+highly influential film franchise and sparked extensive fan engagement. Attention
+then shifted to the film industry with the 88th Academy Awards ceremony on 28
+February 2016. In television, the premiere of the first episode of *Game of
+Thrones* Season 6 on 24 April 2016 generated significant anticipation and discussion
+across multiple Reddit communities.
+
+In contrast to these planned events, a separate category captures sudden natural
+and social crises that often lead to sharp and emotionally charged online
+responses. The Ebola outbreak in West Africa in August 2014 escalated into a global
+health emergency, while the terrorist attacks in Paris on 13 November 2015
+prompted widespread shock and international solidarity. Natural disasters are
+represented by the Illapel earthquake in Chile on 16 September 2015, a major
+seismic event that caused significant damage and displacement.
+
+To capture recurring patterns of social engagement, several widely observed
+holidays are also considered. These include Independence Day on 4 July 2014, a
+major national celebration in the United States; Christmas Day on 25 December
+2015, both a religious and cultural holiday across many countries; and
+Thanksgiving Day on 24 November 2016, a U.S. holiday closely associated with family
+gatherings and shared traditions.
+
+Finally, given the prominence of gaming-related communities on Reddit, major events
+from the gaming industry are incorporated into the analysis. The release of
+*Pokémon GO* on 6 July 2016 quickly evolved into a global phenomenon, blending
+mobile gaming with augmented reality. This was preceded by the release of *Grand
+Theft Auto V* on PlayStation 4 on 18 November 2014, which extended the reach of an
+already highly successful title. The category concludes with the reveal of the
+Nintendo Switch on 20 October 2016, an announcement that generated substantial
+anticipation for Nintendo’s new hybrid gaming platform.
+
+The impact of these events is first examined at an aggregate level by event
+category in order to assess how highly salient real-world moments affect activity
+across Reddit communities. The heat map displaying the number of posts per
+community for each event type reveals clear and structured engagement patterns.
+Political events emerge as the most influential overall, with particularly high
+activity concentrated in the Politics, World, News, and Technology communities,
+reflecting the broad societal scope of such developments. Sporting events show
+strong engagement primarily within Sports, World, and Gaming, indicating that
+large international competitions mobilize both news-oriented and recreational
+audiences. Entertainment events generate substantial activity in Entertainment and
+Gaming, with noticeable spillover into World-oriented discussions, highlighting
+their cultural reach beyond dedicated fandoms. Social and natural disasters are
+characterized by intense engagement within World and Social communities, pointing
+to a collective focus on information sharing and social response during crises. In
+contrast, holidays display a more diffuse and lower-intensity pattern across
+communities, suggesting that while widely observed, they do not trigger sharp
+increases in focused discussion.
+
+Beyond posting volume, these events also influence the structure of the Reddit
+network by altering the strength and persistence of connections between
+communities. Political events, in particular, tend to reinforce existing ties
+rather than create new ones. On average, the number of hyperlinks exchanged
+between clusters nearly doubles during these periods and remains elevated after
+the event window, indicating a lasting strengthening of interactions. This
+increase in connectivity, however, is not accompanied by a corresponding rise in
+positive sentiment; average sentiment during political events remains close to
+neutral, suggesting that intensified debate does not necessarily translate into
+constructive or positive exchanges.
+
+Sporting events exhibit a similar initial strengthening of connections, most
+notably among the Sports, World, and Gaming communities. Unlike political events,
+these effects are largely temporary, with interaction levels returning to
+baseline within approximately three months. Despite their short-lived nature,
+sports events are associated with a broadly positive shift in sentiment, pointing
+to a more unifying and emotionally positive form of engagement.
+
+Entertainment events increase the volume of hyperlinks exchanged across
+communities but do not consistently strengthen or weaken relationships in a
+lasting way. Their effects appear balanced, with comparable numbers of
+strengthened and weakened ties. A similar pattern is observed in sentiment
+dynamics, where positive and negative shifts largely offset one another, implying
+that entertainment-driven discussions are active but structurally neutral at the
+network level.
+
+Social and natural disasters, by contrast, tend to weaken inter-community
+relationships more often than they strengthen them. In particular, connections
+between Social and World communities — typically among the strongest — show
+immediate weakening following such events. This pattern is accompanied by a
+predominance of negative sentiment shifts, reflecting the emotionally distressing
+nature of these crises.
+
+Holidays show minimal structural impact on the Reddit network, with only a small
+number of connections experiencing temporary strengthening during the event
+window. Nevertheless, these periods are associated with predominantly positive
+sentiment shifts, indicating that while holidays do not substantially reshape
+interaction patterns, they tend to foster more positive exchanges.
+
+Finally, gaming events stand out due to the central role of the Gaming community.
+While interactions between non-gaming clusters remain largely unchanged,
+connections involving the Gaming cluster experience pronounced strengthening,
+alongside occasional sharp weakening. Overall, gaming events are associated with
+an increase in positive sentiment across the network, underscoring their role as
+highly engaging and emotionally positive triggers within Reddit.
 
 
 ## Event-Born Links: Short Flares or Lasting Imprints?
