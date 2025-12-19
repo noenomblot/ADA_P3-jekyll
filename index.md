@@ -31,6 +31,35 @@ We structure the story around three main research questions:
 - **RQ3 – Do these event-driven ties disappear quickly, or do some become part of the long-term backbone of the network?**  
 
 
+### When the world sneezes, Reddit catches a cold
+
+When a major world event occurs — an election night, a surprise product launch, or a
+breaking news story — millions of people turn to the internet to discuss, debate,
+explain, and react. With its thousands of semi-independent communities, Reddit
+becomes a dynamic map of collective attention.
+
+But how does this attention actually move? Do communities that usually ignore one
+another suddenly interact? And once the moment passes, do these connections fade
+away, or do they leave a lasting trace?
+
+This project approaches Reddit not as a collection of isolated subreddits, but as a
+dynamic network whose structure bends and responds to real-world events. By
+tracking hyperlinks between subreddits over time, we observe how information flows,
+which communities act as temporary bridges, and whether event-driven interactions
+become part of Reddit’s long-term backbone or disappear as quickly as they emerge.
+
+Using a large-scale hyperlink dataset enriched with sentiment measures, subreddit
+embeddings, and external timelines of world events, we zoom in on moments of
+collective attention and ask a simple question with complex implications: when the
+world changes, does Reddit reorganize itself?
+
+In the sections that follow, we move from global patterns to local interactions —
+tracking bursts of connectivity, identifying short-lived brokers of information,
+and measuring the persistence of relationships formed under the pressure of major
+events. What emerges is a portrait of online communities that are highly reactive
+yet structurally resilient, revealing how digital spaces mirror — and sometimes
+amplify — the rhythms of the real world.
+
 
 ## 1. From Hyperlinks to Communities
 
