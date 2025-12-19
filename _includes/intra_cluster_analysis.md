@@ -156,108 +156,120 @@ Planned structure:
 </details>
 
 ---
+<details>
+  <summary>Eaddddment</summary>
+</details>
+<div class="toggle-content" style="display:none;">
+  aaa
+<div>
 
-### Does culture ever pull politics in?  
-**Entertainment → Politics**
+<details>
+  <summary>Entertainment</summary>
+</details>
+<div class="toggle-content" style="display:none;">
 
-<figure id="fig-plot-normalized-weekly-entertainment">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/plots/normalized_weekly_Entertainment.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Weekly activity in the Entertainment subreddit.
-  </figcaption>
-</figure>
+  ### Entertainment  
+  **Entertainment → Politics**
 
-The daily activity in the cluster predictably increases over time if only due to increased size of reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event. No event is dominating enough for it to be easily visible on the temporal graph and the amount of posts increases near linearly over time.
+  <figure id="fig-plot-normalized-weekly-entertainment">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/normalized_weekly_Entertainment.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Weekly activity in the Entertainment subreddit.
+    </figcaption>
+  </figure>
 
-<figure id="fig-sliding-event-intensity-entertainment">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/plots/sliding_event_intensity_entertainment.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Sliding event intensity in the entertainment cluster.
-  </figcaption>
-</figure>
+  The daily activity in the cluster predictably increases over time if only due to increased size of reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event. No event is dominating enough for it to be easily visible on the temporal graph and the amount of posts increases near linearly over time.
 
-Analyzing the sliding event intensity of the entertainment cluster in [figure ???](#fig-sliding-event-intensity-entertainment) with the [sliding event intensity of the politics cluster](fig-sliding-event-intensity-politics) seen earlier, it is possible to make out how the erraticness of the cluster intensity. While the sliding event intensity of the politics cluster changes over time based on an event, the entertainment cluster sliding event intensity has near unchanging peak-to-peak values and frequency. 
+  <figure id="fig-sliding-event-intensity-entertainment">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/sliding_event_intensity_entertainment.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Sliding event intensity in the entertainment cluster.
+    </figcaption>
+  </figure>
 
-Back inside the entertainment cluster when analyzing the top subreddits by hyperlink numbers, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
+  Analyzing the sliding event intensity of the entertainment cluster in [figure ???](#fig-sliding-event-intensity-entertainment) with the [sliding event intensity of the politics cluster](fig-sliding-event-intensity-politics) seen earlier, it is possible to make out how the erraticness of the cluster intensity. While the sliding event intensity of the politics cluster changes over time based on an event, the entertainment cluster sliding event intensity has near unchanging peak-to-peak values and frequency. 
 
-<figure id="fig-plot-top-subreddits-entertainment">
-  <div class="plotly-embed-smaller">
-    <iframe
-      src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Top subreddits in the entertainment cluster by number of interactions.
-  </figcaption>
-</figure>
+  Back inside the entertainment cluster when analyzing the top subreddits by hyperlink numbers, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
 
-#### Star Wars: *The Force Awakens* (December 2015) — massive attention, zero political pull
+  <figure id="fig-plot-top-subreddits-entertainment">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Top subreddits in the entertainment cluster by number of interactions.
+    </figcaption>
+  </figure>
 
-[Figure ???](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
+  #### Star Wars: *The Force Awakens* (December 2015) — massive attention, zero political pull
 
-<figure id="fig-cluster-graph-force-awakens">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/clusters/temporal_cluster_graph_force_awakens.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
-  </figcaption>
-</figure>
+  [Figure ???](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
 
-Despite the seemingly visual increase in activity that day, we cannot confirm any significant or lasting effect following on the whole cluster following the film's release. However what we are able to tell is that in the ego-network of the subreddit "starwars", the ties to a subreddit called "starwarsspeculation" got strengthened. This makes sense, as a new film in a long series always leads to new and exciting speculations by fans on what future movie instances in the star wars universe bring forth.
+  <figure id="fig-cluster-graph-force-awakens">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/clusters/temporal_cluster_graph_force_awakens.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
+    </figcaption>
+  </figure>
+
+  Despite the seemingly visual increase in activity that day, we cannot confirm any significant or lasting effect following on the whole cluster following the film's release. However what we are able to tell is that in the ego-network of the subreddit "starwars", the ties to a subreddit called "starwarsspeculation" got strengthened. This makes sense, as a new film in a long series always leads to new and exciting speculations by fans on what future movie instances in the star wars universe bring forth.
 
 
-#### Oscars 2016 (*#OscarsSoWhite*) — culture brushes politics, briefly
+  #### Oscars 2016 (*#OscarsSoWhite*) — culture brushes politics, briefly
 
-**I'll write a short sentence about it later, but we could also delete it this part.**
+  **I'll write a short sentence about it later, but we could also delete it this part.**
 
-Unlike *Star Wars*, the Oscars explicitly intersect with political themes: diversity,
-representation, and inequality. Here, we observe a short-lived increase in
-interaction between entertainment and politics.
+  Unlike *Star Wars*, the Oscars explicitly intersect with political themes: diversity,
+  representation, and inequality. Here, we observe a short-lived increase in
+  interaction between entertainment and politics.
 
-But the effect does not stabilize. No new bridges form, correlations return to
-baseline, and the network quickly relaxes. Culture can open political conversations —
-but it does not reorganize them.
+  But the effect does not stabilize. No new bridges form, correlations return to
+  baseline, and the network quickly relaxes. Culture can open political conversations —
+  but it does not reorganize them.
 
-#### Game of Thrones, Season 6 (April - June 2016) — culture rewires itself, not politics
+  #### Game of Thrones, Season 6 (April - June 2016) — culture rewires itself, not politics
 
-The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
-cultural reconfigurations in the dataset. New entertainment-to-entertainment ties
-emerge and persist. The short term effect can clearly be seen in [Figure ???](#fig-cluster-graph-gameofthrones), which shows markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency compared to *The Force Awakens* release is likely also due to the continual nature of the serial format.
+  The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
+  cultural reconfigurations in the dataset. New entertainment-to-entertainment ties
+  emerge and persist. The short term effect can clearly be seen in [Figure ???](#fig-cluster-graph-gameofthrones), which shows markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency compared to *The Force Awakens* release is likely also due to the continual nature of the serial format.
 
-<figure id="fig-cluster-graph-gameofthrones">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/clusters/temporal_cluster_graph_gameofthrones.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
-  </figcaption>
-</figure>
+  <figure id="fig-cluster-graph-gameofthrones">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/clusters/temporal_cluster_graph_gameofthrones.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
+    </figcaption>
+  </figure>
 
-It is hard to conclusively tell if there is really lasting change in the subreddit structure, though there seems to be a slight increase in subreddit activity at the event, which could translate into a lasting change after.
+  It is hard to conclusively tell if there is really lasting change in the subreddit structure, though there seems to be a slight increase in subreddit activity at the event, which could translate into a lasting change after.
 
-It is also interesting to look at the relation between the two main *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Our statistical analysis shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test shows a value of 0.484 which is a moderate increase in activity, though with a p value of 0.16, we cannot conclude the effect being due to the episode's release.
+  It is also interesting to look at the relation between the two main *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Our statistical analysis shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test shows a value of 0.484 which is a moderate increase in activity, though with a p value of 0.16, we cannot conclude the effect being due to the episode's release.
 
-Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th, and indeed, we a decay in activity between the two subreddits. This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can clearly reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.75, 
+  Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th, and indeed, we a decay in activity between the two subreddits. This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can clearly reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.75, 
 
-We cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and clearly state there is no discernable decrease after the season ended.
+  We cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and clearly state there is no discernable decrease after the season ended.
+</div>
 
 
 ### Terrorism vs. health: symbolism matters more than severity
@@ -383,7 +395,19 @@ Pokémon Go, the mobile game which popularized the use of augmented reality tech
   </figcaption>
 </figure>
 
-In June alone, the main subreddit "pokemongo" formed relations with at least 89 subreddits which were linked to or linked from at least once more in the next two months. Supporting our theory of the game's release being the reason for increased local connections are statistical t tests which admit a p value against the null hypothesis of there being no relation of 0.045 between the subreddits "pokemon" and "pokemongo. This together with a big Cohen's d 0f 0.618, lets us conclude that there, in fact, is a correlation between the release of the game Pokémon Go and the subreddit hyperlinks connecting to the subreddit "pokemongo".
+In June alone, the main subreddit "pokemongo" formed relations with at least 89 subreddits which were linked to or linked from at least once more in the next two months. Supporting our theory of the game's release being the reason for increased local connections are statistical t tests which admit a p value against the null hypothesis of there being no relation of 0.045 between the subreddits "pokemon" and "pokemongo. This together with a big Cohen's d 0f 0.618, lets us conclude that there, in fact, is a correlation between the release of the game Pokémon Go and the subreddit hyperlinks connecting to the subreddit "pokemongo". Considering neither "pokemon" nor "pokemongo" being under the top ten subreddits from hyperlink interactions (see [figure ???](#fig-plot-top-subreddits-gaming)), it is unsurprising that we are unable to see a noticeable impact on the cluster as a whole. Subreddits like "leagueoflegends" are just too dominant.
+
+<figure id="fig-before-after-graph-pokemon_go">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plots/before-after-comparison_gaming_2016_06_11.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Activities the year before and after the release of Pokémon Go.
+    </figcaption>
+  </figure>
 
 ### Other sport?
 
@@ -411,3 +435,16 @@ Social communities absorb identity-driven conflict — but temporarily.
 Reddit reacts.  
 Reddit adapts.  
 But Reddit almost never rewires.
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll("details summary").forEach(function(summary) {
+    summary.addEventListener("click", function() {
+      const content = summary.nextElementSibling;
+      content.style.display = content.style.display === "none" ? "block" : "none";
+    });
+  });
+});
+</script>
