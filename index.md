@@ -84,6 +84,17 @@ network. The resulting scores allow subreddits to be ranked by their estimated
 proportion of bot-generated content. The accompanying figure highlights the
 fifteen subreddits with the highest estimated bot-post rates.
 
+<figure class="figure text-center">
+  <img src="assets/img/explained_variance.png"
+       alt="Explained variance as a function of the number of principal components"
+       width="600">
+  <figcaption class="figure-caption">
+    Cumulative explained variance as a function of the number of principal
+    components. The dashed line indicates the 90% variance threshold.
+  </figcaption>
+</figure>
+
+
 Even after filtering automated behavior, Reddit’s structure remains far from
 homogeneous. Aggregating all interactions into a single global network obscures
 important heterogeneity and gives rise to statistical artifacts, including effects
@@ -99,6 +110,17 @@ mediating information flow across topics, while others remain more insulated and
 locally focused. Connections form rapidly in response to events, intensify under
 shared attention, and either decay or persist depending on the nature of the
 trigger.
+
+<figure class="figure text-center">
+  <img src="assets/img/explained_variance.png"
+       alt="Explained variance as a function of the number of principal components"
+       width="600">
+  <figcaption class="figure-caption">
+    Cumulative explained variance as a function of the number of principal
+    components. The dashed line indicates the 90% variance threshold.
+  </figcaption>
+</figure>
+
 
 The network visualization presented here depicts the fourteen most interconnected
 clusters among the twenty identified across Reddit. Even at this aggregated scale,
