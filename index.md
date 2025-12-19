@@ -7,59 +7,34 @@ cover-img: /assets/img/reddit_header.png
 
 ## Introduction
 
-Reddit is made of thousands of communities (“subreddits”) that usually live in their own bubbles.  
-Most of the time, people post and comment inside a single subreddit, reinforcing the same topics, norms, and viewpoints.
-
-But what happens when **the world shakes**?
-
-- A presidential election.  
-- A blockbuster release.  
-- A global crisis.
-
-Do these events:
-
-- create **new links** between communities that usually never talk to each other?  
-- turn some subreddits into temporary **“bridges”**?  
-- leave **long-term scars** in the network, or do things quickly go back to “normal”?
-
-In this data story, we will explore these questions using the **Reddit Socio-Reddit Hyperlinks dataset**, and additional information about real-world events.
-
-We structure the story around three main research questions:
-
-- **RQ1 – Do big events trigger bursts of new links between communities that usually barely connect?**  
-- **RQ2 – Which communities act as early signalers or temporary bridges during these events?**  
-- **RQ3 – Do these event-driven ties disappear quickly, or do some become part of the long-term backbone of the network?**  
-
-
-
 ### When the world sneezes, Reddit catches a cold
 
-When a major world event occurs — an election night, a surprise product launch, or a
-breaking news story — millions of people turn to the internet to discuss, debate,
-explain, and react. With its thousands of semi-independent communities, Reddit
-becomes a dynamic map of collective attention.
-
-But how does this attention actually move? Do communities that usually ignore one
-another suddenly interact? And once the moment passes, do these connections fade
-away, or do they leave a lasting trace?
+When a major world event occurs — an election night, a surprise product launch, or
+a breaking news story — millions of people turn to the internet to discuss, argue,
+explain, and create memes. With its thousands of semi-independent communities,
+Reddit becomes a living map of collective attention. Yet a fundamental question
+remains: how does this attention move? Do communities that usually ignore one
+another suddenly begin to interact? And once the moment passes, do those
+connections fade away, or do they leave a lasting trace?
 
 This project approaches Reddit not as a collection of isolated subreddits, but as a
-dynamic network whose structure bends and responds to real-world events. By
-tracking hyperlinks between subreddits over time, we observe how information flows,
-which communities act as temporary bridges, and whether event-driven interactions
-become part of Reddit’s long-term backbone or disappear as quickly as they emerge.
+dynamic network whose structure bends and responds to real-world events. By tracing
+hyperlinks between subreddits over time, we observe how information flows, which
+communities act as bridges, and whether event-driven interactions become part of
+Reddit’s long-term structural backbone or disappear as quickly as they emerge.
 
-Using a large-scale hyperlink dataset enriched with sentiment measures, subreddit
-embeddings, and external timelines of world events, we zoom in on moments of
-collective attention and ask a simple question with complex implications: when the
-world changes, does Reddit reorganize itself?
+Drawing on a large-scale hyperlink dataset enriched with sentiment measures,
+subreddit embeddings, and external timelines of world events, the analysis focuses
+on moments of collective attention and addresses a central question with broad
+implications: when the world changes, does Reddit reorganize itself?
 
-In the sections that follow, we move from global patterns to local interactions —
-tracking bursts of connectivity, identifying short-lived brokers of information,
-and measuring the persistence of relationships formed under the pressure of major
-events. What emerges is a portrait of online communities that are highly reactive
-yet structurally resilient, revealing how digital spaces mirror — and sometimes
+The sections that follow move from global patterns to local interactions — tracking
+bursts of connectivity, identifying temporary brokers of information, and measuring
+the persistence of relationships formed under the pressure of major events. What
+emerges is a portrait of online communities that are highly reactive yet
+structurally resilient, illustrating how digital spaces mirror — and at times
 amplify — the rhythms of the real world.
+
 
 
 ## 1. From Hyperlinks to Communities
