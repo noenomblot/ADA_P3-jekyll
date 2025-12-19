@@ -187,6 +187,12 @@ February 2016. In television, the premiere of the first episode of *Game of
 Thrones* Season 6 on 24 April 2016 generated significant anticipation and discussion
 across multiple Reddit communities.
 
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+  <img src="assets/img/StarWars.png" width="250">
+  <img src="assets/img/Oscars.jpg" width="250">
+  <img src="assets/img/GOT6.jpg" width="250">
+</div>
+
 In contrast to these planned events, a separate category captures sudden natural
 and social crises that often lead to sharp and emotionally charged online
 responses. The Ebola outbreak in West Africa in August 2014 escalated into a global
@@ -195,12 +201,24 @@ prompted widespread shock and international solidarity. Natural disasters are
 represented by the Illapel earthquake in Chile on 16 September 2015, a major
 seismic event that caused significant damage and displacement.
 
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+  <img src="assets/img/ebola.jpg" width="250">
+  <img src="assets/img/bataclan.jpg" width="250">
+  <img src="assets/img/ChileEarthquake.jpg" width="250">
+</div>
+
 To capture recurring patterns of social engagement, several widely observed
 holidays are also considered. These include Independence Day on 4 July 2014, a
 major national celebration in the United States; Christmas Day on 25 December
 2015, both a religious and cultural holiday across many countries; and
 Thanksgiving Day on 24 November 2016, a U.S. holiday closely associated with family
 gatherings and shared traditions.
+
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+  <img src="assets/img/4july.jpg" width="250">
+  <img src="assets/img/christmas.jpg" width="250">
+  <img src="assets/img/Thanksgiving.jpg" width="250">
+</div>
 
 Finally, given the prominence of gaming-related communities on Reddit, major events
 from the gaming industry are incorporated into the analysis. The release of
@@ -210,6 +228,12 @@ Theft Auto V* on PlayStation 4 on 18 November 2014, which extended the reach of 
 already highly successful title. The category concludes with the reveal of the
 Nintendo Switch on 20 October 2016, an announcement that generated substantial
 anticipation for Nintendo’s new hybrid gaming platform.
+
+<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+  <img src="assets/img/PokemonGo.jpg" width="250">
+  <img src="assets/img/GTAV.png" width="250">
+  <img src="assets/img/Switch.jpg" width="250">
+</div>
 
 The impact of these events is first examined at an aggregate level by event
 category in order to assess how highly salient real-world moments affect activity
