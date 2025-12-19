@@ -31,6 +31,7 @@ We structure the story around three main research questions:
 - **RQ3 – Do these event-driven ties disappear quickly, or do some become part of the long-term backbone of the network?**  
 
 
+
 ### When the world sneezes, Reddit catches a cold
 
 When a major world event occurs — an election night, a surprise product launch, or a
@@ -78,6 +79,53 @@ In the final version, this section will:
   - which algorithm we use (e.g. Louvain)  
   - how we interpret the main clusters (politics, movies, gaming, etc.)
 
+## Part 2: Adapting the data
+
+On online discussion platforms such as Reddit, automated accounts (“bots”) can
+substantially influence information dynamics by amplifying specific topics,
+spreading misinformation, or artificially sustaining conversations. Identifying
+and filtering these accounts is therefore a critical preprocessing step before
+any network analysis, as bot activity can distort link structures and bias both
+clustering and sentiment results.
+
+To detect bot-like behavior, we rely on unsupervised anomaly detection methods, as
+no labeled ground truth is available. We exploit the textual, behavioral, and
+sentiment features provided in the dataset, resulting in an initial set of 85
+features per subreddit.
+
+Our approach combines two main techniques. First, we apply Principal Component
+Analysis (PCA) to reduce the dimensionality of the feature space while preserving
+most of its informational content. We retain 90% of the total variance, which is
+captured by 48 principal components. This step limits noise and redundancy while
+maintaining the dominant behavioral patterns.
+
+Second, we use an Isolation Forest model on the reduced feature space to identify
+abnormal activity patterns consistent with automated behavior. The resulting
+scores allow us to estimate the relative prevalence of bot-like activity across
+subreddits. The figure below presents the fifteen subreddits with the highest
+estimated bot-post rates according to this model.
+
+From a network-analysis perspective, filtering out subreddits with extreme bot
+activity is essential. Our objective is to model Reddit as a social information
+network driven by human interactions, where edges represent meaningful exchanges
+between communities. High levels of automation would otherwise introduce spurious
+links and artificially inflate connectivity.
+
+In parallel, our early analyses of event-driven effects at the global network
+level revealed a classical case of Simpson’s paradox: trends observed within
+specific subgroups disappeared or reversed when aggregating the entire network.
+This observation reinforced the need for clustering the network prior to
+interpretation.
+
+The clustered network presented here highlights the fourteen most connected
+clusters among the twenty identified across Reddit. Even at this coarse level,
+clear structural patterns emerge. Some clusters act as hubs, connecting a wide
+range of communities, while others remain more peripheral with narrower, topic-
+focused interactions.
+
+In the sections that follow, we build on this clustered representation to examine
+how information flows across Reddit and how different types of communities respond
+to major real-world events.
 
 
 ## 2. Event-Born Links: Short Flares or Lasting Imprints?
