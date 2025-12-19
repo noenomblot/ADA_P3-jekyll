@@ -253,6 +253,19 @@ contrast, holidays display a more diffuse and lower-intensity pattern across
 communities, suggesting that while widely observed, they do not trigger sharp
 increases in focused discussion.
 
+<figure class="figure text-center">
+  <img src="assets/img/InterHeatMap.png"
+       alt="Inter-category interaction heatmap between event types and Reddit communities"
+       width="850">
+  <figcaption class="figure-caption">
+    <strong>Figure 5.</strong> Inter-category interaction heatmap. Rows represent
+    event categories (politics, sports, gaming, holidays, natural/social disasters,
+    entertainment), and columns represent Reddit communities. Cell intensity
+    indicates the volume of interactions observed for each event type–community
+    pair, highlighting structured patterns of engagement across domains.
+  </figcaption>
+</figure>
+
 Beyond posting volume, these events also influence the structure of the Reddit
 network by altering the strength and persistence of connections between
 communities. Political events, in particular, tend to reinforce existing ties
