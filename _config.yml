@@ -131,7 +131,7 @@ navbar-var-length: false
 ######################################
 
 # Fond principal de la page : crème orangé (rappelle les visages)
-page-col: "#FFF6EB" #"#FFE3C4" is crème, "#FFFFFF" is white
+page-col: "#FFFFFF"   # "#FFF6EB" #"#FFE3C4" is crème, "#FFFFFF" is white
 
 # Couleur du texte principal : très foncé
 text-col: "#15171A"

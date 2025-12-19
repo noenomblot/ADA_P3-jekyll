@@ -1,4 +1,4 @@
-## 3. Zooming into Events and Communities (Template)
+## 5. Zooming into Events and Communities (Template)
 
 In the final story, this section will be the core of **RQ2**:
 
@@ -14,142 +14,146 @@ Planned structure:
 2. **Politics vs Cinema** – two worlds reacting differently.  
 3. **Inside a political cluster** – who talks to whom during the US election?  
 
+<details markdown="1">
+  <summary>Politics</summary>
 
-### How politics, culture, and social life interact on Reddit
+  ### How politics, culture, and social life interact on Reddit
 
-Across dozens of large-scale events between 2014 and 2016, one central insight emerges:  
-Reddit reacts strongly to major shocks — but it almost never rewires itself.
+  Across dozens of large-scale events between 2014 and 2016, one central insight emerges:  
+  Reddit reacts strongly to major shocks — but it almost never rewires itself.
 
-Instead of permanently reshaping who talks to whom, events temporarily redistribute
-attention, emotion, and intensity along pre-existing community boundaries. Whether
-interactions spill across communities depends far more on the *symbolic nature* of
-the event than on its objective scale or media coverage.
+  Instead of permanently reshaping who talks to whom, events temporarily redistribute
+  attention, emotion, and intensity along pre-existing community boundaries. Whether
+  interactions spill across communities depends far more on the *symbolic nature* of
+  the event than on its objective scale or media coverage.
 
-This section focuses on one core axis of that behavior:  
-the relationship between **politics, entertainment, and social life** on Reddit —
-and its striking asymmetries.
+  This section focuses on one core axis of that behavior:  
+  the relationship between **politics, entertainment, and social life** on Reddit —
+  and its striking asymmetries.
 
----
+  ---
 
-### When politics hits, does culture react? 
-Viewed through our three research questions, these results paint a consistent picture: major events do create bursts of cross-community interaction (RQ1), but only a small subset of communities — primarily social and, in rare symbolic cases, humor — act as temporary bridges (RQ2). Crucially, these event-driven ties almost always fade, leaving the long-term structure of the network largely unchanged (RQ3).
-**Politics → Entertainment / Movies / TV**
+  ### When politics hits, does culture react? 
+  Viewed through our three research questions, these results paint a consistent picture: major events do create bursts of cross-community interaction (RQ1), but only a small subset of communities — primarily social and, in rare symbolic cases, humor — act as temporary bridges (RQ2). Crucially, these event-driven ties almost always fade, leaving the long-term structure of the network largely unchanged (RQ3).
+  **Politics → Entertainment / Movies / TV**
 
-In the politics/news cluster, the biggest subreddits in terms of subreddit interactions are unsurprisingly political. The biggest being "the_donald" a right wing (now banned) subreddit supporting Donald Trump especially during the 2016 US presidential election. The second biggest is "conspiracy" and the third and fourth "politics" and "news", two subreddits also strongly involved in the US election cycle of 2016. It has to be noted that "politics" and "news" tend to be anti-Trump and are taken as "the_donald"s counter-pole in our analysis.
+  In the politics/news cluster, the biggest subreddits in terms of subreddit interactions are unsurprisingly political. The biggest being "the_donald" a right wing (now banned) subreddit supporting Donald Trump especially during the 2016 US presidential election. The second biggest is "conspiracy" and the third and fourth "politics" and "news", two subreddits also strongly involved in the US election cycle of 2016. It has to be noted that "politics" and "news" tend to be anti-Trump and are taken as "the_donald"s counter-pole in our analysis.
 
-<figure id="fig-plot-top-subreddits-politics">
-  <div class="plotly-embed-smaller">
-    <iframe
-      src="{{ 'assets/img/plots/top-subreddit-interaction-politics.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Top subreddits in the politics/news cluster.
-  </figcaption>
-</figure>
+  <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plots/top-subreddit-interaction-politics.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Top subreddits in the politics/news cluster.
+    </figcaption>
+  </figure>
 
-The temporal graph in [figure ???](#fig-normalized-weekly-politics) clearly shows how important the US elections were in the discussions. Towards the elections on November 8th 2016, the hyperlinks increase continuously and then beginning of December they suddenly fall. Interesting also is the peak in October 2015, but we where unable to find any event related reason why a peak would happen at that time.
-
-
-<figure id="fig-normalized-weekly-politics">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/plots/normalized_weekly_politics.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Hyperlink activities over time in the politics/news cluster.
-  </figcaption>
-</figure>
-
-In [figure ???](#fig-sliding-event-intensity-politics) the sliding event intensity is shown. For this graph, the absolute number of hyperlinks was averaged inside a timeframe of 3 days to show the the local trends without taking into account the constant rising in post numbers. What really comes apparent are two things: The first is that with increasing number of hyperlinks, the variation in number of posts becomes more erratic. This may be due to a fast reaction of the subreddits on events, but it could also be due to increasing numbers of multiple link targets in one post as more posts with links happen overall. 
-
-The second thing to note is the intensity of the "post-election" collapse in link numbers. Even when averaging the surrounding days, the intensity falls significantly and permanently. The existence of this depression supports the thesis that the erratic-ness of the post intensity is due to world events, as after the major world event, the erratic-ness decreases as well.
-
-<figure id="fig-sliding-event-intensity-politics">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/plots/sliding_event_intensity_politics.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Sliding event intensity in the politics/news cluster.
-  </figcaption>
-</figure>
-
-#### US Presidential Election (2016) — maximum polarization, minimal rewiring
-
- As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald", "conspiracy", "politics" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
+  The temporal graph in [figure ???](#fig-normalized-weekly-politics) clearly shows how important the US elections were in the discussions. Towards the elections on November 8th 2016, the hyperlinks increase continuously and then beginning of December they suddenly fall. Interesting also is the peak in October 2015, but we where unable to find any event related reason why a peak would happen at that time.
 
 
-<figure id="fig-cluster-graph-US-election">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Daily hyperlink activities around the US election.
-  </figcaption>
-</figure>
+  <figure id="fig-normalized-weekly-politics">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/normalized_weekly_politics.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Hyperlink activities over time in the politics/news cluster.
+    </figcaption>
+  </figure>
 
-The difference of intra-cluster daily post counts before and after November 8th is shown in [figure ???](#fig-before-after-graph-US-election) and it confirms what we saw in the [temporal graph earlier:](#fig-normalized-weekly-politics) The hyperlinks between communities increase significantly around the election and then decrease again in the period after.
+  In [figure ???](#fig-sliding-event-intensity-politics) the sliding event intensity is shown. For this graph, the absolute number of hyperlinks was averaged inside a timeframe of 3 days to show the the local trends without taking into account the constant rising in post numbers. What really comes apparent are two things: The first is that with increasing number of hyperlinks, the variation in number of posts becomes more erratic. This may be due to a fast reaction of the subreddits on events, but it could also be due to increasing numbers of multiple link targets in one post as more posts with links happen overall. 
 
-<figure id="fig-before-after-graph-US-election">
-  <div class="plotly-embed-smaller">
-    <iframe
-      src="{{ 'assets/img/plots/before-after-comparison_politics_2016_11_08.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Activities the year before and after the US election.
-  </figcaption>
-</figure>
+  The second thing to note is the intensity of the "post-election" collapse in link numbers. Even when averaging the surrounding days, the intensity falls significantly and permanently. The existence of this depression supports the thesis that the erratic-ness of the post intensity is due to world events, as after the major world event, the erratic-ness decreases as well.
 
-We may even statistically capture this increase in posts. If our hypothesis is that an increase of hyperlink connections between "politcs" and "the_donald" is due to an event with our null hypothesis being that this is not the case, we may do a t-test during the run-up of the election and evaluate it's p-value. On the date of the election, we obtain a p-value of 0.081. While this is not decisive, it strongly indicates a statistical correlation between the event and the increase in hyperlink connections.
+  <figure id="fig-sliding-event-intensity-politics">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/sliding_event_intensity_politics.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Sliding event intensity in the politics/news cluster.
+    </figcaption>
+  </figure>
 
-Using the same methodology between the subreddits "the_donald" and "conspiracy", an even stronger evidence is obtained. The p-value is 0.034, a value which lets us completely reject the null hypothesis. For both relations there is a statistically shown low stability of connections. Which, again considering the "post-election" collapse, makes sense. At least for a short moment, people distanced themselves from politics.
+  #### US Presidential Election (2016) — maximum polarization, minimal rewiring
 
-The pause does not last though. The connections forged during the elections are here to stay. The links from "the_donald" with "politics" due to the election fade very slowly with a statistical half life of the connection being 55 weeks. This is very long, for comparison, the half life between "the_donald" and "news" is 22 weeks. In the case of "conspiracy" and "the_donald", the connection does not even decay, but rather increase in the weeks following. A trend well reflected in real life during both of Donald Trump's periods in office.
-
-#### Crimea Annexation (2014) — geopolitics without cultural spillover
-
-**I'll look into either this or Brexit more exactly. The other I'll only write short sentence about**
-
-*Despite global media coverage and rising international tension, the annexation of
-Crimea remains almost entirely confined to news and geopolitics communities.
-Interaction levels with entertainment remain flat, no durable bridges emerge, and
-several ties even weaken.*
-
-*Geopolitical distance matters. When a political event feels remote — geographically
-or emotionally — it does not penetrate cultural spaces.*
-
-#### Brexit Referendum (2016) — politics enters daily life, but stops short of culture
-
-*Brexit represents a clear step forward in spillover. Political discussion expands
-outward into social and everyday communities, reflecting how deeply the referendum
-affected identity, family, and daily conversation.*
-
-*However, this expansion remains fragile. While interaction intensity rises
-temporarily, no long-term cultural bridges form. Entertainment communities remain
-largely untouched. Politics becomes personal — but not cultural.*
+  As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald", "conspiracy", "politics" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
 
 
+  <figure id="fig-cluster-graph-US-election">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Daily hyperlink activities around the US election.
+    </figcaption>
+  </figure>
 
-#### Politics → Entertainment: what we learn
+  The difference of intra-cluster daily post counts before and after November 8th is shown in [figure ???](#fig-before-after-graph-US-election) and it confirms what we saw in the [temporal graph earlier:](#fig-normalized-weekly-politics) The hyperlinks between communities increase significantly around the election and then decrease again in the period after.
 
-Across all three political events:
+  <figure id="fig-before-after-graph-US-election">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plots/before-after-comparison_politics_2016_11_08.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Activities the year before and after the US election.
+    </figcaption>
+  </figure>
 
-- Politics sometimes spills into social spaces  
-- Politics rarely spills into entertainment  
-- Politics never durably rewires cultural communities  
+  We may even statistically capture this increase in posts. If our hypothesis is that an increase of hyperlink connections between "politcs" and "the_donald" is due to an event with our null hypothesis being that this is not the case, we may do a t-test during the run-up of the election and evaluate it's p-value. On the date of the election, we obtain a p-value of 0.081. While this is not decisive, it strongly indicates a statistical correlation between the event and the increase in hyperlink connections.
 
-Entertainment remains structurally insulated from political shocks.
+  Using the same methodology between the subreddits "the_donald" and "conspiracy", an even stronger evidence is obtained. The p-value is 0.034, a value which lets us completely reject the null hypothesis. For both relations there is a statistically shown low stability of connections. Which, again considering the "post-election" collapse, makes sense. At least for a short moment, people distanced themselves from politics.
+
+  The pause does not last though. The connections forged during the elections are here to stay. The links from "the_donald" with "politics" due to the election fade very slowly with a statistical half life of the connection being 55 weeks. This is very long, for comparison, the half life between "the_donald" and "news" is 22 weeks. In the case of "conspiracy" and "the_donald", the connection does not even decay, but rather increase in the weeks following. A trend well reflected in real life during both of Donald Trump's periods in office.
+
+  #### Crimea Annexation (2014) — geopolitics without cultural spillover
+
+  **I'll look into either this or Brexit more exactly. The other I'll only write short sentence about**
+
+  *Despite global media coverage and rising international tension, the annexation of
+  Crimea remains almost entirely confined to news and geopolitics communities.
+  Interaction levels with entertainment remain flat, no durable bridges emerge, and
+  several ties even weaken.*
+
+  *Geopolitical distance matters. When a political event feels remote — geographically
+  or emotionally — it does not penetrate cultural spaces.*
+
+  #### Brexit Referendum (2016) — politics enters daily life, but stops short of culture
+
+  *Brexit represents a clear step forward in spillover. Political discussion expands
+  outward into social and everyday communities, reflecting how deeply the referendum
+  affected identity, family, and daily conversation.*
+
+  *However, this expansion remains fragile. While interaction intensity rises
+  temporarily, no long-term cultural bridges form. Entertainment communities remain
+  largely untouched. Politics becomes personal — but not cultural.*
+
+
+
+  #### Politics → Entertainment: what we learn
+
+  Across all three political events:
+
+  - Politics sometimes spills into social spaces  
+  - Politics rarely spills into entertainment  
+  - Politics never durably rewires cultural communities  
+
+  Entertainment remains structurally insulated from political shocks.
+
+</details>
 
 ---
 
