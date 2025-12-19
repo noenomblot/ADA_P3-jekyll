@@ -100,21 +100,7 @@ strengthened or weakened over time.
 
 
 
-## 2. Event-Born Links: Short Flares or Lasting Imprints?
-
-Here we will focus on **RQ1 and RQ3**:
-
-- How many **new edges** between communities appear during major events?  
-- Do these edges connect communities that were almost disconnected before?  
-- Once the event is over, how fast do these edges **disappear**?  
-- For edges that survive, do they become part of a new “baseline” interaction?
-
-Planned content (to be filled once analyses are ready):
-
-- define what we call an **“event-born edge”**  
-- compare event vs non-event periods  
-- build simple **survival curves** for edge persistence  
-- discuss which types of events create longer-lasting ties.
+## Event-Born Links: Short Flares or Lasting Imprints?
 
 Major real-world events often trigger visible surges of activity on Reddit.
 But do they actually reshape how communities connect to each other — or do they
