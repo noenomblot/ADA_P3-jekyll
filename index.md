@@ -156,7 +156,7 @@ which resulted in the election of Donald Trump and triggered intense discussion
 both domestically and internationally.
 
 <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-  <img src="assets/img/crimee.jpg" width="250">
+  <img src="assets/img/Crimee.jpg" width="250">
   <img src="assets/img/brexit.jpg" width="250">
   <img src="assets/img/election2016.png" width="250">
 </div>
