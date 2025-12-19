@@ -63,6 +63,17 @@ preserves the dominant variance structure. Retaining components that explain 90%
 of the total variance substantially reduces dimensionality while maintaining the
 behavioral signatures required for discrimination.
 
+<figure class="figure text-center">
+  <img src="assets/img/explained_variance.png"
+       alt="Explained variance as a function of the number of principal components"
+       width="600">
+  <figcaption class="figure-caption">
+    Cumulative explained variance as a function of the number of principal
+    components. The dashed line indicates the 90% variance threshold.
+  </figcaption>
+</figure>
+
+
 On this reduced representation, an Isolation Forest model is used to detect
 anomalous activity patterns. By recursively partitioning the feature space through
 random splits, the model isolates observations that require fewer splits to
