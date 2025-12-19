@@ -85,14 +85,17 @@ proportion of bot-generated content. The accompanying figure highlights the
 fifteen subreddits with the highest estimated bot-post rates.
 
 <figure class="figure text-center">
-  <img src="assets/img/explained_variance.png"
-       alt="Explained variance as a function of the number of principal components"
-       width="600">
+  <img src="assets/img/Top15subreddits.png"
+       alt="Top 15 subreddits by bot-like post rate"
+       width="700">
   <figcaption class="figure-caption">
-    Cumulative explained variance as a function of the number of principal
-    components. The dashed line indicates the 90% variance threshold.
+    <strong>Figure 4.</strong> Top fifteen subreddits ranked by the proportion of
+    posts flagged as bot-like by the Isolation Forest model. High values indicate
+    subreddits where automated activity is likely to dominate content production,
+    motivating their exclusion from subsequent network analyses.
   </figcaption>
 </figure>
+
 
 
 Even after filtering automated behavior, Reddit’s structure remains far from
@@ -112,12 +115,15 @@ shared attention, and either decay or persist depending on the nature of the
 trigger.
 
 <figure class="figure text-center">
-  <img src="assets/img/explained_variance.png"
-       alt="Explained variance as a function of the number of principal components"
-       width="600">
+  <img src="assets/img/ClusterInterationNetwork.png"
+       alt="Cluster interaction network on Reddit (2013–2017)"
+       width="700">
   <figcaption class="figure-caption">
-    Cumulative explained variance as a function of the number of principal
-    components. The dashed line indicates the 90% variance threshold.
+    <strong>Figure 3.</strong> Cluster-level interaction network aggregated over
+    the 2013–2017 period. Nodes represent thematic clusters of subreddits, while
+    edges indicate hyperlink-based interactions between clusters. Edge thickness
+    reflects interaction intensity. Several clusters act as structural hubs,
+    mediating information flow across the network.
   </figcaption>
 </figure>
 
