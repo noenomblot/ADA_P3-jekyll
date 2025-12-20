@@ -92,17 +92,19 @@ Political events stand out as the most disruptive overall, driving intense activ
 
 Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
 
-  <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-heatmap">
+  <figure>
+  <div class="plotly-container">
+    <div class="plotly-embed lg">
       <iframe
         src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
         loading="lazy">
       </iframe>
     </div>
-    <figcaption>
-      <strong>Figure 5.</strong> Inter-category interaction heatmap showing the intensity of interaction of cluster per event category.
-    </figcaption>
-  </figure>
+  </div>
+  <figcaption>
+    <strong>Figure X.</strong> Inter-category interaction heatmap.
+  </figcaption>
+</figure>
 ---
 
 ## How Events Reshape Connections and Sentiment
@@ -239,6 +241,9 @@ In both directions, interactions strengthen around moments of shared concern and
       <strong>Figure 5.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
     </figcaption>
   </figure>
+
+
+
 
   <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-long">
