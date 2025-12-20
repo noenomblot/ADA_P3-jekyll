@@ -1206,14 +1206,14 @@ pre {
 
 
 
-.plotly-embed-heatmap {
+.plotly-embed-bar {
   position: relative;
   width: 100%;
   height: 400px;
   margin: 1.5rem 0;
 }
 
-.plotly-embed-heatmap iframe {
+.plotly-embed-bar iframe {
   width: 100%;
   height: 100%;   
   border: none;
@@ -1240,14 +1240,14 @@ pre {
 .plotly-embed-top {
   position: relative;
   width: 100%;
-  height: 430px;  
+  height: 365px;  
   margin: 1.5rem 0;
 }
 
 .plotly-embed-top iframe {
   width: 100%;
   height: 100%;
-  transform: scale(0.8);
+  transform: scale(0.9125);
   transform-origin: top left;
   border: none;
 }
