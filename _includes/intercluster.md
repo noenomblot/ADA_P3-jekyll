@@ -207,7 +207,6 @@ Despite their shared visibility in public life, political and sports communities
     <figcaption>
       <strong>Figure 5.</strong> Posting trend between the Politics community and the Sports community around the US elections of 2016.
     </figcaption>
-    </figcaption>
   </figure>
 
   <figure id="fig-plot-top-subreddits-politics">
@@ -238,7 +237,6 @@ In both directions, interactions strengthen around moments of shared concern and
     </div>
     <figcaption>
       <strong>Figure 5.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
-    </figcaption>
     </figcaption>
   </figure>
 
