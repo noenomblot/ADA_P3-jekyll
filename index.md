@@ -148,13 +148,21 @@ This is why, on Reddit, it feels perfectly normal to learn about a new restauran
 
 What looks like randomness is, in fact, a network quietly shaped by shared attention.
 
-<div class="flourish-embed flourish-network" data-src="visualisation/26916638">
-  <script src="https://public.flourish.studio/resources/embed.js">
-  </script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26916638/thumbnail" width="100%" alt="network visualization" />
-  </noscript>
-</div>
+
+
+<figure class="flourish-figure">
+  <div class="flourish-embed flourish-network" data-src="visualisation/26916638">
+    <script src="https://public.flourish.studio/resources/embed.js">
+    </script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26916638/thumbnail" width="100%" alt="network visualization" />
+    </noscript>
+  </div>
+
+  <figcaption>
+    <strong>Figure 4.</strong> Network representation of the Hyperlink network.
+  </figcaption>
+</figure>
 
 
 <!-- The file is under _includes/intercluster.md -->

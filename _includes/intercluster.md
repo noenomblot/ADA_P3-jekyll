@@ -100,7 +100,7 @@ Entertainment events generate strong activity in Entertainment and Gaming, with 
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure X.</strong> Inter-category interaction heatmap.
+    <strong>Figure 5.</strong> Inter-category interaction heatmap.
   </figcaption>
 </figure>
 ---
@@ -131,7 +131,7 @@ Taken together, these patterns reveal that not all events ripple through the net
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Number of strengthened and weakened inter-community connections by event category.
+      <strong>Figure 6.</strong> Number of strengthened and weakened inter-community connections by event category.
     </figcaption>
   </figure>
 
@@ -173,7 +173,7 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
+      <strong>Figure 8.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
     </figcaption>
   </figure>
 
@@ -185,7 +185,7 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Posting trend between the Politics community and the Entertainment community around the release of "The Force Awakens".
+      <strong>Figure 9.</strong> Posting trend between the Politics community and the Entertainment community around the release of "The Force Awakens".
     </figcaption>
   </figure>
 ---
@@ -204,7 +204,7 @@ Despite their shared visibility in public life, political and sports communities
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Posting trend between the Politics community and the Sports community around the US elections of 2016.
+      <strong>Figure 10.</strong> Posting trend between the Politics community and the Sports community around the US elections of 2016.
     </figcaption>
   </figure>
 
@@ -216,7 +216,7 @@ Despite their shared visibility in public life, political and sports communities
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Posting trend between the Politics community and the Sports community around the 2015 Superbowl.
+      <strong>Figure 11.</strong> Posting trend between the Politics community and the Sports community around the 2015 Superbowl.
     </figcaption>
   </figure>
 ---
@@ -251,7 +251,7 @@ In both directions, interactions strengthen around moments of shared concern and
     </div>
   </div>
   <figcaption>
-    <strong>Figure X.</strong> Inter-category interaction heatmap.
+    <strong>Figure 12.</strong> Inter-category interaction heatmap.
   </figcaption>
 </figure>
 
@@ -264,7 +264,7 @@ In both directions, interactions strengthen around moments of shared concern and
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
+      <strong>Figure 13.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
     </figcaption>
   </figure>
 ---

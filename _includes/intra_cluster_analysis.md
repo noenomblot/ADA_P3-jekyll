@@ -6,13 +6,21 @@ Well now that you have seen how communities interact **with one another** on Red
 
 That intuition is fair and the data supports it. The majority of hyperlink interactions on Reddit happen **within the same community**. So even if you never leave your favorite subreddit, shifts in hyperlink traffic still shape what you see, what gains visibility, and how discussion evolves.
 
-<div class="flourish-embed flourish-chord" data-src="visualisation/26916041">
-  <script src="https://public.flourish.studio/resources/embed.js">
-  </script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26916041/thumbnail" width="100%" alt="chord visualization" />
-  </noscript>
-</div>
+
+
+<figure class="flourish-figure">
+  <div class="flourish-embed flourish-chord" data-src="visualisation/26916041">
+    <script src="https://public.flourish.studio/resources/embed.js">
+    </script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26916041/thumbnail" width="100%" alt="chord visualization" />
+    </noscript>
+  </div>
+
+  <figcaption>
+    <strong>Figure 14.</strong> Network representation of the Hyperlink network.
+  </figcaption>
+</figure>
 
 To understand how major events affect users at this more personal scale, the analysis now zooms inward. Instead of looking at connections *between* clusters, we focus on **intra-cluster dynamics** — how a single community reacts to shocks, and how large global events compare to smaller, more localized moments.
 
@@ -32,7 +40,7 @@ Unsurprisingly, the most central subreddits in terms of internal hyperlink activ
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure ???.</strong> Top subreddits in the politics/news cluster.
+      <strong>Figure 15.</strong> Top subreddits in the politics/news cluster.
     </figcaption>
   </figure>
 
@@ -41,7 +49,7 @@ This internal tension makes the politics cluster an ideal lens through which to 
 
 ### Reading the Pulse of Political Attention
 
-Figure [???](#fig-sliding-event-intensity-politics) shows the **sliding event intensity** within the politics cluster. To isolate short-term reactions, the absolute number of hyperlinks is averaged over a three-day window. This smoothing removes the long-term growth in Reddit activity and allows local fluctuations to come into focus.
+Figure [16](#fig-sliding-event-intensity-politics) shows the **sliding event intensity** within the politics cluster. To isolate short-term reactions, the absolute number of hyperlinks is averaged over a three-day window. This smoothing removes the long-term growth in Reddit activity and allows local fluctuations to come into focus.
 
 
 
@@ -55,7 +63,7 @@ Two patterns immediately stand out.
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure ???.</strong> Sliding event intensity in the politics/news cluster.
+      <strong>Figure 16.</strong> Sliding event intensity in the politics/news cluster.
     </figcaption>
   </figure>
 
@@ -74,7 +82,7 @@ We now zoom further into **how the U.S. presidential election reorganized the in
 
 
 
-As shown in [Figure ???](#fig-cluster-graph-US-election), the period surrounding the U.S. election is overwhelmingly centered on Donald Trump and the election itself. A small set of subreddits — **r/The_Donald**, **r/conspiracy**, **r/politics**, and **r/hillaryclinton** — rise above the rest, reshaping the internal topology of the cluster.
+As shown in Figure [17](#fig-cluster-graph-US-election), the period surrounding the U.S. election is overwhelmingly centered on Donald Trump and the election itself. A small set of subreddits — **r/The_Donald**, **r/conspiracy**, **r/politics**, and **r/hillaryclinton** — rise above the rest, reshaping the internal topology of the cluster.
 
   <figure id="fig-cluster-graph-US-election">
     <div class="plotly-embed">
@@ -84,13 +92,13 @@ As shown in [Figure ???](#fig-cluster-graph-US-election), the period surrounding
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around the US election.
+      <strong>Figure 17.</strong> Daily hyperlink activities around the US election.
     </figcaption>
   </figure>
 
 Among them, **r/The_Donald** is unmistakably dominant. Its position at the center of the graph, surrounded by a dense neighborhood of closely connected subreddits, reveals how attention gravitated toward a single ideological hub. The cluster does not simply grow more active; it becomes structurally skewed, with influence concentrating around a few key actors.
 
-This structural dominance is mirrored in posting behavior. The difference in intra-cluster daily post counts before and after November 8 is shown in [Figure ???](#fig-before-after-graph-US-election).
+This structural dominance is mirrored in posting behavior. The difference in intra-cluster daily post counts before and after November 8 is shown in Figure [18](#fig-before-after-graph-US-election).
 
  <figure id="fig-before-after-graph-US-election">
     <div class="plotly-embed-smallest">
@@ -100,7 +108,7 @@ This structural dominance is mirrored in posting behavior. The difference in int
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure ???.</strong> Activities the year before and after the US election.
+      <strong>Figure 18.</strong> Activities the year before and after the US election.
     </figcaption>
   </figure>
 
@@ -135,12 +143,12 @@ Taken together, these results show that major political events do more than gene
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure ???.</strong> Top subreddits in the gaming cluster by number of interactions.
+      <strong>Figure 19.</strong> Top subreddits in the gaming cluster by number of interactions.
     </figcaption>
   </figure>
 
 
-  A big reason for why a subreddit created in 2016 can still be in the top 50, is the more or less unique development the pokemongo community followed: Instead of only being organized in a global subreddit, almost immediately regional groups were formed. This makes sense for a game which, [before Covid](https://www.gamedeveloper.com/design/how-i-pokemon-go-i-evolved-in-response-to-the-covid-19-pandemic){:target="_blank"}, was a local game with multiplayer aspects. In figure [figure ???](#fig-cluster-graph-pokemongo) the daily evolution of activity surrounding the worldwide release in June can be clearly traced. Highlighted in the analysis are the primary subreddit r/pokemongo, the broader franchise hub r/pokemon, and several regional offshoots associated with each, capturing both global and localized engagement patterns.
+  A big reason for why a subreddit created in 2016 can still be in the top 50, is the more or less unique development the pokemongo community followed: Instead of only being organized in a global subreddit, almost immediately regional groups were formed. This makes sense for a game which, [before Covid](https://www.gamedeveloper.com/design/how-i-pokemon-go-i-evolved-in-response-to-the-covid-19-pandemic){:target="_blank"}, was a local game with multiplayer aspects. In Figure [20](#fig-cluster-graph-pokemongo) the daily evolution of activity surrounding the worldwide release in June can be clearly traced. Highlighted in the analysis are the primary subreddit r/pokemongo, the broader franchise hub r/pokemon, and several regional offshoots associated with each, capturing both global and localized engagement patterns.
 
   <figure id="fig-cluster-graph-pokemongo">
     <div class="plotly-embed">
@@ -150,7 +158,7 @@ Taken together, these results show that major political events do more than gene
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around releases of Pokémon Go around the world.
+      <strong>Figure 20.</strong> Daily hyperlink activities around releases of Pokémon Go around the world.
     </figcaption>
   </figure>
 
@@ -164,7 +172,7 @@ This interpretation is reinforced statistically. Testing the null hypothesis tha
 
 The natural follow-up question is whether this locally intense burst of activity mattered for the Gaming cluster as a whole. Here, the answer is more restrained.
 
-Neither **r/pokemon** nor **r/pokemongo** ranks among the top ten subreddits by total hyperlink interactions within the cluster (see [Figure ???](#fig-plot-top-subreddits-gaming)). As a result, their sudden rise, while highly visible at the local level, is insufficient to shift the global structure of the Gaming cluster.
+Neither **r/pokemon** nor **r/pokemongo** ranks among the top ten subreddits by total hyperlink interactions within the cluster (see Figure [19](#fig-plot-top-subreddits-gaming)). As a result, their sudden rise, while highly visible at the local level, is insufficient to shift the global structure of the Gaming cluster.
 
 Highly dominant communities such as **r/leagueoflegends** exert far greater gravitational pull, effectively dampening the cluster-wide impact of even globally popular releases. In this sense, *Pokémon GO* represents a **localized shock** — powerful within its immediate neighborhood, yet unable to overcome the structural inertia imposed by entrenched hubs.
 
@@ -180,7 +188,7 @@ Together with the political case study, this contrast highlights a key insight: 
 
 After having studied the reaction of the politics cluster on a large scale event, the US elections, and on an event of medium importance, the release of *Pokémon Go*, we want to test out the boundary of event impact in a case study on two incidences with similar circumstances. Those two incidents under study are the two major terrorist attacks in Paris in 2015. The first incident is the shooting in the Parisian satire magazine *Charlie Hebdo* on January 7, 2015. The second terrorist attack happening in the same year on November 13 in multiple locations throughout the city. Due to their geographical and temporal closeness, they provide an ideal basis to study a subreddit cluster's reaction.
 
-From the start of January, we can see the immediate temporal reaction of the Geography/World cluster in [figure ???](#fig-cluster-graph-charlie-hebdo). Days after the attack, there are some connections from and to the highlighted subreddits "france" and "paris", but the increase is only small compared to earlier examples.
+From the start of January, we can see the immediate temporal reaction of the Geography/World cluster in Figure [21](#fig-cluster-graph-charlie-hebdo). Days after the attack, there are some connections from and to the highlighted subreddits "france" and "paris", but the increase is only small compared to earlier examples.
 
 <figure id="fig-cluster-graph-charlie-hebdo">
   <div class="plotly-embed">
@@ -190,11 +198,11 @@ From the start of January, we can see the immediate temporal reaction of the Geo
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure ???.</strong> Daily hyperlink activities around the terrorist attacks on Charlie Hebdo in January 2015.
+    <strong>Figure 21.</strong> Daily hyperlink activities around the terrorist attacks on Charlie Hebdo in January 2015.
   </figcaption>
 </figure>
 
-The observations from the temporal clustering graph are also be shown in [figure ???](#fig-before-after-graph-charlie-hebdo). The average number of hyperlink connections in the year before, the year after and the days around the incident reveals there is no significant increase of hyperlink connections visible in the Geography/World cluster.
+The observations from the temporal clustering graph are also be shown in Figure [22](#fig-before-after-graph-charlie-hebdo). The average number of hyperlink connections in the year before, the year after and the days around the incident reveals there is no significant increase of hyperlink connections visible in the Geography/World cluster.
 
 
 <figure id="fig-before-after-graph-charlie-hebdo">
@@ -205,13 +213,13 @@ The observations from the temporal clustering graph are also be shown in [figure
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure ???.</strong> Activities the year before and after the terrorist attacks.
+    <strong>Figure 22.</strong> Activities the year before and after the terrorist attacks.
   </figcaption>
 </figure>
 
 Looking more carefully at the relationship of the subreddits "france" and "paris", we may deduce a newly reformed but temporary relationship between the two, due to the event on January 7th. This being said, the connections between the two subreddits are sparse and far between, but those which do occur predominantly convey positive and supportive sentiments.
 
-Reddit's reaction to the second terrorist attack in Paris in 2015 is shown in [figure ???](#fig-cluster-graph-bataclan). Immediately, one can see how this time Reddit reacts much more strongly. The group around "france" especially shows a big increase in hyperlink connections, although it remains unclear to what extent this increase can be directly attributed to the event itself.
+Reddit's reaction to the second terrorist attack in Paris in 2015 is shown in Figure [23](#fig-cluster-graph-bataclan). Immediately, one can see how this time Reddit reacts much more strongly. The group around "france" especially shows a big increase in hyperlink connections, although it remains unclear to what extent this increase can be directly attributed to the event itself.
 
 <figure id="fig-cluster-graph-bataclan">
   <div class="plotly-embed">
@@ -221,7 +229,7 @@ Reddit's reaction to the second terrorist attack in Paris in 2015 is shown in [f
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure ???.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
+    <strong>Figure 23.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
   </figcaption>
 </figure>
 
@@ -237,7 +245,7 @@ The difference between the two events is even more visible when looking at the a
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure ???.</strong> Hyperlink activities in the geography cluster a year before and after the november attacks.
+    <strong>Figure 24.</strong> Hyperlink activities in the geography cluster a year before and after the november attacks.
   </figcaption>
 </figure>
 
