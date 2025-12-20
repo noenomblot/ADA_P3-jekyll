@@ -92,14 +92,13 @@ Political events stand out as the most disruptive overall, driving intense activ
 
 Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
 
-  <figure>
-  <div class="plotly-container">
+  <figure id="fig-intercategory-heatmap">
     <div class="plotly-embed-heatmap">
       <iframe
         src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
         loading="lazy">
       </iframe>
-    </div>
+    
   </div>
   <figcaption>
     <strong>Figure X.</strong> Inter-category interaction heatmap.
@@ -126,7 +125,7 @@ Gaming events stand apart due to the central position of the Gaming community it
 Taken together, these patterns reveal that not all events ripple through the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections entirely — each leaving a distinct signature in how Reddit responds when the world changes.
 
  <figure id="fig-plot-conn">
-    <div class="plotly-embed-heatmap">
+    <div class="plotly-embed-bar">
       <iframe
         src="{{ 'assets/img/plotly_plots/strengthened_vs_weakened_connections.html' | relative_url }}"
         loading="lazy">
@@ -139,7 +138,7 @@ Taken together, these patterns reveal that not all events ripple through the net
   </figure>
 
   <figure id="fig-plot-sentiment">
-    <div class="plotly-embed-heatmap">
+    <div class="plotly-embed-bar">
       <iframe
         src="{{ 'assets/img/plotly_plots/sentiment_shift_barplot.html' | relative_url }}"
         loading="lazy">
