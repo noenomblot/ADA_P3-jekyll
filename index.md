@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Reddit Rewired: Event-Driven Interactiosn"
+title: "Reddit Rewired: Event-Driven Interactions"
 subtitle: How global events impact Reddit communities
 cover-img: /assets/img/reddit_header.png
 ---
@@ -161,6 +161,18 @@ What looks like randomness is, in fact, a network quietly shaped by shared atten
 
 
 ---
+
+## In conclusion
+
+The Reddit Hyperlink Network, once examined through rigorous analysis, reveals itself to be far more complex than it first appears. What often feels like a space for absent-minded scrolling — a way to momentarily escape the real world — turns out to be a remarkably faithful mirror of it.
+
+Within this network, communities form, evolve, and interact in ways that closely resemble offline social systems. They argue, align, fragment, and occasionally converge around shared moments. World events act as catalysts, pulling attention inward and reshaping how communities relate to one another. Some connections are strengthened through shared focus and collective engagement, while others are strained or weakened as disagreement and emotional intensity rise.
+
+Major events leave the deepest structural footprints. Elections, crises, and globally shared moments reorganize attention at scale, forging links that can persist long after the headlines fade. Yet smaller, more localized events matter too. Even when their impact does not propagate across an entire cluster, they still leave measurable traces within individual communities, briefly redirecting attention and altering internal dynamics.
+
+Across all levels of analysis — between clusters, within clusters, and between specific communities — one pattern remains consistent: Reddit does not react uniformly. Attention spreads unevenly, influence flows asymmetrically, and engagement depends on context, relevance, and perceived importance. In this way, the platform behaves less like a chaotic feed and more like a living social network, shaped by the same selective pressures that govern real-world interaction.
+
+So the next time you follow a hyperlink to another subreddit, pause for a moment before scrolling past. That click may pull you into the center of an unfolding conversation — one that strengthens old ties, challenges existing narratives, or reshapes the structure of a community altogether. In doing so, you become part of the same collective dynamics that quietly turn Reddit into a map of the world it reflects.
 
 
 ## References
