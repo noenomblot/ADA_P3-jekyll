@@ -122,6 +122,14 @@ Instead of focusing on thousands of small communities, hyperlink interactions ar
 
 Connections form quickly when the world demands attention, intensify as conversations converge, and then either fade away or settle into more permanent pathways — depending on the nature of the event that sparked them.
 
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/26914732">
+  <script src="https://public.flourish.studio/resources/embed.js">
+  </script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/26914732/thumbnail" width="100%" alt="hierarchy visualization" />
+  </noscript>
+</div>
+
 ---
 
 ## A Structure That Suddenly Makes Sense
