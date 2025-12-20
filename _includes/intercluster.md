@@ -244,6 +244,20 @@ In both directions, interactions strengthen around moments of shared concern and
 
 
 
+  <figure>
+  <div class="plotly-container">
+    <div class="plotly-embed lg">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+  <figcaption>
+    <strong>Figure X.</strong> Inter-category interaction heatmap.
+  </figcaption>
+</figure>
+
 
   <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-long">
@@ -262,6 +276,6 @@ In both directions, interactions strengthen around moments of shared concern and
 
 Taken together, these patterns closely echo dynamics observed in the real world. Not every group responds to the same events, and not every interaction carries equal influence. Some communities are tightly interwoven, with reactions that ripple across boundaries. Others influence one another asymmetrically, while some coexist with little interaction at all, just like in the real world.
 
-Reddit, then, is not a uniformly reactive system. It is a mosaic of social spheres, where connections strengthen, weaken, or remain untouched depending on context. In this way, the platform mirrors human society itself — selective, uneven, and shaped as much by shared meaning as by shared space.
+Reddit, then, is not a uniformly reactive system. It is a mosaic of social spheres, where connections strengthen, weaken, or remain untouched depending on context. In this way, the platform mirrors human society itself.
 
 
