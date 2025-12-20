@@ -1,18 +1,16 @@
-## 5. Zooming into Events and Communities (Template)
+## 5. Zooming into Events and Communities 
 
-In the final story, this section will be the core of **RQ2**:
-
-- Identify which communities act as **bridges** during events.
-- Compare how different types of communities react:
-  - e.g. political vs cinema clusters.
-- Look at a detailed **case study**:
-  - e.g. US election and the behaviour of key political subreddits.
-
-Planned structure:
-
-1. **Global view** – how activity changes around events.  
-2. **Politics vs Cinema** – two worlds reacting differently.  
-3. **Inside a political cluster** – who talks to whom during the US election?  
+<figure id="fig-chord-diagram">
+    <div class="plotly-embed-bigger">
+      <iframe
+        src="{{ 'assets/img/plots/periodly_chord_diagram.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Chord diagram of monthly inter-cluster hyperlink connections.
+    </figcaption>
+  </figure>
 
 
 
@@ -102,7 +100,7 @@ Planned structure:
   The difference of intra-cluster daily post counts before and after November 8th is shown in [figure ???](#fig-before-after-graph-US-election) and it confirms what we saw in the [temporal graph earlier:](#fig-normalized-weekly-politics) The hyperlinks between communities increase significantly around the election and then decrease again in the period after.
 
   <figure id="fig-before-after-graph-US-election">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-smallest">
       <iframe
         src="{{ 'assets/img/plots/before-after-comparison_politics_2016_11_08.html' | relative_url }}"
         loading="lazy">
@@ -290,7 +288,7 @@ Another title proposition if we exclude Ebola:
 
 
   <figure id="fig-before-after-graph-charlie-hebdo">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-smallest">
       <iframe
         src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_01_07.html' | relative_url }}"
         loading="lazy">
@@ -323,7 +321,7 @@ Another title proposition if we exclude Ebola:
 
 
   <figure id="fig-before-after-graph-bataclan">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-smallest">
       <iframe
         src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_11_13.html' | relative_url }}"
         loading="lazy">
@@ -396,7 +394,7 @@ enough; symbolism is decisive.
   As the peaks are visible to such an extent, it would be interesting to see, if any other sport championship can even be noticed in our analysis. For this, we first have to establish the dominance of the Super Bowl. In the graph taking into account the hyperlink engagement [the year before and after](#fig-before-after-graph-super-bowl), there is a clear dominance of this event on February 2nd over any other events the same year.
 
   <figure id="fig-before-after-graph-super-bowl">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-smallest">
       <iframe
         src="{{ 'assets/img/plots/before-after-comparison_sports_2016_02_07' | relative_url }}"
         loading="lazy">
@@ -444,7 +442,7 @@ enough; symbolism is decisive.
   The [engagement graph of the year](#fig-before-after-graph-europe-cup-2016) shows what we already could have expected from the cluster wide temporal graph. There is no specific increase in activity in the whole cluster during the time of the championship. It even seems like the engagement decreased.
 
   <figure id="fig-before-after-graph-europe-cup-2016">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-smallest">
       <iframe
         src="{{ 'assets/img/plots/before-after-comparison_sports_2016_06_25' | relative_url }}"
         loading="lazy">
@@ -499,7 +497,7 @@ enough; symbolism is decisive.
   In June alone, the main subreddit "pokemongo" formed relations with at least 89 subreddits which were linked to or linked from at least once more in the next two months. Supporting our theory of the game's release being the reason for increased local connections are statistical t tests which admit a p value against the null hypothesis of there being no relation of 0.045 between the subreddits "pokemon" and "pokemongo. This together with a big Cohen's d 0f 0.618, lets us conclude that there, in fact, is a correlation between the release of the game Pokémon Go and the subreddit hyperlinks connecting to the subreddit "pokemongo". Considering neither "pokemon" nor "pokemongo" being under the top ten subreddits from hyperlink interactions (see [figure ???](#fig-plot-top-subreddits-gaming)), it is unsurprising that we are unable to see a noticeable impact on the cluster as a whole. Subreddits like "leagueoflegends" are just too dominant.
 
   <figure id="fig-before-after-graph-pokemon_go">
-      <div class="plotly-embed-smaller">
+      <div class="plotly-embed-smallest">
         <iframe
           src="{{ 'assets/img/plots/before-after-comparison_gaming_2016_06_11.html' | relative_url }}"
           loading="lazy">

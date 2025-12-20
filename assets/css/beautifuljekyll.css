@@ -1155,3 +1155,29 @@ pre {
   height: 100%;
   border: none;
 }
+
+.plotly-embed-smallest {
+  position: relative;
+  width: 100%;
+  height: 350px;   /* adjust if needed */
+  margin: 1.5rem 0;
+}
+
+.plotly-embed-smallest iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.plotly-embed-bigger {
+  position: relative;
+  width: 100%;
+  height: 800px;   /* adjust if needed */
+  margin: 1.5rem 0;
+}
+
+.plotly-embed-bigger iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
