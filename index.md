@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Reddit Rewired: Event-Driven Bridges"
-subtitle: How global events reshape (or fail to reshape) Reddit communities
+title: "Reddit Rewired: Event-Driven Interactiosn"
+subtitle: How global events impact Reddit communities
 cover-img: /assets/img/reddit_header.png
 ---
 

@@ -123,7 +123,7 @@ Gaming events stand apart due to the central position of the Gaming community it
 
 Taken together, these patterns reveal that not all events ripple through the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections entirely — each leaving a distinct signature in how Reddit responds when the world changes.
 
-  </figure>  <figure id="fig-plot-conn">
+ <figure id="fig-plot-conn">
     <div class="plotly-embed-smaller">
       <iframe
         src="{{ 'assets/img/plotly_plots/strengthened_vs_weakened_connections.html' | relative_url }}"
@@ -147,34 +147,10 @@ Taken together, these patterns reveal that not all events ripple through the net
       </strong> Figure 7.</strong> Average sentiment shift observed across Reddit
     communities for each event category.
     </figcaption>
+  </figure>
 
 
 
-<figure class="figure text-center">
-  <img src="assets/img/averageSentiment.png"
-       alt="Average sentiment shift by event category"
-       width="750">
-  <figcaption class="figure-caption">
-    <strong>Figure 6.</strong> Average sentiment shift observed across Reddit
-    communities for each event category. Positive values indicate an overall
-    increase in sentiment, while negative values reflect predominantly adverse
-    emotional responses. Natural and social disasters stand out as the only event
-    category associated with a net negative sentiment shift.
-  </figcaption>
-</figure>
-
-<figure class="figure text-center">
-  <img src="assets/img/strengthenedWeakenedInterConnections.png"
-       alt="Strengthened versus weakened inter-community connections by event category"
-       width="750">
-  <figcaption class="figure-caption">
-    <strong>Figure 7.</strong> Number of strengthened and weakened inter-community
-    connections by event category. Political events primarily reinforce existing
-    connections, whereas natural and social disasters are associated with a higher
-    prevalence of weakened ties. Other event categories exhibit more balanced
-    structural effects.
-  </figcaption>
-</figure>
 
 ## Zooming In: When Communities React Together
 
@@ -200,9 +176,9 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     <figcaption>
       <strong>Figure 5.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
     </figcaption>
-    </figcaption>
   </figure>
-   <figure id="fig-plot-top-subreddits-politics">
+
+  <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
@@ -231,9 +207,9 @@ Despite their shared visibility in public life, political and sports communities
     <figcaption>
       <strong>Figure 5.</strong> Posting trend between the Politics community and the Sports community around the US elections of 2016.
     </figcaption>
-    </figcaption>
   </figure>
-   <figure id="fig-plot-top-subreddits-politics">
+
+  <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
@@ -262,9 +238,9 @@ In both directions, interactions strengthen around moments of shared concern and
     <figcaption>
       <strong>Figure 5.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
     </figcaption>
-    </figcaption>
   </figure>
-   <figure id="fig-plot-top-subreddits-politics">
+
+  <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
@@ -279,7 +255,7 @@ In both directions, interactions strengthen around moments of shared concern and
 
 ## A Digital Mirror of Real Social Life
 
-Taken together, these patterns closely echo dynamics observed in the real world. Not every group responds to the same events, and not every interaction carries equal influence. Some communities are tightly interwoven, with reactions that ripple across boundaries. Others influence one another asymmetrically, while some coexist with little interaction at all.
+Taken together, these patterns closely echo dynamics observed in the real world. Not every group responds to the same events, and not every interaction carries equal influence. Some communities are tightly interwoven, with reactions that ripple across boundaries. Others influence one another asymmetrically, while some coexist with little interaction at all, just like in the real world.
 
 Reddit, then, is not a uniformly reactive system. It is a mosaic of social spheres, where connections strengthen, weaken, or remain untouched depending on context. In this way, the platform mirrors human society itself — selective, uneven, and shaped as much by shared meaning as by shared space.
 
