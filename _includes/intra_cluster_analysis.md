@@ -272,18 +272,6 @@ After having studied the reaction of the politics cluster on a huge event, the n
   Despite the seemingly visual increase in activity that day, we cannot confirm any significant or lasting effect following on the whole cluster following the film's release. However what we are able to tell is that in the ego-network of the subreddit "starwars", the ties to a subreddit called "starwarsspeculation" got strengthened. This makes sense, as a new film in a long series always leads to new and exciting speculations by fans on what future movie instances in the star wars universe bring forth.
 
 
-#### Oscars 2016 (*#OscarsSoWhite*) — culture brushes politics, briefly
-
-  **I'll write a short sentence about it later, but we could also delete it this part.**
-
-  Unlike *Star Wars*, the Oscars explicitly intersect with political themes: diversity,
-  representation, and inequality. Here, we observe a short-lived increase in
-  interaction between entertainment and politics.
-
-  But the effect does not stabilize. No new bridges form, correlations return to
-  baseline, and the network quickly relaxes. Culture can open political conversations —
-  but it does not reorganize them.
-
 #### Game of Thrones, Season 6 (April - June 2016) — culture rewires itself, not politics
 
   The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
@@ -478,31 +466,8 @@ After having studied the reaction of the politics cluster on a huge event, the n
     </figure>
 
 
+
 ### Final takeaway
 
-Across politics, culture, social life, sports, gaming, and health, Reddit follows a
-consistent rule:
-
-**Major events change how Reddit talks — not who talks to whom.**
-
-Political shocks amplify emotion and sometimes spill into social spaces.  
-Cultural shocks reorganize culture internally but leave politics untouched.  
-Health crises concentrate discussion without diffusion.  
-Social communities absorb identity-driven conflict — but temporarily.
-
-Reddit reacts.  
-Reddit adapts.  
-But Reddit almost never rewires.
 
 
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll("details summary").forEach(function(summary) {
-    summary.addEventListener("click", function() {
-      const content = summary.nextElementSibling;
-      content.style.display = content.style.display === "none" ? "block" : "none";
-    });
-  });
-});
-</script>
