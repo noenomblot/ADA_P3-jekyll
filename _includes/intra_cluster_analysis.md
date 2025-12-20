@@ -1,18 +1,16 @@
-## 5. Zooming into Events and Communities (Template)
+## 5. Zooming into Events and Communities 
 
-In the final story, this section will be the core of **RQ2**:
-
-- Identify which communities act as **bridges** during events.
-- Compare how different types of communities react:
-  - e.g. political vs cinema clusters.
-- Look at a detailed **case study**:
-  - e.g. US election and the behaviour of key political subreddits.
-
-Planned structure:
-
-1. **Global view** – how activity changes around events.  
-2. **Politics vs Cinema** – two worlds reacting differently.  
-3. **Inside a political cluster** – who talks to whom during the US election?  
+<figure id="fig-chord-diagram">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/periodly_chord_diagram.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Chord diagram of monthly inter-cluster hyperlink connections.
+    </figcaption>
+  </figure>
 
 
 
