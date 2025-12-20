@@ -93,7 +93,7 @@ Political events stand out as the most disruptive overall, driving intense activ
 Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
 
   <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed">
       <iframe
         src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
         loading="lazy">
@@ -168,7 +168,7 @@ The relationship between political and entertainment communities reveals a clear
 The reverse, however, does not hold. When *Star Wars: The Force Awakens* was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
 
  <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
         loading="lazy">
@@ -180,7 +180,7 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     </figcaption>
   </figure>
    <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
         loading="lazy">
@@ -199,7 +199,7 @@ A very different picture emerges when politics intersects with sports. Examining
 Despite their shared visibility in public life, political and sports communities largely operate in parallel. Major sporting events generate intense internal engagement, yet they do not meaningfully cross into political discussion in a lasting way. This pairing illustrates **parallel coexistence** — two communities occupying the same platform, reacting to the world independently, and rarely influencing one another.
 
  <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph1_9.html' | relative_url }}"
         loading="lazy">
@@ -211,7 +211,7 @@ Despite their shared visibility in public life, political and sports communities
     </figcaption>
   </figure>
    <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
         loading="lazy">
@@ -230,7 +230,7 @@ The strongest coupling appears between political and social communities. Both th
 In both directions, interactions strengthen around moments of shared concern and remain elevated beyond the event window. This bidirectional sensitivity reflects **mutual amplification** — a relationship where engagement in one domain actively reinforces engagement in the other whenever events blur the line between social experience and political interpretation.
 
  <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph1_18.html' | relative_url }}"
         loading="lazy">
@@ -242,7 +242,7 @@ In both directions, interactions strengthen around moments of shared concern and
     </figcaption>
   </figure>
    <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
         loading="lazy">
