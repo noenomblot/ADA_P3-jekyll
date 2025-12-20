@@ -150,31 +150,7 @@ Taken together, these patterns reveal that not all events ripple through the net
 
 
 
-<figure class="figure text-center">
-  <img src="assets/img/averageSentiment.png"
-       alt="Average sentiment shift by event category"
-       width="750">
-  <figcaption class="figure-caption">
-    <strong>Figure 6.</strong> Average sentiment shift observed across Reddit
-    communities for each event category. Positive values indicate an overall
-    increase in sentiment, while negative values reflect predominantly adverse
-    emotional responses. Natural and social disasters stand out as the only event
-    category associated with a net negative sentiment shift.
-  </figcaption>
-</figure>
 
-<figure class="figure text-center">
-  <img src="assets/img/strengthenedWeakenedInterConnections.png"
-       alt="Strengthened versus weakened inter-community connections by event category"
-       width="750">
-  <figcaption class="figure-caption">
-    <strong>Figure 7.</strong> Number of strengthened and weakened inter-community
-    connections by event category. Political events primarily reinforce existing
-    connections, whereas natural and social disasters are associated with a higher
-    prevalence of weakened ties. Other event categories exhibit more balanced
-    structural effects.
-  </figcaption>
-</figure>
 
 ## Zooming In: When Communities React Together
 
