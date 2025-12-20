@@ -11,12 +11,12 @@ Some of these moments are impossible to forget. Others may have passed quietly, 
 Certain events pull political discussion into nearly every corner of the platform. The annexation of Crimea in March 2014 marked a sharp shift in global geopolitics and triggered sustained debate that extended far beyond explicitly political communities.  
 
 The Brexit referendum in June 2016 produced a similar effect. As the United Kingdom voted to leave the European Union, discussions spilled across national, economic, and cultural boundaries. That same year, political attention reached a peak during the United States presidential election, an event that dominated Reddit in November 2016 and sparked intense, polarized conversations worldwide.
-
-These moments did not just increase activity — they **reconfigured connections** between communities that rarely interacted before.
-
 <div style="text-align: center; margin: 2rem 0;">
   <img src="assets\img\events\politics.png">
 </div>
+
+These moments did not just increase activity — they **reconfigured connections** between communities that rarely interacted before.
+
 ---
 
 ## Sports: A Global Crowd, One Conversation
@@ -25,10 +25,8 @@ Major sporting events have a unique ability to unite attention across borders. T
 
 This shared focus continued with Super Bowl XLIX in February 2015, a cultural milestone in the United States that drew in both sports and non-sports communities alike. The opening ceremony of the Rio de Janeiro Olympic Games in August 2016 extended this effect even further, concentrating global attention around a single, time-bound moment.
 
-<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-  <img src="assets/img/fifaWorldCup.jpg" width="250">
-  <img src="assets/img/SuperBowl.jpg" width="250">
-  <img src="assets/img/JO2016.jpg" width="250">
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="assets\img\events\sports.png">
 </div>
 ---
 
@@ -37,11 +35,8 @@ This shared focus continued with Super Bowl XLIX in February 2015, a cultural mi
 Few things travel across Reddit as effortlessly as pop culture. The release of *Star Wars: The Force Awakens* in December 2015 reignited a legendary franchise and pulled together fans, critics, and casual viewers across dozens of communities.  
 
 The film industry remained in focus during the 88th Academy Awards in February 2016, while television took center stage with the premiere of *Game of Thrones* Season 6 in April of the same year. These moments show how shared narratives can synchronize attention across otherwise unrelated spaces.
-
-<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-  <img src="assets/img/StarWars.png" width="250">
-  <img src="assets/img/Oscars.jpg" width="250">
-  <img src="assets/img/GOT6.jpg" width="250">
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="assets\img\events\movies.png">
 </div>
 ---
 
@@ -49,15 +44,15 @@ The film industry remained in focus during the 88th Academy Awards in February 2
 
 Not all events are anticipated. Some arrive abruptly, leaving behind sharp spikes in attention and emotion. The Ebola outbreak in West Africa in August 2014 escalated into a global health crisis, generating fear, uncertainty, and widespread discussion.  
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="assets\img\events\social.png">
+</div>
+
 Similarly, the terrorist attacks in Paris in November 2015 triggered waves of shock, grief, and international solidarity. Natural disasters follow a comparable pattern: the Illapel earthquake in Chile in September 2015 prompted immediate, emotionally charged responses as news spread across the platform.
 
 These events compress time and space, briefly pulling distant communities into a shared emotional moment.
 
-<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-  <img src="assets/img/ebola.jpg" width="250">
-  <img src="assets/img/bataclan.jpg" width="250">
-  <img src="assets/img/ChileEarthquake.jpg" width="250">
-</div>
+
 ---
 
 ## Holidays: Rhythms of Collective Life
@@ -66,10 +61,8 @@ Alongside singular events, recurring holidays provide a different lens on collec
 
 Rather than sudden shocks, these days reveal **rhythms** — how shared traditions subtly reshape online interaction year after year.
 
-<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-  <img src="assets/img/4july.jpg" width="250">
-  <img src="assets/img/christmas.jpg" width="250">
-  <img src="assets/img/Thanksgiving.jpg" width="250">
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="assets\img\events\holidays.png">
 </div>
 ---
 
@@ -79,13 +72,12 @@ Finally, no exploration of Reddit would be complete without gaming. The release 
 
 Earlier, the PlayStation 4 release of *Grand Theft Auto V* in November 2014 extended the life of an already iconic title, while the reveal of the Nintendo Switch in October 2016 generated widespread anticipation for a new hybrid console.
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="assets\img\events\games.png">
+</div>
+
 These moments highlight how virtual worlds can trigger very real shifts in online attention.
 
-<div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
-  <img src="assets/img/PokemonGo.jpg" width="250">
-  <img src="assets/img/GTAV.png" width="250">
-  <img src="assets/img/Switch.jpg" width="250">
-</div>
 ---
 
 Together, these events form a diverse set of shocks — planned and unplanned, joyful and tragic, global and local. By tracing how each one ripples through Reddit, the platform becomes more than a collection of posts. It becomes a **sensor**, quietly recording how collective attention moves when the world changes.
