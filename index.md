@@ -120,8 +120,17 @@ So the perspective shifts.
 
 Instead of focusing on thousands of small communities, hyperlink interactions are grouped into **broader categories of human interest**: politics, sports, gaming, world news, and beyond. At this scale, the network starts to look familiar. Some communities emerge as bridges during moments of intense attention, channeling information across otherwise distant topics. Others remain inward-looking, largely unaffected by external events.
 
-Connections form quickly when the world demands attention, intensify as conversations converge, and then either fade away or settle into more permanent pathways — depending on the nature of the event that sparked them.
 
+
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/26914732">
+  <script src="https://public.flourish.studio/resources/embed.js">
+  </script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/26914732/thumbnail" width="100%" alt="hierarchy visualization" />
+  </noscript>
+</div>
+
+Connections form quickly when the world demands attention, intensify as conversations converge, and then either fade away or settle into more permanent pathways — depending on the nature of the event that sparked them.
 ---
 
 ## A Structure That Suddenly Makes Sense
@@ -132,20 +141,13 @@ This is why, on Reddit, it feels perfectly normal to learn about a new restauran
 
 What looks like randomness is, in fact, a network quietly shaped by shared attention.
 
-
-<figure class="figure text-center">
-  <img src="assets/img/ClusterInterationNetwork.png"
-       alt="Cluster interaction network on Reddit (2013–2017)"
-       width="700">
-  <figcaption class="figure-caption">
-    <strong>Figure 3.</strong> Cluster-level interaction network aggregated over
-    the 2013–2017 period. Nodes represent thematic clusters of subreddits, while
-    edges indicate hyperlink-based interactions between clusters. Edge thickness
-    reflects interaction intensity. Several clusters act as structural hubs,
-    mediating information flow across the network.
-  </figcaption>
-</figure>
-<br>
+<div class="flourish-embed flourish-network" data-src="visualisation/26916638">
+  <script src="https://public.flourish.studio/resources/embed.js">
+  </script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/26916638/thumbnail" width="100%" alt="network visualization" />
+  </noscript>
+</div>
 
 
 <!-- The file is under _includes/intercluster.md -->

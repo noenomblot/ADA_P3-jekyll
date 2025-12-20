@@ -1,16 +1,14 @@
 ## 5. Zooming into Events and Communities 
 
-<figure id="fig-chord-diagram">
-    <div class="plotly-embed-bigger">
-      <iframe
-        src="{{ 'assets/img/plots/periodly_chord_diagram.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Chord diagram of monthly inter-cluster hyperlink connections.
-    </figcaption>
-  </figure>
+chord
+<div class="flourish-embed flourish-chord" data-src="visualisation/26916041">
+  <script src="https://public.flourish.studio/resources/embed.js">
+  </script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/26916041/thumbnail" width="100%" alt="chord visualization" />
+  </noscript>
+</div>
+
 
 
 Storyline: 
