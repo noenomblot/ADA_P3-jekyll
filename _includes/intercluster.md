@@ -176,7 +176,6 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     <figcaption>
       <strong>Figure 5.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
     </figcaption>
-    </figcaption>
   </figure>
 
   <figure id="fig-plot-top-subreddits-politics">
