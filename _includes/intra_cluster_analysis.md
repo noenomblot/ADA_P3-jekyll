@@ -13,27 +13,14 @@
   </figure>
 
 
+Storyline: 
+* Show US elections as an example on how the cluster reacts and how it works (1 case, US elections)
+* Show difference between big and small event (2 cases, Terrorism)
+* Show difference between american and non-american event (2 cases, Sports)
+* Show difference between long and short event of similar "importance" (2 cases, Entertainment)
+* So small events can't ever do anything? (1 case; Pokemon Go)
 
-### How politics, culture, and social life interact on Reddit
-
-  Across dozens of large-scale events between 2014 and 2016, one central insight emerges:  
-  Reddit reacts strongly to major shocks — but it almost never rewires itself.
-
-  Instead of permanently reshaping who talks to whom, events temporarily redistribute
-  attention, emotion, and intensity along pre-existing community boundaries. Whether
-  interactions spill across communities depends far more on the *symbolic nature* of
-  the event than on its objective scale or media coverage.
-
-  This section focuses on one core axis of that behavior:  
-  the relationship between **politics, entertainment, and social life** on Reddit —
-  and its striking asymmetries.
-
-  ---
-
-### When politics hits, does culture react? 
-
-  Viewed through our three research questions, these results paint a consistent picture: major events do create bursts of cross-community interaction (RQ1), but only a small subset of communities — primarily social and, in rare symbolic cases, humor — act as temporary bridges (RQ2). Crucially, these event-driven ties almost always fade, leaving the long-term structure of the network largely unchanged (RQ3).
-  **Politics → Entertainment / Movies / TV**
+### If a big event happens, how do clusters react? - Politics
 
   In the politics/news cluster, the biggest subreddits in terms of subreddit interactions are unsurprisingly political. The biggest being "the_donald" a right wing (now banned) subreddit supporting Donald Trump especially during the 2016 US presidential election. The second biggest is "conspiracy" and the third and fourth "politics" and "news", two subreddits also strongly involved in the US election cycle of 2016. It has to be noted that "politics" and "news" tend to be anti-Trump and are taken as "the_donald"s counter-pole in our analysis.
 
@@ -80,7 +67,7 @@
     </figcaption>
   </figure>
 
-#### US Presidential Election (2016) — maximum polarization, minimal rewiring
+#### US Presidential Election (2016)
 
   As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald", "conspiracy", "politics" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
 
@@ -118,7 +105,7 @@
   The pause does not last though. The connections forged during the elections are here to stay. The links from "the_donald" with "politics" due to the election fade very slowly with a statistical half life of the connection being 55 weeks. This is very long, for comparison, the half life between "the_donald" and "news" is 22 weeks. In the case of "conspiracy" and "the_donald", the connection does not even decay, but rather increase in the weeks following. A trend well reflected in real life during both of Donald Trump's periods in office.
 
 
-
+<!---------------
 #### Crimea Annexation (2014) — geopolitics without cultural spillover
 
   **I'll look into either this or Brexit more exactly. The other I'll only write short sentence about**
@@ -140,22 +127,86 @@
   *However, this expansion remains fragile. While interaction intensity rises
   temporarily, no long-term cultural bridges form. Entertainment communities remain
   largely untouched. Politics becomes personal — but not cultural.*
-
-
-
-#### Politics → Entertainment: what we learn
-
-Across all three political events:
-
-- Politics sometimes spills into social spaces  
-- Politics rarely spills into entertainment  
-- Politics never durably rewires cultural communities  
-
-Entertainment remains structurally insulated from political shocks.
+---------------->
 
 
 
 ---
+
+
+### What size does an event have to be to invoke a reaction? - Terrorism
+
+After having studied the reaction of the politics cluster on a huge event, the next question comes naturally: How big does an event have to be, for a cluster to show a reaction? To answer that question, a look into the Geography/World cluster can help out. Specifically a comparison between two terrorist attacks in France in 2015.
+
+#### Charlie Hebdo (January 2015) — politics becomes social
+
+  In [Figure ???](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france". It also has to be mentioned, that both "france" and "paris" are mainly french speaking. We suppose this will lessen the hyperlinks to and from those subreddits, but this is outside the scope of this project.
+
+  <figure id="fig-cluster-graph-charlie-hebdo">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/clusters/temporal_cluster_graph_Charlie_Hebdo.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Daily hyperlink activities around the terrorist attacks on Charlie Hebdo in January 2015.
+    </figcaption>
+  </figure>
+
+
+  We can see that this event does **not** show a significant peak [Figure ???](#fig-before-after-graph-charlie-hebdo) when compared with the periods before and after. This is true for even small periods of time, this means even the momentary impact of the event in this cluster is surprisingly small.
+
+
+  <figure id="fig-before-after-graph-charlie-hebdo">
+    <div class="plotly-embed-smallest">
+      <iframe
+        src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_01_07.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Activities the year before and after the terrorist attacks.
+    </figcaption>
+  </figure>
+
+  Looking more exactly at the relationship of the subreddits "france" and "paris", it is possible to firstly deduce a newly (re-) formed but temporary relationship between the two, due to the event on January 7th. This being said, the connections between the two subreddits are sparse and far between, a statistical analysis will quickly find the connection to be significant even if it only lasts a few days or weeks. What we can say with certainty, is that the sentiment of those connections is more positive than most of the rest of the time in that year. This is without a doubt due to expressions of sympathy from one to another.
+
+#### Paris Attacks (November 2015) — emotion without structural change
+
+  <figure id="fig-cluster-graph-bataclan">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/clusters/temporal_cluster_graph_bataclan.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
+    </figcaption>
+  </figure>
+
+  [Figure ???](#fig-cluster-graph-bataclan) shows similar trends as [Figure ???](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
+
+  The difference between the two events is even more visible when comparing the before and after of the two terrorist attacks. The attack on November 13 is significantly more important in the whole cluster than the the posts in a year before and after (See [Figure ???](#fig-before-after-graph-bataclan)) The earlier mentioned temporary increase in relationship between "france" and "paris" in the attacks on Charlie Hebdo can be seen in the whole cluster for the attacks in November.
+
+
+  <figure id="fig-before-after-graph-bataclan">
+    <div class="plotly-embed-smallest">
+      <iframe
+        src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_11_13.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Hyperlink activities in the geography cluster a year before and after the november attacks.
+    </figcaption>
+  </figure>
+
+--------------
+
+
+
 
 ### Entertainment  
   **Entertainment → Politics**
@@ -261,89 +312,9 @@ Entertainment remains structurally insulated from political shocks.
 
 
 
-### Terrorism vs. health: symbolism matters more than severity
-
-Another title proposition if we exclude Ebola:
-"Terror attacks in Paris: Do more deaths equal more attention?"
 
 
-#### Charlie Hebdo (January 2015) — politics becomes social
-
-  In [Figure ???](#fig-cluster-graph-charlie-hebdo) we can see a visual increase of hyperlinks on the highlighted "paris" and "france" subreddits, though this increase is not much stronger. There is also an increase in links from "france" towards arabic country subreddits, many of them are interestingly enough situated in between "paris" and "france". It also has to be mentioned, that both "france" and "paris" are mainly french speaking. We suppose this will lessen the hyperlinks to and from those subreddits, but this is outside the scope of this project.
-
-  <figure id="fig-cluster-graph-charlie-hebdo">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_Charlie_Hebdo.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around the terrorist attacks on Charlie Hebdo in January 2015.
-    </figcaption>
-  </figure>
-
-
-  We can see that this event does **not** show a significant peak [Figure ???](#fig-before-after-graph-charlie-hebdo) when compared with the periods before and after. This is true for even small periods of time, this means even the momentary impact of the event in this cluster is surprisingly small.
-
-
-  <figure id="fig-before-after-graph-charlie-hebdo">
-    <div class="plotly-embed-smallest">
-      <iframe
-        src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_01_07.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Activities the year before and after the terrorist attacks.
-    </figcaption>
-  </figure>
-
-  Looking more exactly at the relationship of the subreddits "france" and "paris", it is possible to firstly deduce a newly (re-) formed but temporary relationship between the two, due to the event on January 7th. This being said, the connections between the two subreddits are sparse and far between, a statistical analysis will quickly find the connection to be significant even if it only lasts a few days or weeks. What we can say with certainty, is that the sentiment of those connections is more positive than most of the rest of the time in that year. This is without a doubt due to expressions of sympathy from one to another.
-
-#### Paris Attacks (November 2015) — emotion without structural change
-
-  <figure id="fig-cluster-graph-bataclan">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_bataclan.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around the November 2015 terrorist attacks in Paris.
-    </figcaption>
-  </figure>
-
-  [Figure ???](#fig-cluster-graph-bataclan) shows similar trends as [Figure ???](#fig-cluster-graph-charlie-hebdo), though the immediate days following the attack on 13 November 2015 show more intensive connections than what happened in the attacks on Charlie Hebdo in the beginning of the same year.
-
-  The difference between the two events is even more visible when comparing the before and after of the two terrorist attacks. The attack on November 13 is significantly more important in the whole cluster than the the posts in a year before and after (See [Figure ???](#fig-before-after-graph-bataclan)) The earlier mentioned temporary increase in relationship between "france" and "paris" in the attacks on Charlie Hebdo can be seen in the whole cluster for the attacks in November.
-
-
-  <figure id="fig-before-after-graph-bataclan">
-    <div class="plotly-embed-smallest">
-      <iframe
-        src="{{ 'assets/img/plots/before_after_during_World_Geography_2015_11_13.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Hyperlink activities in the geography cluster a year before and after the november attacks.
-    </figcaption>
-  </figure>
-
-
-
-
-#### Ebola (2014) — fear without diffusion
-
-**I vote to exclude this. It covers a too big of a period and is impossible to analyze**
-
-Ebola generates fear, but no political or social spillover. Health discussion
-contracts inward, remaining technical and informational. Severity alone is not
-enough; symbolism is decisive.
-
-
+<!--------------
 
 ### Sports
 
@@ -421,8 +392,6 @@ enough; symbolism is decisive.
 
   It would be possible to do a whole data analysis project only on the Super Bowl and how it is perceived on Reddit, but this is out of the scope of this project, as our goal here is to compare it to another event impacting the same cluster.
 
-
-
 #### European Championships 2016 (June/July 2016)
 
   This other event is the UEFA European Championships 2016 in France. It took place from 10th of June to 10th of July. 
@@ -458,7 +427,7 @@ enough; symbolism is decisive.
   The ego network of "soccer" reveals more or less what you'd expect. Similarly to the "nfl" subreddit, there are a lot of emotional shifts in relations with subreddits, for example a positive shift with "soccercirclejerk", a subreddit making fun of the main "soccer" subreddit, or a negative shift with Arsenal London's subreddit "gunners", though those shifts are not as strong as around the Super Bowl.
 
   It would also be possible to do a more extensive analysis on the European Championships and how it interacts with Reddit, especially taking into account the in Europe very popular local club seasons. Though this, like a possible study around the Super Bowl, is outside the scope of this project.
-
+------>
 
 ### Gaming
 
@@ -507,16 +476,6 @@ enough; symbolism is decisive.
         <strong>Figure ???.</strong> Activities the year before and after the release of Pokémon Go.
       </figcaption>
     </figure>
-
-### Other sport?
-
-Would be interesting to see if a big event (such as LoL championships) which is not important for the wider public but important for a big subreddit has a cluster-wide impact. We could theorize, that only big events or events in big subreddits are important for the whole cluster.
-
-
-### Others? collective attention
-
-
-**Either 1st of April (r/place) or Christmas or both would be funny.**
 
 
 ### Final takeaway
