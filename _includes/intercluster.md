@@ -147,7 +147,7 @@ Taken together, these patterns reveal that not all events ripple through the net
       </strong> Figure 7.</strong> Average sentiment shift observed across Reddit
     communities for each event category.
     </figcaption>
-
+  </figure>
 
 
 
@@ -178,7 +178,8 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     </figcaption>
     </figcaption>
   </figure>
-   <figure id="fig-plot-top-subreddits-politics">
+
+  <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
@@ -209,7 +210,8 @@ Despite their shared visibility in public life, political and sports communities
     </figcaption>
     </figcaption>
   </figure>
-   <figure id="fig-plot-top-subreddits-politics">
+
+  <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
