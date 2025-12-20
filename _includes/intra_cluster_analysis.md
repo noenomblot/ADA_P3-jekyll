@@ -38,7 +38,7 @@
   In the politics/news cluster, the biggest subreddits in terms of subreddit interactions are unsurprisingly political. The biggest being "the_donald" a right wing (now banned) subreddit supporting Donald Trump especially during the 2016 US presidential election. The second biggest is "conspiracy" and the third and fourth "politics" and "news", two subreddits also strongly involved in the US election cycle of 2016. It has to be noted that "politics" and "news" tend to be anti-Trump and are taken as "the_donald"s counter-pole in our analysis.
 
   <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-top">
       <iframe
         src="{{ 'assets/img/plots/top-subreddit-interaction-politics.html' | relative_url }}"
         loading="lazy">
@@ -191,7 +191,7 @@ Entertainment remains structurally insulated from political shocks.
   Back inside the entertainment cluster when analyzing the top subreddits by hyperlink numbers, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
 
   <figure id="fig-plot-top-subreddits-entertainment">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-top">
       <iframe
         src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
         loading="lazy">
@@ -352,7 +352,7 @@ enough; symbolism is decisive.
   Let's begin with the biggest subreddits. For Europeans it may seem surprising that "nfl" is the top subreddit and decidedly not "soccer", or football as it is better known as. But, because reddit was, and still is, mainly US American, the most [popular US sport](https://theenterpriseworld.com/most-popular-sports-in-the-usa/) is also dominant here. "soccer" is only third, after the in the US and Europe popular ice hockey subreddit. "cfb", "nfl_draft" and "oaklandraiders" are all football related and "mls" the north american soccer league subreddit.
 
   <figure id="fig-plot-top-subreddits-sports">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-top">
       <iframe
         src="{{ 'assets/img/plots/top-subreddit-interaction-sports.html' | relative_url }}"
         loading="lazy">
@@ -465,7 +465,7 @@ enough; symbolism is decisive.
   The cluster of gaming is big and, in Reddit terms, rather important. It's main contributors to the hyperlink lists are a mix of game specific subreddits such as "leagueoflegends", "dota" or "smashbros" or general gaming subreddits like "gaming", "gamingcirclejerk" or in a farther sense also "pcmasterrace". 
 
   <figure id="fig-plot-top-subreddits-gaming">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-top">
       <iframe
         src="{{ 'assets/img/plots/top-subreddit-interaction-gaming.html' | relative_url }}"
         loading="lazy">
