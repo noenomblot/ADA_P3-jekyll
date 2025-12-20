@@ -22,7 +22,13 @@ author: "ADAptive Thinkers"
 navbar-links:
   About Us: "aboutme"
   GitHub: "https://github.com/epfl-ada/ada-2025-project-adaptivethinkers2025"
-
+  Sections:
+    - "Introduction & Data": "/#intro"
+    - "Network of Subreddits": "/#network"
+    - "Event-Born Links": "/#events"
+    - "Politics vs Cinema": "/#clusters"
+    - "Inside Politics Cluster": "/#politics"
+    - "Conclusion": "/#conclusion"
 
 ################
 # --- Logo --- #
