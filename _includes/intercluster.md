@@ -92,13 +92,12 @@ Political events stand out as the most disruptive overall, driving intense activ
 
 Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
 
-  <figure id="fig-intercategory-heatmap">
-    <div class="plotly-embed-heatmap">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    
+<figure id="fig-intercategory-heatmap">
+  <div class="plotly-embed-heatmap">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
   </div>
   <figcaption>
     <strong>Figure X.</strong> Inter-category interaction heatmap.
@@ -132,8 +131,7 @@ Taken together, these patterns reveal that not all events ripple through the net
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Number of strengthened and weakened inter-community
-    connections by event category.
+      <strong>Figure 5.</strong> Number of strengthened and weakened inter-community connections by event category.
     </figcaption>
   </figure>
 
@@ -145,10 +143,10 @@ Taken together, these patterns reveal that not all events ripple through the net
       </iframe>
     </div>
     <figcaption>
-      </strong> Figure 7.</strong> Average sentiment shift observed across Reddit
-    communities for each event category.
+      </strong>Figure 7.</strong> Average sentiment shift observed across Reddit communities for each event category.
     </figcaption>
   </figure>
+
 
 
 
