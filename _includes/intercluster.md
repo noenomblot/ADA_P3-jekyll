@@ -15,9 +15,7 @@ The Brexit referendum in June 2016 produced a similar effect. As the United King
 These moments did not just increase activity — they **reconfigured connections** between communities that rarely interacted before.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets\img\events\politics.png"
-       alt="Composite image showing military movement, Brexit puzzle, and US 2016 election"
-       style="max-width: 100%; height: auto;">
+  <img src="assets\img\events\politics.png">
 </div>
 ---
 
