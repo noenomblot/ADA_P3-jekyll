@@ -94,7 +94,7 @@ Entertainment events generate strong activity in Entertainment and Gaming, with 
 
   <figure>
   <div class="plotly-container">
-    <div class="plotly-embed lg">
+    <div class="plotly-embed-heatmap">
       <iframe
         src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
         loading="lazy">
@@ -126,7 +126,7 @@ Gaming events stand apart due to the central position of the Gaming community it
 Taken together, these patterns reveal that not all events ripple through the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections entirely — each leaving a distinct signature in how Reddit responds when the world changes.
 
  <figure id="fig-plot-conn">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-heatmap">
       <iframe
         src="{{ 'assets/img/plotly_plots/strengthened_vs_weakened_connections.html' | relative_url }}"
         loading="lazy">
@@ -139,7 +139,7 @@ Taken together, these patterns reveal that not all events ripple through the net
   </figure>
 
   <figure id="fig-plot-sentiment">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-heatmap">
       <iframe
         src="{{ 'assets/img/plotly_plots/sentiment_shift_barplot.html' | relative_url }}"
         loading="lazy">
