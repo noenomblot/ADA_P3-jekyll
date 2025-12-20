@@ -1145,7 +1145,7 @@ pre {
 .plotly-embed-smaller {
   position: relative;
   width: 100%;
-  height: 550px;   /* adjust if needed */
+  height: 600px;   
   margin: 1.5rem 0;
 }
 
@@ -1199,7 +1199,7 @@ pre {
 .plotly-embed-heatmap iframe {
   width: 1200px;
   height: 520px;   
-  transform: scale(0.5);
+  transform: scale(0.475);
   transform-origin: top left;
   border: none;
 }
@@ -1217,7 +1217,7 @@ pre {
 .plotly-embed-long iframe {
   width: 1150px;
   height: 620px; 
-  transform: scale(0.5);
+  transform: scale(0.475);
   transform-origin: top left;
   border: none;
 }
@@ -1233,7 +1233,7 @@ pre {
 .plotly-embed-top iframe {
   width: 800px;
   height: 400px;
-  transform: scale(0.825);
+  transform: scale(0.8);
   transform-origin: top left;
   border: none;
 }
