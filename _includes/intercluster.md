@@ -123,7 +123,7 @@ Gaming events stand apart due to the central position of the Gaming community it
 
 Taken together, these patterns reveal that not all events ripple through the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections entirely — each leaving a distinct signature in how Reddit responds when the world changes.
 
-  </figure>  <figure id="fig-plot-conn">
+ <figure id="fig-plot-conn">
     <div class="plotly-embed-smaller">
       <iframe
         src="{{ 'assets/img/plotly_plots/strengthened_vs_weakened_connections.html' | relative_url }}"
@@ -242,7 +242,8 @@ In both directions, interactions strengthen around moments of shared concern and
     </figcaption>
     </figcaption>
   </figure>
-   <figure id="fig-plot-top-subreddits-politics">
+
+  <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-bigger">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
