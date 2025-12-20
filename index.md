@@ -87,7 +87,7 @@ Because many of these characteristics overlap or move together, the data is comp
        alt="Explained variance as a function of the number of principal components"
        width="600">
   <figcaption class="figure-caption">
-    Cumulative explained variance as a function of the number of principal
+    <strong>Figure 1.</strong>Cumulative explained variance as a function of the number of principal
     components. The dashed line indicates the 90% variance threshold.
   </figcaption>
 </figure>
@@ -102,10 +102,8 @@ The accompanying visualization highlights the fifteen subreddits with the highes
        alt="Top 15 subreddits by bot-like post rate"
        width="700">
   <figcaption class="figure-caption">
-    <strong>Figure 4.</strong> Top fifteen subreddits ranked by the proportion of
-    posts flagged as bot-like by the Isolation Forest model. High values indicate
-    subreddits where automated activity is likely to dominate content production,
-    motivating their exclusion from subsequent network analyses.
+    <strong>Figure 2.</strong> Top fifteen subreddits ranked by the proportion of
+    posts flagged as bot-like by the Isolation Forest model. 
   </figcaption>
 </figure>
 <br>
@@ -122,13 +120,22 @@ Instead of focusing on thousands of small communities, hyperlink interactions ar
 
 
 
-<div class="flourish-embed flourish-hierarchy" data-src="visualisation/26914732">
-  <script src="https://public.flourish.studio/resources/embed.js">
-  </script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/26914732/thumbnail" width="100%" alt="hierarchy visualization" />
-  </noscript>
-</div>
+<figure class="flourish-figure">
+  <div class="flourish-embed flourish-hierarchy" data-src="visualisation/26914732">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+      <img src="https://public.flourish.studio/visualisation/26914732/thumbnail"
+           width="100%"
+           alt="Hierarchy visualization of Reddit communities" />
+    </noscript>
+  </div>
+
+  <figcaption>
+    <strong>Figure 3.</strong> Hierarchical representation of Reddit communities based on hyperlink interactions,
+    highlighting the structural organization of clusters across the platform.
+  </figcaption>
+</figure>
+
 
 Connections form quickly when the world demands attention, intensify as conversations converge, and then either fade away or settle into more permanent pathways — depending on the nature of the event that sparked them.
 ---
