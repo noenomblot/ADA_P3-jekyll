@@ -1145,7 +1145,7 @@ pre {
 .plotly-embed-smaller {
   position: relative;
   width: 100%;
-  height: 500px;   /* adjust if needed */
+  height: 600px;   
   margin: 1.5rem 0;
 }
 
@@ -1155,10 +1155,12 @@ pre {
   border: none;
 }
 
+
+
 .plotly-embed-smallest {
   position: relative;
   width: 100%;
-  height: 350px;   /* adjust if needed */
+  height: 450px;   /* adjust if needed */
   margin: 1.5rem 0;
 }
 
@@ -1167,6 +1169,9 @@ pre {
   height: 100%;
   border: none;
 }
+
+
+
 
 .plotly-embed-bigger {
   position: relative;
@@ -1181,45 +1186,66 @@ pre {
   border: none;
 }
 
+
+
+
 .plotly-embed-heatmap {
   position: relative;
-  width: 1200px;
-  height: 520px;   /* adjust if needed */
+  width: 100%;
+  height: 400px;
   margin: 1.5rem 0;
 }
 
 .plotly-embed-heatmap iframe {
   width: 100%;
-  height: 100%;
-  transform: scale(0.5);
+  height: 100%;   
   border: none;
 }
 
+
+
+.plotly-embed-bar {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 1.5rem 0;
+}
+
+.plotly-embed-bar iframe {
+  width: 100%;
+  height: 100%;   
+  border: none;
+}
+
+
+
 .plotly-embed-long {
   position: relative;
-  width: 1150px;
-  height: 620px;   /* adjust if needed */
+  width: 100%;
+  height: 394px;   
   margin: 1.5rem 0;
 }
 
 .plotly-embed-long iframe {
   width: 100%;
-  height: 100%;
-  transform: scale(0.5);
+  height: 100%; 
   border: none;
 }
 
 
+
+
 .plotly-embed-top {
   position: relative;
-  width: 800px;
-  height: 400px;   /* adjust if needed */
+  width: 100%;
+  height: 365px;  
   margin: 1.5rem 0;
 }
 
 .plotly-embed-top iframe {
   width: 100%;
   height: 100%;
+  transform: scale(0.9125);
   border: none;
 }
 
