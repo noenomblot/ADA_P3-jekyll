@@ -296,7 +296,7 @@ While these events are first and foremost human tragedies, this analysis shows h
 
 ### Can Longer Lasting Events be Distinguished? - Release of Season 6 of *Game of Thrones*
 
-We come to a topic, which at the time was highly celebrated, but now in hindsight many consider the [beginning of the downfall](https://www.reddit.com/r/gameofthrones/comments/xa3t7d/why_do_people_now_include_season_6_along_7_8_as/) of the popular TV-Series *Game of Thrones*. Due to the nature of the serial release, usually episodes do not air at the same time, but usually are published in a weekly frequency. As such, we would not expect an event, even of the cultural impact of *Game of Thrones* to show up on a temporal graph. 
+We come to a topic, which at the time was highly celebrated, but now in hindsight many consider the [beginning of the downfall](https://www.reddit.com/r/gameofthrones/comments/xa3t7d/why_do_people_now_include_season_6_along_7_8_as/) of the popular TV-Series *Game of Thrones*. It, like the election cycle for the US Presidential election, is a longer lasting process due to the nature of the serial release. Usually episodes do not air at the same time, but are published in a weekly frequency. As such, we would not necessarily expect an event, even of the cultural impact of *Game of Thrones* to be well visible on a temporal graph. 
 
 <figure id="fig-plot-normalized-weekly-entertainment">
   <div class="plotly-embed">
@@ -343,9 +343,9 @@ Looking at the clustering graph around the season release in [figure ???](#fig-c
 
 To get evidence for or against the theory of the series releas being the reason for an increased cluster activity, we look at the subreddit relation between the two most important *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Statistical evidence shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test results in a value of 0.484, which signifies a moderate increase in activity and confirms our visual observations of earlier. This being said, the p-value of the event really causing this increase is only 0.16. This is clearly not inside the tolerance of 0.05 usually necessary to exclude the null hypothesis of the increase being not caused by the event. Still, a p-value of this magnitude *may* be an indicator of a correlation.
 
-Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th.Indeed, we a decay in activity between the two subreddits "freefolk" and "gameofthrones". This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can clearly reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.75, 
+Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th.Indeed, we a decay in activity between the two subreddits "freefolk" and "gameofthrones". This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.28.
 
-We cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and clearly state there is no discernable decrease after the season ended.
+In the end, we cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and state that while there is decrease in inter-subreddit activity between "freefolk" and "gameofthrones", it is statistically not proven that the decrease stems from season 6's last episode being released.
 
 
 
@@ -467,10 +467,16 @@ We cannot conclusively confirm if season 6 of the series *Game of Thrones* reall
 ------>
 
 
-
-
-
 ### Final takeaway
 
+Considering all intra-cluster analysis done above, we may summarizes our findings:
 
+1. Big events cause a big reaction. The bigger the importance of an event for everyone, the bigger the reaction. The 2016 US election clearly showcases this effect with continuously increasing activity up until the election and then a depression in hyperlink activity after.
 
+2. Events can be important locally without affecting the whole cluster. The release of Pokémon Go showed a clear rise in activity around the "pokemongo" subreddit, but it's hype was not picked up by the whole cluster.
+
+3. Event impact matters. The bigger the event impact, the more likely a reaction in a cluster will be. There seems to be an unquantified point at which the whole cluster picks up on an event.
+
+4. Longer lasting events are hard, but not impossible to quantify, especially if their impact on a cluster is big.
+
+All of those findings would make for interesting further analysis and deeper dives with more extensive datasets, but this is outside the scope of this project. We can certainly say that real-life events **do** have a measurable impact on Reddit and we can also say that event importance and length do play a role on how Reddit perceives them.
