@@ -15,7 +15,7 @@ The Brexit referendum in June 2016 produced a similar effect. As the United King
 These moments did not just increase activity — they **reconfigured connections** between communities that rarely interacted before.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/img/events/politics.png"
+  <img src="assets\img\events\politics.png"
        alt="Composite image showing military movement, Brexit puzzle, and US 2016 election"
        style="max-width: 100%; height: auto;">
 </div>
@@ -103,16 +103,21 @@ Political events stand out as the most disruptive overall, driving intense activ
 Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
 
   <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 5.</strong> Inter-category interaction heatmap showing the intensity of interaction of cluster per event category.
-    </figcaption>
-  </figure>
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
+      loading="lazy"
+      scrolling="no"
+      frameborder="0">
+    </iframe>
+  </div>
+
+  <figcaption>
+    <strong>Figure 5.</strong>
+    Inter-category interaction heatmap showing the intensity of interaction of cluster per event category.
+  </figcaption>
+</figure>
+
 ---
 
 ## How Events Reshape Connections and Sentiment
