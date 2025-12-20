@@ -103,21 +103,16 @@ Political events stand out as the most disruptive overall, driving intense activ
 Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
 
   <figure id="fig-plot-top-subreddits-politics">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
-      loading="lazy"
-      scrolling="no"
-      frameborder="0">
-    </iframe>
-  </div>
-
-  <figcaption>
-    <strong>Figure 5.</strong>
-    Inter-category interaction heatmap showing the intensity of interaction of cluster per event category.
-  </figcaption>
-</figure>
-
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Inter-category interaction heatmap showing the intensity of interaction of cluster per event category.
+    </figcaption>
+  </figure>
 ---
 
 ## How Events Reshape Connections and Sentiment
@@ -168,174 +163,111 @@ Taken together, these patterns reveal that not all events ripple through the net
   </figcaption>
 </figure>
 
+## Zooming In: When Communities React Together
 
-## Event-Born Links: Short Flares or Lasting Imprints?
+To truly understand how Reddit functions as a social system, it is not enough to look only at global trends. The real insight emerges when attention shifts to **pairwise relationships** — how two communities respond *together* when the world changes. These interactions reveal whether connections are reactive, insulated, or mutually reinforcing.
 
-Major real-world events often trigger visible surges of activity on Reddit.
-But do they actually reshape how communities connect to each other — or do they
-merely amplify existing pathways?
-
-To answer this question, we focus on **inter-cluster relationships**, tracking how
-links between major thematic communities evolve *before*, *during*, and *after*
-key global events.
-
----
-We define an event-born edge as an inter-cluster hyperlink that appears for the first time during the event window and was absent in a matched pre-event baseline.
-
-### Political shocks: strong spillovers, no structural creation
-
-#### US Presidential Election (2016) — Political Shock
-
-The 2016 US presidential election represents the most intense political shock in
-our dataset. On Reddit, political discussion spills decisively into social and
-relational communities.
-
-Interactions between Politics / News and Social clusters increase sharply and
-remain elevated well beyond the event window. Several existing inter-cluster ties
-strengthen substantially, and sentiment shifts are pronounced, both positively
-and negatively.
-
-Yet despite this intensity, the underlying network structure remains unchanged.
-No new inter-cluster relationships emerge, and no lasting structural bridges are
-created. The same pathways are reused more intensively, but no new ones are added.
-
-This pattern highlights a key distinction: high impact does not necessarily imply
-structural novelty.
-
-#### Charlie Hebdo Attacks (2015) — Political Crisis
-
-The Charlie Hebdo attacks generate a different kind of political shock — one that
-directly targets satire, free expression, and cultural identity.
-
-Here, interactions between Politics / News and Humor / Reddit, as well as broader
-cultural clusters, intensify strongly. A wide range of existing inter-cluster ties
-strengthen simultaneously, reflecting collective emotional processing across
-diverse communities.
-
-Once again, however, no new inter-cluster relationships appear. The event amplifies
-communication across many existing channels, but does not produce new long-term
-structural connections.
-
-Political crises, even when emotionally charged and culturally symbolic, appear to
-activate the network without rewiring it.
+A natural place to begin is the political segment of Reddit. Political discourse often leaks into other domains, yet at times remains surprisingly contained. Which of these outcomes occurs depends heavily on the nature of the event.
 
 ---
 
-### Collective entertainment: broad engagement, limited persistence
+### Politics Meets Entertainment: One-Way Spillover
 
-#### Super Bowl XLIX (2015) — Global Sports Event
+The relationship between political and entertainment communities reveals a clear asymmetry. During the 2016 U.S. presidential election, interactions between these clusters increase noticeably. Hyperlinks surge following the event and remain elevated well beyond the immediate aftermath. Politically charged moments pull entertainment communities into the conversation — through satire, commentary, late-night humor, or media framing — leaving behind a lasting imprint on their connection.
 
-The Super Bowl produces a short-lived but widespread social response. Sports
-discussions spill into general, social, and entertainment-related clusters, with
-many existing inter-cluster ties strengthening temporarily.
+The reverse, however, does not hold. When *Star Wars: The Force Awakens* was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
 
-The persistence of these effects is moderate: interaction levels remain somewhat
-elevated after the event, but gradually return toward baseline. No new inter-cluster
-relationships are created, and weakened ties re-emerge shortly after.
-
-This suggests that shared cultural spectacles mobilize attention broadly, but
-rarely leave lasting structural traces.
-
-#### Pokémon GO Launch (2016) — Cultural Phenomenon
-
-The launch of *Pokémon GO* generates one of the most diffuse engagement patterns in
-the dataset. Gaming communities connect more intensely with Social, General, and
-Technology-related clusters, reflecting the game’s broad demographic reach.
-
-Despite this unusually wide spillover, the pattern remains consistent with
-previous cases: existing inter-cluster ties strengthen, sentiment shifts slightly,
-but no new structural links emerge. The network absorbs the shock through
-amplification rather than expansion.
-
+ <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
+    </figcaption>
+    </figcaption>
+  </figure>
+   <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Posting trend between the Politics community and the Entertainment community around the release of "The Force Awakens".
+    </figcaption>
+  </figure>
 ---
 
-### A consistent pattern: amplification without rewiring
+### Politics and Sports: Parallel Worlds
 
-Across political crises, cultural tragedies, and mass entertainment events, a
-striking regularity emerges:
+A very different picture emerges when politics intersects with sports. Examining interactions around the 2015 Super Bowl shows remarkable stability. Posting behavior remains consistent before and after the event, and hyperlink exchange does not display any sustained change.
 
-- No event creates new inter-cluster relationships at the structural level  
-- Events consistently strengthen pre-existing bridges between communities  
-- These effects are often partially lasting, but do not redefine the long-term
-  backbone of the network  
+Despite their shared visibility in public life, political and sports communities largely operate in parallel. Major sporting events generate intense internal engagement, yet they do not meaningfully cross into political discussion in a lasting way. This pairing illustrates **parallel coexistence** — two communities occupying the same platform, reacting to the world independently, and rarely influencing one another.
 
-In other words, Reddit reacts strongly — but conservatively. The network flexes
-under pressure, channels attention through established pathways, and then
-stabilizes without forming new durable connections.
-
+ <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/graph1_9.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Posting trend between the Politics community and the Sports community around the US elections of 2016.
+    </figcaption>
+    </figcaption>
+  </figure>
+   <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Posting trend between the Politics community and the Sports community around the 2015 Superbowl.
+    </figcaption>
+  </figure>
 ---
-### Cluster-level sentiment dynamics
 
-While event-driven structural changes are extremely rare, sentiment reacts strongly
-to major events — but in a highly non-uniform way across communities. Importantly,
-the clusters experiencing the largest sentiment shifts are not the clusters where
-events originate. Political, entertainment, and gaming communities primarily act as
-sources of information and attention, rather than as sites of peak emotional
-expression.
+### Politics and Social Communities: Mutual Amplification
 
-Instead, the strongest sentiment gains consistently appear in peripheral or
-low-constraint clusters such as NSFW, Food, Finance, Humor / Reddit, and General.
-These communities are loosely tied to specific topics and allow more expressive,
-informal, or affective discourse. Across political crises, cultural shocks, and
-entertainment releases, they function as emotional spillover zones, absorbing
-reactions that remain weakly expressed in event-specific clusters.
+The strongest coupling appears between political and social communities. Both the 2016 U.S. election and the November 2015 Paris terrorist attacks trigger pronounced, synchronized reactions. Political events lead to heightened interaction with social communities as discussions around identity, values, and collective response intensify. At the same time, socially defined crises provoke political engagement, producing similar peaks in activity.
 
-This displacement of sentiment helps explain the network’s structural resilience.
-Emotional intensity is redistributed away from tightly organized communities,
-preventing local overload and reducing the incentive for new structural connections
-to form. In this sense, sentiment diffuses broadly while structure remains
-conservative: Reddit processes emotion through redirection rather than rewiring.
+In both directions, interactions strengthen around moments of shared concern and remain elevated beyond the event window. This bidirectional sensitivity reflects **mutual amplification** — a relationship where engagement in one domain actively reinforces engagement in the other whenever events blur the line between social experience and political interpretation.
+
+ <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/graph1_18.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
+    </figcaption>
+    </figcaption>
+  </figure>
+   <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
+    </figcaption>
+  </figure>
 ---
-### What this tells us about event-driven connectivity
 
-These findings suggest that Reddit’s community structure is highly resilient.
-Even moments of shared global attention rarely create genuinely new links between
-distant communities. Instead, events activate and intensify latent connections
-that already exist.
+## A Digital Mirror of Real Social Life
 
-This raises an important question for the remainder of the analysis:
-**Are there any events that truly break this pattern?**
+Taken together, these patterns closely echo dynamics observed in the real world. Not every group responds to the same events, and not every interaction carries equal influence. Some communities are tightly interwoven, with reactions that ripple across boundaries. Others influence one another asymmetrically, while some coexist with little interaction at all.
 
-#### Game of Thrones, Season 6 (2016) — when fiction creates new bridges
+Reddit, then, is not a uniformly reactive system. It is a mosaic of social spheres, where connections strengthen, weaken, or remain untouched depending on context. In this way, the platform mirrors human society itself — selective, uneven, and shaped as much by shared meaning as by shared space.
 
-The release of *Game of Thrones* Season 6 marks a rare departure from Reddit’s usual
-structural stability.
 
-Unlike political crises or mass sporting events, the premiere generates twelve
-entirely new inter-cluster relationships between Entertainment / Movies / TV and
-Politics / News communities. These links are absent in the two months preceding the
-event and persist beyond the immediate post-event window.
-
-This indicates genuine structural novelty: for once, a global cultural event does
-not merely amplify existing pathways — it creates new ones.
-
-The persistence of these connections is nonetheless nuanced. While the new links
-remain present in the network, their interaction intensity declines rapidly after
-the event. The overall persistence score reflects this dynamic: the structure
-survives, but the activity does not.
-
-This pattern contrasts sharply with political shocks such as the 2016 US
-presidential election, where interaction surges dramatically but no new structural
-connections emerge.
-
-Taken together, these cases reveal a key asymmetry: fictional universes can
-temporarily rewire the network, whereas political crises primarily reuse existing
-bridges.
-
-#### Not all cultural blockbusters rewire the network  
-*Star Wars: The Force Awakens* (2015)
-
-Despite its global reach and massive online engagement, the release of *Star Wars:
-The Force Awakens* does not produce meaningful structural reconfiguration of the
-Reddit network. Existing connections between entertainment communities and the
-broader Reddit ecosystem are activated and sometimes intensified, but no new
-inter-cluster relationships emerge that alter the long-term architecture.
-
-This contrast highlights an important distinction: scale alone is insufficient to
-rewire the network. While *Game of Thrones* Season 6 introduces genuinely new
-connections across communities, *Star Wars* primarily mobilizes pre-existing
-fandom structures.
-
-Taken together, these cases suggest that narrative discontinuity and episodic
-anticipation — rather than sheer popularity — are key drivers of structural
-novelty in event-driven connectivity.
