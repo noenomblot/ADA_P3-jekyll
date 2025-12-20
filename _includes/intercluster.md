@@ -102,18 +102,17 @@ Political events stand out as the most disruptive overall, driving intense activ
 
 Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
 
-<figure class="figure text-center">
-  <img src="assets/img/InterHeatMap.png"
-       alt="Inter-category interaction heatmap between event types and Reddit communities"
-       width="850">
-  <figcaption class="figure-caption">
-    <strong>Figure 5.</strong> Inter-category interaction heatmap. Rows represent
-    event categories (politics, sports, gaming, holidays, natural/social disasters,
-    entertainment), and columns represent Reddit communities. Cell intensity
-    indicates the volume of interactions observed for each event type–community
-    pair, highlighting structured patterns of engagement across domains.
-  </figcaption>
-</figure>
+  <figure id="fig-plot-top-subreddits-politics">
+    <div class="plotly-embed-smaller">
+      <iframe
+        src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure 5.</strong> Inter-category interaction heatmap showing the intensity of interaction of cluster per event category.
+    </figcaption>
+  </figure>
 ---
 
 ## How Events Reshape Connections and Sentiment
