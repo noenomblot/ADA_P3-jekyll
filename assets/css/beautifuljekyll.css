@@ -1198,9 +1198,7 @@ pre {
 
 .plotly-embed-heatmap iframe {
   width: 100%;
-  height: 100%;   
-  transform: scale(0.65);
-  transform-origin: top left;
+  height: 100%;   s
   border: none;
 }
 
@@ -1231,7 +1229,6 @@ pre {
 .plotly-embed-long iframe {
   width: 100%;
   height: 100%; 
-  transform: scale(0.6348);
   border: none;
 }
 
@@ -1248,8 +1245,6 @@ pre {
 .plotly-embed-top iframe {
   width: 100%;
   height: 100%;
-  transform: scale(0.9125);
-  transform-origin: top left;
   border: none;
 }
 
