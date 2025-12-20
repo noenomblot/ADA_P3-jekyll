@@ -13,32 +13,19 @@
   </figure>
 
 
+Storyline: 
+* Show US elections as an example on how the cluster reacts and how it works (1 case, US elections)
+* Show difference between big and small event (2 cases, Terrorism)
+* Show difference between american and non-american event (2 cases, Sports)
+* Show difference between long and short event of similar "importance" (2 cases, Entertainment)
+* So small events can't ever do anything? (1 case; Pokemon Go)
 
-### How politics, culture, and social life interact on Reddit
-
-  Across dozens of large-scale events between 2014 and 2016, one central insight emerges:  
-  Reddit reacts strongly to major shocks — but it almost never rewires itself.
-
-  Instead of permanently reshaping who talks to whom, events temporarily redistribute
-  attention, emotion, and intensity along pre-existing community boundaries. Whether
-  interactions spill across communities depends far more on the *symbolic nature* of
-  the event than on its objective scale or media coverage.
-
-  This section focuses on one core axis of that behavior:  
-  the relationship between **politics, entertainment, and social life** on Reddit —
-  and its striking asymmetries.
-
-  ---
-
-### When politics hits, does culture react? 
-
-  Viewed through our three research questions, these results paint a consistent picture: major events do create bursts of cross-community interaction (RQ1), but only a small subset of communities — primarily social and, in rare symbolic cases, humor — act as temporary bridges (RQ2). Crucially, these event-driven ties almost always fade, leaving the long-term structure of the network largely unchanged (RQ3).
-  **Politics → Entertainment / Movies / TV**
+### If a big event happens, how do clusters react? - Politics
 
   In the politics/news cluster, the biggest subreddits in terms of subreddit interactions are unsurprisingly political. The biggest being "the_donald" a right wing (now banned) subreddit supporting Donald Trump especially during the 2016 US presidential election. The second biggest is "conspiracy" and the third and fourth "politics" and "news", two subreddits also strongly involved in the US election cycle of 2016. It has to be noted that "politics" and "news" tend to be anti-Trump and are taken as "the_donald"s counter-pole in our analysis.
 
   <figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-top">
       <iframe
         src="{{ 'assets/img/plots/top-subreddit-interaction-politics.html' | relative_url }}"
         loading="lazy">
@@ -80,7 +67,7 @@
     </figcaption>
   </figure>
 
-#### US Presidential Election (2016) — maximum polarization, minimal rewiring
+#### US Presidential Election (2016)
 
   As shown in [Figure ???](#fig-cluster-graph-US-election), in the time period around the US election, everything is about Donald Trump or the election. In the figure, the subreddits "the_donald", "conspiracy", "politics" and "hillaryclinton" are highlighted and it can clearly be seen how dominating they, and especially "the_donald" and their close neighbors, are.
 
@@ -118,7 +105,7 @@
   The pause does not last though. The connections forged during the elections are here to stay. The links from "the_donald" with "politics" due to the election fade very slowly with a statistical half life of the connection being 55 weeks. This is very long, for comparison, the half life between "the_donald" and "news" is 22 weeks. In the case of "conspiracy" and "the_donald", the connection does not even decay, but rather increase in the weeks following. A trend well reflected in real life during both of Donald Trump's periods in office.
 
 
-
+<!---------------
 #### Crimea Annexation (2014) — geopolitics without cultural spillover
 
   **I'll look into either this or Brexit more exactly. The other I'll only write short sentence about**
@@ -140,132 +127,16 @@
   *However, this expansion remains fragile. While interaction intensity rises
   temporarily, no long-term cultural bridges form. Entertainment communities remain
   largely untouched. Politics becomes personal — but not cultural.*
-
-
-
-#### Politics → Entertainment: what we learn
-
-Across all three political events:
-
-- Politics sometimes spills into social spaces  
-- Politics rarely spills into entertainment  
-- Politics never durably rewires cultural communities  
-
-Entertainment remains structurally insulated from political shocks.
+---------------->
 
 
 
 ---
 
-### Entertainment  
-  **Entertainment → Politics**
 
-  <figure id="fig-plot-normalized-weekly-entertainment">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/plots/normalized_weekly_Entertainment.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Weekly activity in the Entertainment subreddit.
-    </figcaption>
-  </figure>
+### What size does an event have to be to invoke a reaction? - Terrorism
 
-  The daily activity in the cluster predictably increases over time if only due to increased size of reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event. No event is dominating enough for it to be easily visible on the temporal graph and the amount of posts increases near linearly over time.
-
-  <figure id="fig-sliding-event-intensity-entertainment">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/plots/sliding_event_intensity_entertainment.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Sliding event intensity in the entertainment cluster.
-    </figcaption>
-  </figure>
-
-  Analyzing the sliding event intensity of the entertainment cluster in [figure ???](#fig-sliding-event-intensity-entertainment) with the [sliding event intensity of the politics cluster](#fig-sliding-event-intensity-politics) seen earlier, it is possible to make out how the erraticness of the cluster intensity. While the sliding event intensity of the politics cluster changes over time based on an event, the entertainment cluster sliding event intensity has near unchanging peak-to-peak values and frequency. 
-
-  Back inside the entertainment cluster when analyzing the top subreddits by hyperlink numbers, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
-
-  <figure id="fig-plot-top-subreddits-entertainment">
-    <div class="plotly-embed-smaller">
-      <iframe
-        src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Top subreddits in the entertainment cluster by number of interactions.
-    </figcaption>
-  </figure>
-
-#### Star Wars: *The Force Awakens* (December 2015) — massive attention, zero political pull
-
-  [Figure ???](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
-
-  <figure id="fig-cluster-graph-force-awakens">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_force_awakens.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
-    </figcaption>
-  </figure>
-
-  Despite the seemingly visual increase in activity that day, we cannot confirm any significant or lasting effect following on the whole cluster following the film's release. However what we are able to tell is that in the ego-network of the subreddit "starwars", the ties to a subreddit called "starwarsspeculation" got strengthened. This makes sense, as a new film in a long series always leads to new and exciting speculations by fans on what future movie instances in the star wars universe bring forth.
-
-
-#### Oscars 2016 (*#OscarsSoWhite*) — culture brushes politics, briefly
-
-  **I'll write a short sentence about it later, but we could also delete it this part.**
-
-  Unlike *Star Wars*, the Oscars explicitly intersect with political themes: diversity,
-  representation, and inequality. Here, we observe a short-lived increase in
-  interaction between entertainment and politics.
-
-  But the effect does not stabilize. No new bridges form, correlations return to
-  baseline, and the network quickly relaxes. Culture can open political conversations —
-  but it does not reorganize them.
-
-#### Game of Thrones, Season 6 (April - June 2016) — culture rewires itself, not politics
-
-  The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
-  cultural reconfigurations in the dataset. New entertainment-to-entertainment ties
-  emerge and persist. The short term effect can clearly be seen in [Figure ???](#fig-cluster-graph-gameofthrones), which shows markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency compared to *The Force Awakens* release is likely also due to the continual nature of the serial format.
-
-  <figure id="fig-cluster-graph-gameofthrones">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_gameofthrones.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
-    </figcaption>
-  </figure>
-
-  It is hard to conclusively tell if there is really lasting change in the subreddit structure, though there seems to be a slight increase in subreddit activity at the event, which could translate into a lasting change after.
-
-  It is also interesting to look at the relation between the two main *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Our statistical analysis shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test shows a value of 0.484 which is a moderate increase in activity, though with a p value of 0.16, we cannot conclude the effect being due to the episode's release.
-
-  Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th, and indeed, we a decay in activity between the two subreddits. This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can clearly reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.75, 
-
-  We cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and clearly state there is no discernable decrease after the season ended.
-
-
-
-### Terrorism vs. health: symbolism matters more than severity
-
-Another title proposition if we exclude Ebola:
-"Terror attacks in Paris: Do more deaths equal more attention?"
-
+After having studied the reaction of the politics cluster on a huge event, the next question comes naturally: How big does an event have to be, for a cluster to show a reaction? To answer that question, a look into the Geography/World cluster can help out. Specifically a comparison between two terrorist attacks in France in 2015.
 
 #### Charlie Hebdo (January 2015) — politics becomes social
 
@@ -332,18 +203,106 @@ Another title proposition if we exclude Ebola:
     </figcaption>
   </figure>
 
+--------------
 
 
 
-#### Ebola (2014) — fear without diffusion
 
-**I vote to exclude this. It covers a too big of a period and is impossible to analyze**
+### Entertainment  
+  **Entertainment → Politics**
 
-Ebola generates fear, but no political or social spillover. Health discussion
-contracts inward, remaining technical and informational. Severity alone is not
-enough; symbolism is decisive.
+  <figure id="fig-plot-normalized-weekly-entertainment">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/normalized_weekly_Entertainment.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Weekly activity in the Entertainment subreddit.
+    </figcaption>
+  </figure>
+
+  The daily activity in the cluster predictably increases over time if only due to increased size of reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event. No event is dominating enough for it to be easily visible on the temporal graph and the amount of posts increases near linearly over time.
+
+  <figure id="fig-sliding-event-intensity-entertainment">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/plots/sliding_event_intensity_entertainment.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Sliding event intensity in the entertainment cluster.
+    </figcaption>
+  </figure>
+
+  Analyzing the sliding event intensity of the entertainment cluster in [figure ???](#fig-sliding-event-intensity-entertainment) with the [sliding event intensity of the politics cluster](#fig-sliding-event-intensity-politics) seen earlier, it is possible to make out how the erraticness of the cluster intensity. While the sliding event intensity of the politics cluster changes over time based on an event, the entertainment cluster sliding event intensity has near unchanging peak-to-peak values and frequency. 
+
+  Back inside the entertainment cluster when analyzing the top subreddits by hyperlink numbers, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
+
+  <figure id="fig-plot-top-subreddits-entertainment">
+    <div class="plotly-embed-top">
+      <iframe
+        src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Top subreddits in the entertainment cluster by number of interactions.
+    </figcaption>
+  </figure>
+
+#### Star Wars: *The Force Awakens* (December 2015) — massive attention, zero political pull
+
+  [Figure ???](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
+
+  <figure id="fig-cluster-graph-force-awakens">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/clusters/temporal_cluster_graph_force_awakens.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
+    </figcaption>
+  </figure>
+
+  Despite the seemingly visual increase in activity that day, we cannot confirm any significant or lasting effect following on the whole cluster following the film's release. However what we are able to tell is that in the ego-network of the subreddit "starwars", the ties to a subreddit called "starwarsspeculation" got strengthened. This makes sense, as a new film in a long series always leads to new and exciting speculations by fans on what future movie instances in the star wars universe bring forth.
 
 
+#### Game of Thrones, Season 6 (April - June 2016) — culture rewires itself, not politics
+
+  The Season 6 premiere of *Game of Thrones* creates one of the strongest internal
+  cultural reconfigurations in the dataset. New entertainment-to-entertainment ties
+  emerge and persist. The short term effect can clearly be seen in [Figure ???](#fig-cluster-graph-gameofthrones), which shows markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency compared to *The Force Awakens* release is likely also due to the continual nature of the serial format.
+
+  <figure id="fig-cluster-graph-gameofthrones">
+    <div class="plotly-embed">
+      <iframe
+        src="{{ 'assets/img/clusters/temporal_cluster_graph_gameofthrones.html' | relative_url }}"
+        loading="lazy">
+      </iframe>
+    </div>
+    <figcaption>
+      <strong>Figure ???.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
+    </figcaption>
+  </figure>
+
+  It is hard to conclusively tell if there is really lasting change in the subreddit structure, though there seems to be a slight increase in subreddit activity at the event, which could translate into a lasting change after.
+
+  It is also interesting to look at the relation between the two main *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Our statistical analysis shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test shows a value of 0.484 which is a moderate increase in activity, though with a p value of 0.16, we cannot conclude the effect being due to the episode's release.
+
+  Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th, and indeed, we a decay in activity between the two subreddits. This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can clearly reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.75, 
+
+  We cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and clearly state there is no discernable decrease after the season ended.
+
+
+
+
+
+<!--------------
 
 ### Sports
 
@@ -352,7 +311,7 @@ enough; symbolism is decisive.
   Let's begin with the biggest subreddits. For Europeans it may seem surprising that "nfl" is the top subreddit and decidedly not "soccer", or football as it is better known as. But, because reddit was, and still is, mainly US American, the most [popular US sport](https://theenterpriseworld.com/most-popular-sports-in-the-usa/) is also dominant here. "soccer" is only third, after the in the US and Europe popular ice hockey subreddit. "cfb", "nfl_draft" and "oaklandraiders" are all football related and "mls" the north american soccer league subreddit.
 
   <figure id="fig-plot-top-subreddits-sports">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-top">
       <iframe
         src="{{ 'assets/img/plots/top-subreddit-interaction-sports.html' | relative_url }}"
         loading="lazy">
@@ -421,8 +380,6 @@ enough; symbolism is decisive.
 
   It would be possible to do a whole data analysis project only on the Super Bowl and how it is perceived on Reddit, but this is out of the scope of this project, as our goal here is to compare it to another event impacting the same cluster.
 
-
-
 #### European Championships 2016 (June/July 2016)
 
   This other event is the UEFA European Championships 2016 in France. It took place from 10th of June to 10th of July. 
@@ -458,14 +415,14 @@ enough; symbolism is decisive.
   The ego network of "soccer" reveals more or less what you'd expect. Similarly to the "nfl" subreddit, there are a lot of emotional shifts in relations with subreddits, for example a positive shift with "soccercirclejerk", a subreddit making fun of the main "soccer" subreddit, or a negative shift with Arsenal London's subreddit "gunners", though those shifts are not as strong as around the Super Bowl.
 
   It would also be possible to do a more extensive analysis on the European Championships and how it interacts with Reddit, especially taking into account the in Europe very popular local club seasons. Though this, like a possible study around the Super Bowl, is outside the scope of this project.
-
+------>
 
 ### Gaming
 
   The cluster of gaming is big and, in Reddit terms, rather important. It's main contributors to the hyperlink lists are a mix of game specific subreddits such as "leagueoflegends", "dota" or "smashbros" or general gaming subreddits like "gaming", "gamingcirclejerk" or in a farther sense also "pcmasterrace". 
 
   <figure id="fig-plot-top-subreddits-gaming">
-    <div class="plotly-embed-smaller">
+    <div class="plotly-embed-top">
       <iframe
         src="{{ 'assets/img/plots/top-subreddit-interaction-gaming.html' | relative_url }}"
         loading="lazy">
@@ -508,42 +465,9 @@ enough; symbolism is decisive.
       </figcaption>
     </figure>
 
-### Other sport?
-
-Would be interesting to see if a big event (such as LoL championships) which is not important for the wider public but important for a big subreddit has a cluster-wide impact. We could theorize, that only big events or events in big subreddits are important for the whole cluster.
-
-
-### Others? collective attention
-
-
-**Either 1st of April (r/place) or Christmas or both would be funny.**
 
 
 ### Final takeaway
 
-Across politics, culture, social life, sports, gaming, and health, Reddit follows a
-consistent rule:
-
-**Major events change how Reddit talks — not who talks to whom.**
-
-Political shocks amplify emotion and sometimes spill into social spaces.  
-Cultural shocks reorganize culture internally but leave politics untouched.  
-Health crises concentrate discussion without diffusion.  
-Social communities absorb identity-driven conflict — but temporarily.
-
-Reddit reacts.  
-Reddit adapts.  
-But Reddit almost never rewires.
 
 
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  document.querySelectorAll("details summary").forEach(function(summary) {
-    summary.addEventListener("click", function() {
-      const content = summary.nextElementSibling;
-      content.style.display = content.style.display === "none" ? "block" : "none";
-    });
-  });
-});
-</script>
