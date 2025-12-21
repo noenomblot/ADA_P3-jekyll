@@ -348,7 +348,7 @@ Despite their shared visibility in public life, political and sports communities
 
 The strongest coupling appears between political and social communities. Both the 2016 U.S. election and the November 2015 Paris terrorist attacks trigger pronounced, synchronized reactions. Political events lead to heightened interaction with social communities as discussions around identity, values, and collective response intensify. At the same time, socially defined crises provoke political engagement, producing similar peaks in activity.
 
-In both directions, interactions strengthen around moments of shared concern and remain elevated beyond the event window. This bidirectional sensitivity reflects **mutual amplification** — a relationship where engagement in one domain actively reinforces engagement in the other whenever events blur the line between social experience and political interpretation.
+In both directions, interactions strengthen around moments of shared concern and remain elevated beyond the event window. This bidirectional sensitivity reflects mutual amplification : a relationship where engagement in one domain actively reinforces engagement in the other whenever events blur the line between social experience and political interpretation.
 
 <figure id="fig-plot-politics-social-election">
   <div class="plotly-embed-long">
