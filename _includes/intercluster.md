@@ -281,7 +281,7 @@ style="width:100%; max-width:100%; height:380px; border:none;">
   <figcaption>
     <strong>Figure 8.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
   </figcaption>
-</figure>
+
 
 <figure id="fig-plot-politics-entertainment-starwars">
   <div class="plotly-embed-long">
