@@ -272,7 +272,7 @@ A natural place to begin is the political segment of Reddit. Political discourse
 
 The relationship between political and entertainment communities reveals a clear asymmetry. During the 2016 U.S. presidential election, interactions between these clusters increase noticeably. Hyperlinks surge following the event and remain elevated well beyond the immediate aftermath. Politically charged moments pull entertainment communities into the conversation — through satire, commentary, late-night humor, or media framing — leaving behind a lasting imprint on their connection.
 
-The reverse, however, does not hold. When *Star Wars: The Force Awakens* was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
+The reverse, however, does not hold. When <em>Star Wars: The Force Awakens<em> was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
 
 <div style="width:100%; overflow:hidden;">
   <iframe
