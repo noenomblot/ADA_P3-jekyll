@@ -166,7 +166,7 @@ For this, we examine the release of the augmented-reality mobile game *Pokémon 
   </figcaption>
 </figure>
 
-A major reason a subreddit created in 2016 can still be in the top 50 is the **unusual structure** of the *Pokémon GO* community. Instead of remaining centralized in a single global subreddit, regional groups appeared almost immediately. For a game that (before COVID-19) rewarded walking outside and meeting other players, local coordination made perfect sense.
+A major reason a subreddit created in 2016 can still be in the top 50 is the **unusual structure** of the **Pokémon GO** community. Instead of remaining centralized in a single global subreddit, regional groups appeared almost immediately. For a game that (before COVID-19) rewarded walking outside and meeting other players, local coordination made perfect sense.
 
 In Figure&nbsp;[20](#fig-cluster-graph-pokemongo), the daily evolution of activity surrounding the worldwide release in June can be clearly traced. Highlighted in the analysis are the primary subreddit **r/pokemongo**, the broader franchise hub **r/pokemon**, and several regional offshoots, capturing both global and localized engagement patterns.
 
