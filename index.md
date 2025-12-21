@@ -86,7 +86,7 @@ Reddit quietly accumulates vast amounts of interaction data — but in its raw f
 
 ---
 
-## 3. Clearing the Noise: When Bots Get in the Way {#part3}
+### Clearing the Noise: When Bots Get in the Way
 
 The modern internet is not populated by humans alone. It is crowded with automated accounts designed to farm engagement, collect clicks, and inflate visibility. If Reddit is to be treated as a mirror of the real world, this noise has to go.
 
@@ -94,7 +94,7 @@ Before modeling collective behavior, the network must first be **cleaned**.
 
 ---
 
-### Finding Humans in a Sea of Automation
+#### Finding Humans in a Sea of Automation
 
 To uncover genuine, human-driven dynamics, abnormal posting behavior is first separated from the rest. Each subreddit is described through a rich set of signals that capture:
 
@@ -148,7 +148,7 @@ The accompanying visualization highlights the fifteen subreddits with the highes
 
 ---
 
-### From Chaos to Communities
+## 3. From Chaos to Communities {#part3}
 
 With bots removed, the Reddit Hyperlink Network is more authentic — but it is still vast, tangled, and nearly impossible to navigate at the level of individual subreddits.
 
