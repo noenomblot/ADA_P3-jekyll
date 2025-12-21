@@ -6,12 +6,41 @@ Some of these moments are impossible to forget. Others may have passed quietly, 
 
 ---
 
-<details style="margin: 1.2rem 0;">
+### A Gallery of Major Events
+
+<style>
+  .event-block {
+    margin: 1.5rem 0;
+    border-radius: 0.75rem;
+    border: 1px solid #f0d7b0;
+    padding: 0.75rem 1rem;
+    background-color: #fffaf0;
+  }
+  .event-block > summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+  }
+  .event-block > summary::-webkit-details-marker {
+    margin-right: 0.5rem;
+  }
+  .event-pill {
+    background-color:#FF6A1A;
+    color:white;
+    padding:0.1rem 0.7rem;
+    border-radius:999px;
+    font-size:0.8rem;
+    margin-right:0.6rem;
+    white-space: nowrap;
+  }
+</style>
+
+<details class="event-block">
   <summary>
-    <span style="background-color:#FF6A1A; color:white; padding:0.1rem 0.5rem; border-radius:999px; font-size:0.8rem;">
-      Politics
-    </span>
-    &nbsp; When the World Holds Its Breath
+    <span class="event-pill">Politics</span>
+    <span>When the World Holds Its Breath</span>
   </summary>
   <div markdown="1">
 
@@ -28,12 +57,10 @@ These moments did not just increase activity — they **reconfigured connections
   </div>
 </details>
 
-<details style="margin: 1.2rem 0;">
+<details class="event-block">
   <summary>
-    <span style="background-color:#FF6A1A; color:white; padding:0.1rem 0.5rem; border-radius:999px; font-size:0.8rem;">
-      Sports
-    </span>
-    &nbsp; A Global Crowd, One Conversation
+    <span class="event-pill">Sports</span>
+    <span>A Global Crowd, One Conversation</span>
   </summary>
   <div markdown="1">
 
@@ -48,12 +75,10 @@ This shared focus continued with Super Bowl XLIX in February 2015, a cultural mi
   </div>
 </details>
 
-<details style="margin: 1.2rem 0;">
+<details class="event-block">
   <summary>
-    <span style="background-color:#FF6A1A; color:white; padding:0.1rem 0.5rem; border-radius:999px; font-size:0.8rem;">
-      Entertainment
-    </span>
-    &nbsp; Shared Stories, Shared Attention
+    <span class="event-pill">Entertainment</span>
+    <span>Shared Stories, Shared Attention</span>
   </summary>
   <div markdown="1">
 
@@ -68,12 +93,10 @@ The film industry remained in focus during the 88th Academy Awards in February 2
   </div>
 </details>
 
-<details style="margin: 1.2rem 0;">
+<details class="event-block">
   <summary>
-    <span style="background-color:#FF6A1A; color:white; padding:0.1rem 0.5rem; border-radius:999px; font-size:0.8rem;">
-      Crises
-    </span>
-    &nbsp; Sudden Shocks, Emotional Surges
+    <span class="event-pill">Crises</span>
+    <span>Sudden Shocks, Emotional Surges</span>
   </summary>
   <div markdown="1">
 
@@ -90,12 +113,10 @@ These events compress time and space, briefly pulling distant communities into a
   </div>
 </details>
 
-<details style="margin: 1.2rem 0;">
+<details class="event-block">
   <summary>
-    <span style="background-color:#FF6A1A; color:white; padding:0.1rem 0.5rem; border-radius:999px; font-size:0.8rem;">
-      Holidays
-    </span>
-    &nbsp; Rhythms of Collective Life
+    <span class="event-pill">Holidays</span>
+    <span>Rhythms of Collective Life</span>
   </summary>
   <div markdown="1">
 
@@ -110,12 +131,10 @@ Rather than sudden shocks, these days reveal **rhythms** — how shared traditio
   </div>
 </details>
 
-<details style="margin: 1.2rem 0;">
+<details class="event-block">
   <summary>
-    <span style="background-color:#FF6A1A; color:white; padding:0.1rem 0.5rem; border-radius:999px; font-size:0.8rem;">
-      Gaming
-    </span>
-    &nbsp; Digital Worlds, Real Impact
+    <span class="event-pill">Gaming</span>
+    <span>Digital Worlds, Real Impact</span>
   </summary>
   <div markdown="1">
 
@@ -138,7 +157,7 @@ Together, these events form a diverse set of shocks — planned and unplanned, j
 
 
 
-## Reading the Ripple Effects at a Glance
+### Reading the Ripple Effects at a Glance
 
 The impact of major events is first examined at an aggregate level, grouping them by category to understand how highly salient real-world moments reshape activity across Reddit. When viewed through this lens, clear and structured patterns emerge.  
 
@@ -157,9 +176,10 @@ Entertainment events generate strong activity in Entertainment and Gaming, with 
     <strong>Figure 5.</strong> Inter-category interaction heatmap.
   </figcaption>
 </figure>
+
 ---
 
-## How Events Reshape Connections and Sentiment
+### How Events Reshape Connections and Sentiment
 
 Beyond sheer posting volume, these events also leave distinct structural footprints on the Reddit network by altering how communities connect to one another — and how those interactions feel.
 
@@ -197,19 +217,19 @@ Taken together, these patterns reveal that not all events ripple through the net
       </iframe>
     </div>
     <figcaption>
-      </strong>Figure 7.</strong> Average sentiment shift observed across Reddit communities for each event category.
+      <strong>Figure 7.</strong> Average sentiment shift observed across Reddit communities for each event category.
     </figcaption>
   </figure>
 
-## Zooming In: When Communities React Together
+---
+
+### Zooming In: When Communities React Together
 
 To truly understand how Reddit functions as a social system, it is not enough to look only at global trends. The real insight emerges when attention shifts to **pairwise relationships** — how two communities respond *together* when the world changes. These interactions reveal whether connections are reactive, insulated, or mutually reinforcing.
 
 A natural place to begin is the political segment of Reddit. Political discourse often leaks into other domains, yet at times remains surprisingly contained. Which of these outcomes occurs depends heavily on the nature of the event.
 
----
-
-### Politics Meets Entertainment: One-Way Spillover
+#### Politics Meets Entertainment: One-Way Spillover
 
 The relationship between political and entertainment communities reveals a clear asymmetry. During the 2016 U.S. presidential election, interactions between these clusters increase noticeably. Hyperlinks surge following the event and remain elevated well beyond the immediate aftermath. Politically charged moments pull entertainment communities into the conversation — through satire, commentary, late-night humor, or media framing — leaving behind a lasting imprint on their connection.
 
@@ -238,9 +258,8 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
       <strong>Figure 9.</strong> Posting trend between the Politics community and the Entertainment community around the release of "The Force Awakens".
     </figcaption>
   </figure>
----
 
-### Politics and Sports: Parallel Worlds
+#### Politics and Sports: Parallel Worlds
 
 A very different picture emerges when politics intersects with sports. Examining interactions around the 2015 Super Bowl shows remarkable stability. Posting behavior remains consistent before and after the event, and hyperlink exchange does not display any sustained change.
 
@@ -269,9 +288,8 @@ Despite their shared visibility in public life, political and sports communities
       <strong>Figure 11.</strong> Posting trend between the Politics community and the Sports community around the 2015 Superbowl.
     </figcaption>
   </figure>
----
 
-### Politics and Social Communities: Mutual Amplification
+#### Politics and Social Communities: Mutual Amplification
 
 The strongest coupling appears between political and social communities. Both the 2016 U.S. election and the November 2015 Paris terrorist attacks trigger pronounced, synchronized reactions. Political events lead to heightened interaction with social communities as discussions around identity, values, and collective response intensify. At the same time, socially defined crises provoke political engagement, producing similar peaks in activity.
 
@@ -285,26 +303,23 @@ In both directions, interactions strengthen around moments of shared concern and
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 5.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
+      <strong>Figure 12.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
     </figcaption>
   </figure>
 
-
-
   <figure>
-  <div class="plotly-container">
-    <div class="plotly-embed lg">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
+    <div class="plotly-container">
+      <div class="plotly-embed lg">
+        <iframe
+          src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
+          loading="lazy">
+        </iframe>
+      </div>
     </div>
-  </div>
-  <figcaption>
-    <strong>Figure 12.</strong> Inter-category interaction heatmap.
-  </figcaption>
-</figure>
-
+    <figcaption>
+      <strong>Figure 13.</strong> Inter-category interaction heatmap.
+    </figcaption>
+  </figure>
 
   <figure id="fig-plot-top-subreddits-politics">
     <div class="plotly-embed-long">
@@ -314,9 +329,10 @@ In both directions, interactions strengthen around moments of shared concern and
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 13.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
+      <strong>Figure 14.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
     </figcaption>
   </figure>
+
 ---
 
 ## A Digital Mirror of Real Social Life
