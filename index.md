@@ -15,7 +15,7 @@ That’s Reddit.
 
 ---
 
-## A Network That Feels Chaotic — But Isn’t
+### A Network That Feels Chaotic — But Isn’t
 
 At first glance, Reddit can feel overwhelming. Thousands of communities. Millions of users. Endless posts, links, arguments, jokes, and memes.
 
@@ -27,7 +27,7 @@ It **reacts**.
 
 ---
 
-## Collective Attention in Motion
+### Collective Attention in Motion
 
 Elections, unexpected product launches, breaking news, global crises — when moments like these happen, millions of people turn to the internet to make sense of them. They comment, debate, explain, speculate, and joke.
 
@@ -54,7 +54,7 @@ In other words, Reddit lets us watch collective behavior **form, spread, and dec
 
 ---
 
-## Let’s Dive In
+### Let’s Dive In
 
 By following the flow of hyperlinks across Reddit before, during, and after major world events, we can begin to understand how digital communities respond to shocks — much like societies do in the real world.
 
@@ -71,18 +71,16 @@ Reddit quietly accumulates vast amounts of interaction data — but in its raw f
     <span class="event-pill">Data pipeline</span>
     <span>From raw posts to an interaction network</span>
   </summary>
-  <div markdown="1">
-
-In practice, our pipeline follows a few key steps:
-
-- **Source**: Start from the SNAP *soc-RedditHyperlinks* dataset, which records hyperlinks between subreddits over time.  
-- **Build edges**: Treat each hyperlink as a directed edge from a source subreddit to a target subreddit.  
-- **Attach metadata**: Enrich these edges with additional information such as timestamps and sentiment scores.  
-- **Aggregate over time**: Group interactions into time windows so we can observe how the network evolves before, during and after real-world events.  
-- **Filter & cluster**: Remove bot-dominated subreddits and group the remaining ones into meaningful communities (politics, gaming, world news, etc.), which will become the stage on which events act.
-
-This gives us a living, time-resolved network that we can probe at different scales.
-
+  <div>
+    <p>In practice, our pipeline follows a few key steps:</p>
+    <ul>
+      <li><strong>Source</strong>: Start from the SNAP <em>soc-RedditHyperlinks</em> dataset, which records hyperlinks between subreddits over time.</li>
+      <li><strong>Build edges</strong>: Treat each hyperlink as a directed edge from a source subreddit to a target subreddit.</li>
+      <li><strong>Attach metadata</strong>: Enrich these edges with additional information such as timestamps and sentiment scores.</li>
+      <li><strong>Aggregate over time</strong>: Group interactions into time windows so we can observe how the network evolves before, during and after real-world events.</li>
+      <li><strong>Filter &amp; cluster</strong>: Remove bot-dominated subreddits and group the remaining ones into meaningful communities (politics, gaming, world news, etc.), which will become the stage on which events act.</li>
+    </ul>
+    <p>This gives us a living, time-resolved network that we can probe at different scales.</p>
   </div>
 </details>
 
@@ -139,12 +137,12 @@ The accompanying visualization highlights the fifteen subreddits with the highes
     <span class="event-pill">Why it matters</span>
     <span>Impact of bot filtering on our analysis</span>
   </summary>
-  <div markdown="1">
-
-- **Cleaner signals**: Removing bot-heavy subreddits ensures that spikes in activity are driven by human attention, not automated posting scripts.  
-- **More meaningful communities**: Clusters built on filtered data better reflect real social structure instead of artifacts of spam farms or automated link-sharing.  
-- **Stronger event interpretation**: When we later observe changes during major events, we can attribute them to genuine shifts in human behavior rather than background automation.
-
+  <div>
+    <ul>
+      <li><strong>Cleaner signals</strong>: Removing bot-heavy subreddits ensures that spikes in activity are driven by human attention, not automated posting scripts.</li>
+      <li><strong>More meaningful communities</strong>: Clusters built on filtered data better reflect real social structure instead of artifacts of spam farms or automated link-sharing.</li>
+      <li><strong>Stronger event interpretation</strong>: When we later observe changes during major events, we can attribute them to genuine shifts in human behavior rather than background automation.</li>
+    </ul>
   </div>
 </details>
 
@@ -205,12 +203,12 @@ What looks like randomness is, in fact, a network quietly shaped by shared atten
     <span class="event-pill">Key idea</span>
     <span>The map we will use for events</span>
   </summary>
-  <div markdown="1">
-
-- The **nodes** of our story are not individual subreddits, but **clusters of related communities**.  
-- The **edges** are the hyperlinks between them, strengthened or weakened as events unfold.  
-- This cluster-level map is the backbone for everything that follows: we will watch how it bends, stretches, and sometimes fractures under the pressure of real-world events.
-
+  <div>
+    <ul>
+      <li>The <strong>nodes</strong> of our story are not individual subreddits, but <strong>clusters of related communities</strong>.</li>
+      <li>The <strong>edges</strong> are the hyperlinks between them, strengthened or weakened as events unfold.</li>
+      <li>This cluster-level map is the backbone for everything that follows: we will watch how it bends, stretches, and sometimes fractures under the pressure of real-world events.</li>
+    </ul>
   </div>
 </details>
 
@@ -250,12 +248,13 @@ Major events leave the deepest structural footprints. Elections, crises, and glo
     <span class="event-pill">Big picture</span>
     <span>Reddit as a mirror of the world</span>
   </summary>
-  <div markdown="1">
-
-Across all levels of analysis — between clusters, within clusters, and between specific communities — one pattern remains consistent: Reddit does not react uniformly. Attention spreads asymmetrically, influence depends on context and perceived importance, and engagement is shaped by the same selective pressures that govern real-world interaction.
-
-So the next time you follow a hyperlink to another subreddit, pause for a moment before scrolling past. That click may pull you into the center of an unfolding conversation — one that strengthens old ties, challenges existing narratives, or subtly reshapes the structure of a community. In doing so, you become part of the same collective dynamics that quietly turn Reddit into a map of the world it reflects.
-
+  <div>
+    <p>
+      Across all levels of analysis — between clusters, within clusters, and between specific communities — one pattern remains consistent: Reddit does not react uniformly. Attention spreads asymmetrically, influence depends on context and perceived importance, and engagement is shaped by the same selective pressures that govern real-world interaction.
+    </p>
+    <p>
+      So the next time you follow a hyperlink to another subreddit, pause for a moment before scrolling past. That click may pull you into the center of an unfolding conversation — one that strengthens old ties, challenges existing narratives, or subtly reshapes the structure of a community. In doing so, you become part of the same collective dynamics that quietly turn Reddit into a map of the world it reflects.
+    </p>
   </div>
 </details>
 
