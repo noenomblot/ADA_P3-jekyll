@@ -275,7 +275,7 @@ The group around **r/france** shows a clear surge in hyperlink connections, alth
 
 Here, a **cluster-wide increase** in hyperlink connections appears around the date of the attacks, followed by a gradual return to baseline. Locally, connections between **r/france** and **r/paris** strengthen again, but only temporarily.
 
-While these events are first and foremost human tragedies, this analysis shows that the magnitude of an incident matters for how strongly Reddit reacts. Reddit’s engagement should not be interpreted as a measure of real-world loss, but the patterns suggest, contrary to earlier findings, that after a large-scale catastrophe, inter-community engagement is often driven by expressions of empathy that are intense but short-lived, rather than by lasting structural change.
+While these events are first and foremost human tragedies, this analysis shows that the magnitude of an incident matters for how strongly Reddit reacts. Reddit’s engagement should not be interpreted as a measure of real-world loss, but the patterns suggest that after a large-scale catastrophe, inter-community engagement is often driven by expressions of empathy that are intense but short-lived, rather than by lasting structural change.
 
   </div>
 </details>
