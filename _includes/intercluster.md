@@ -42,7 +42,7 @@ Some of these moments are impossible to forget. Others may have passed quietly, 
     <span class="event-pill">Politics</span>
     <span>When the World Holds Its Breath</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 Certain events pull political discussion into nearly every corner of the platform. The annexation of Crimea in March 2014 marked a sharp shift in global geopolitics and triggered sustained debate that extended far beyond explicitly political communities.  
 
@@ -63,7 +63,7 @@ These moments did not just increase activity — they **reconfigured connections
     <span class="event-pill">Sports</span>
     <span>A Global Crowd, One Conversation</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 Major sporting events have a unique ability to unite attention across borders. The opening of the 2014 FIFA World Cup in Brazil transformed Reddit into a global stadium, with discussions cutting across national and linguistic lines.  
 
@@ -82,7 +82,7 @@ This shared focus continued with Super Bowl XLIX in February 2015, a cultural mi
     <span class="event-pill">Entertainment</span>
     <span>Shared Stories, Shared Attention</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 Few things travel across Reddit as effortlessly as pop culture. The release of *Star Wars: The Force Awakens* in December 2015 reignited a legendary franchise and pulled together fans, critics, and casual viewers across dozens of communities.  
 
@@ -101,7 +101,7 @@ The film industry remained in focus during the 88th Academy Awards in February 2
     <span class="event-pill">Crises</span>
     <span>Sudden Shocks, Emotional Surges</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 Not all events are anticipated. Some arrive abruptly, leaving behind sharp spikes in attention and emotion. The Ebola outbreak in West Africa in August 2014 escalated into a global health crisis, generating fear, uncertainty, and widespread discussion.  
 
@@ -122,7 +122,7 @@ These events compress time and space, briefly pulling distant communities into a
     <span class="event-pill">Holidays</span>
     <span>Rhythms of Collective Life</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 Alongside singular events, recurring holidays provide a different lens on collective behavior. Independence Day in July 2014, Christmas Day in December 2015, and Thanksgiving in November 2016 represent predictable moments of cultural alignment.  
 
@@ -141,7 +141,7 @@ Rather than sudden shocks, these days reveal **rhythms** — how shared traditio
     <span class="event-pill">Gaming</span>
     <span>Digital Worlds, Real Impact</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 Finally, no exploration of Reddit would be complete without gaming. The release of *Pokémon GO* in July 2016 rapidly evolved into a global phenomenon, blending physical movement with digital play and spilling into communities far beyond gaming itself.  
 
@@ -161,22 +161,26 @@ These moments highlight how virtual worlds can trigger very real shifts in onlin
 
 Together, these events form a diverse set of shocks — planned and unplanned, joyful and tragic, global and local. By tracing how each one ripples through Reddit, the platform becomes more than a collection of posts. It becomes a **sensor**, quietly recording how collective attention moves when the world changes.
 
-
+---
 
 ### Reading the Ripple Effects at a Glance
 
-The impact of major events is first examined at an aggregate level, grouping them by category to understand how highly salient real-world moments reshape activity across Reddit. When viewed through this lens, clear and structured patterns emerge.  
+To understand how these events reshape Reddit at a higher level, we first group them by category and examine how they redistribute attention across communities.
 
-Political events stand out as the most disruptive overall, driving intense activity across Politics, World, News, and Technology communities. Their broad societal relevance pulls in audiences far beyond explicitly political spaces. Sporting events, by contrast, concentrate engagement within Sports while also activating World and Gaming communities, reflecting the global yet recreational nature of large competitions.  
+At this scale, clear patterns emerge:
 
-Entertainment events generate strong activity in Entertainment and Gaming, with noticeable spillover into World-oriented discussions, underscoring their cultural reach beyond core fan bases. Social and natural disasters produce sharp engagement spikes in World and Social communities, revealing a collective focus on information sharing and social response during moments of crisis. Holidays, meanwhile, display a far more diffuse and subdued pattern. While widely observed, they rarely provoke concentrated bursts of discussion within specific communities.
+- **Political events** drive the strongest and broadest disruptions, sharply increasing interactions across Politics, World, News, and Technology communities.  
+- **Sports events** concentrate engagement within Sports, with additional activity in World and Gaming — mirroring their global but recreational nature.  
+- **Entertainment events** activate Entertainment and Gaming communities, with spillover into World-oriented discussions, reflecting the cultural reach of major films and series.  
+- **Social and natural disasters** produce sharp spikes in World and Social communities, as users seek information and share reactions during crises.  
+- **Holidays** trigger more diffuse and subdued changes: widely shared in real life, but rarely producing tightly focused bursts of online discussion.
 
 <figure id="fig-intercategory-heatmap">
   <div class="plotly-embed-heatmap">
     <iframe
       src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:400px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -188,28 +192,55 @@ Entertainment events generate strong activity in Entertainment and Gaming, with 
 
 ### How Events Reshape Connections and Sentiment
 
-Beyond sheer posting volume, these events also leave distinct structural footprints on the Reddit network by altering how communities connect to one another — and how those interactions feel.
+Beyond raw volume, these events also leave structural and emotional footprints: they change who talks to whom, and with what tone.
 
-Political events, in particular, tend to **intensify existing relationships rather than create new ones**. During these periods, the number of hyperlinks exchanged between clusters nearly doubles and often remains elevated even after the event window closes. This persistence suggests a lasting reinforcement of interaction pathways. Notably, this surge in connectivity does not correspond to a rise in positive sentiment. Discussions remain, on average, emotionally neutral, highlighting how increased engagement can amplify debate without necessarily improving tone.
+The two plots below summarize, for each event category:
 
-Sporting events follow a similar but more transient trajectory. Interactions between Sports, World, and Gaming communities strengthen noticeably during the event window, only to gradually return to baseline within a few months. Despite their temporary nature, these events are accompanied by a clear uptick in positive sentiment, pointing to a more unifying and emotionally uplifting form of collective engagement.
+- how many **inter-community connections** are strengthened or weakened, and  
+- how **average sentiment** shifts during and after the event window.
 
-Entertainment events occupy a middle ground. While they increase the overall volume of hyperlinks exchanged, they do not consistently reshape the network’s structure. Strengthened and weakened ties tend to balance out, and sentiment shifts show no strong directional bias. The result is a surge in activity without lasting structural consequences.
+<details class="event-block">
+  <summary>
+    <span class="event-pill">By category</span>
+    <span>What changes, and how it feels</span>
+  </summary>
+  <div>
 
-Social and natural disasters tell a more surprising story than one might expect. Intuitively, such catastrophes would be assumed to spread negative sentiment across the network, fueling harsh debate and conflict among Reddit users. Yet the data reveals a positive average sentiment associated with these events. While this cannot be proven, this pattern suggests that moments of collective hardship may prompt users to come together, sharing support, empathy, and reassurance rather than division. In times of crisis, the network appears to shift from confrontation toward solidarity, briefly lifting collective morale rather than deepening conflict.
+- **Political events**  
+  - Strongly **intensify existing relationships** rather than creating new ones: the number of hyperlinks between clusters nearly doubles and often remains elevated after the event.  
+  - Despite this surge, sentiment stays roughly **neutral on average** — more engagement does not necessarily mean more positivity.
 
-Holidays leave only a faint structural imprint. Few connections show temporary strengthening, and overall interaction patterns remain largely unchanged. Yet sentiment tells a warmer story: these periods are associated with broadly positive emotional shifts, suggesting that holidays subtly improve tone even if they do not reorganize attention.
+- **Sports events**  
+  - Strengthen connections between Sports, World, and Gaming communities, but in a **transient** way: activity gradually returns to baseline.  
+  - These events tend to be **emotionally uplifting**, with a clear uptick in positive sentiment during the event window.
 
-Gaming events stand apart due to the central position of the Gaming community itself. While interactions among non-gaming clusters remain relatively stable, links involving Gaming experience pronounced strengthening, occasionally punctuated by sharp weakening. Overall, these events coincide with increased positive sentiment across the network, reinforcing gaming’s role as a powerful and emotionally engaging driver of collective attention on Reddit.
+- **Entertainment events**  
+  - Increase overall hyperlink volume but do not consistently reorganize the network. Strengthened and weakened ties tend to **cancel out** structurally.  
+  - Sentiment shifts show **no strong direction**, reflecting diverse and often fragmented reactions.
 
-Taken together, these patterns reveal that not all events ripple through the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections entirely — each leaving a distinct signature in how Reddit responds when the world changes.
+- **Social and natural disasters**  
+  - Intuitively, one might expect strong negative sentiment — yet the data shows a **positive average shift**.  
+  - This suggests that, during large-scale hardship, Reddit may tilt toward **support and solidarity** more than toward conflict, even if the underlying topic is tragic.
+
+- **Holidays**  
+  - Produce **minimal structural change**: few links are clearly strengthened or weakened, and interaction patterns remain stable.  
+  - However, they coincide with a broad **improvement in tone**, hinting at a quieter, more diffuse positive effect.
+
+- **Gaming events**  
+  - Primarily reshape connections **around the Gaming community itself**, with noticeable strengthening (and occasional weakening) of links involving gaming subreddits.  
+  - Overall, they align with a **positive sentiment shift**, confirming gaming as a powerful, emotionally engaging driver of collective attention.
+
+Taken together, these patterns show that not all events transform the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections altogether.
+
+  </div>
+</details>
 
 <figure id="fig-plot-conn">
   <div class="plotly-embed-bar">
     <iframe
       src="{{ 'assets/img/plotly_plots/strengthened_vs_weakened_connections.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:360px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -222,7 +253,7 @@ Taken together, these patterns reveal that not all events ripple through the net
     <iframe
       src="{{ 'assets/img/plotly_plots/sentiment_shift_barplot.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:360px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -236,14 +267,14 @@ Taken together, these patterns reveal that not all events ripple through the net
 
 To truly understand how Reddit functions as a social system, it is not enough to look only at global trends. The real insight emerges when attention shifts to **pairwise relationships** — how two communities respond *together* when the world changes. These interactions reveal whether connections are reactive, insulated, or mutually reinforcing.
 
-A natural place to begin is the political segment of Reddit. Political discourse often leaks into other domains, yet at times remains surprisingly contained. Which of these outcomes occurs depends heavily on the nature of the event.
+A natural place to begin is the political segment of Reddit. Political discourse often leaks into other domains, yet at times remains surprisingly contained. Which outcome prevails depends heavily on the nature of the event.
 
 <details class="event-block">
   <summary>
     <span class="event-pill">Politics × Entertainment</span>
     <span>One-Way Spillover</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 The relationship between political and entertainment communities reveals a clear asymmetry. During the 2016 U.S. presidential election, interactions between these clusters increase noticeably. Hyperlinks surge following the event and remain elevated well beyond the immediate aftermath. Politically charged moments pull entertainment communities into the conversation — through satire, commentary, late-night humor, or media framing — leaving behind a lasting imprint on their connection.
 
@@ -254,7 +285,7 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     <iframe
       src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:380px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -267,7 +298,7 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     <iframe
       src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:380px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -283,7 +314,7 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     <span class="event-pill">Politics × Sports</span>
     <span>Parallel Worlds</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 A very different picture emerges when politics intersects with sports. Examining interactions around the 2015 Super Bowl shows remarkable stability. Posting behavior remains consistent before and after the event, and hyperlink exchange does not display any sustained change.
 
@@ -294,7 +325,7 @@ Despite their shared visibility in public life, political and sports communities
     <iframe
       src="{{ 'assets/img/plotly_plots/graph1_9.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:380px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -307,7 +338,7 @@ Despite their shared visibility in public life, political and sports communities
     <iframe
       src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:380px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -323,7 +354,7 @@ Despite their shared visibility in public life, political and sports communities
     <span class="event-pill">Politics × Social</span>
     <span>Mutual Amplification</span>
   </summary>
-  <div markdown="1">
+  <div>
 
 The strongest coupling appears between political and social communities. Both the 2016 U.S. election and the November 2015 Paris terrorist attacks trigger pronounced, synchronized reactions. Political events lead to heightened interaction with social communities as discussions around identity, values, and collective response intensify. At the same time, socially defined crises provoke political engagement, producing similar peaks in activity.
 
@@ -334,7 +365,7 @@ In both directions, interactions strengthen around moments of shared concern and
     <iframe
       src="{{ 'assets/img/plotly_plots/graph1_18.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:380px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -347,7 +378,7 @@ In both directions, interactions strengthen around moments of shared concern and
     <iframe
       src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
       loading="lazy"
-      style="width:100%; max-width:100%; height:420px; border:none;">
+      style="width:100%; max-width:100%; height:380px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -362,6 +393,6 @@ In both directions, interactions strengthen around moments of shared concern and
 
 ## A Digital Mirror of Real Social Life
 
-Taken together, these patterns closely echo dynamics observed in the real world. Not every group responds to the same events, and not every interaction carries equal influence. Some communities are tightly interwoven, with reactions that ripple across boundaries. Others influence one another asymmetrically, while some coexist with little interaction at all, just like in the real world.
+Taken together, these patterns closely echo dynamics observed in the real world. Not every group responds to the same events, and not every interaction carries equal influence. Some communities are tightly interwoven, with reactions that ripple across boundaries. Others influence one another asymmetrically, while some coexist with little interaction at all.
 
 Reddit, then, is not a uniformly reactive system. It is a mosaic of social spheres, where connections strengthen, weaken, or remain untouched depending on context. In this way, the platform mirrors human society itself.
