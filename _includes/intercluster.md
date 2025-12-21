@@ -204,31 +204,25 @@ The two plots below summarize, for each event category:
     <span class="event-pill">By category</span>
     <span>What changes, and how it feels</span>
   </summary>
-  <div>
+  <div markdown="1">
 
 - **Political events**  
-  - Strongly **intensify existing relationships** rather than creating new ones: the number of hyperlinks between clusters nearly doubles and often remains elevated after the event.  
-  - Despite this surge, sentiment stays roughly **neutral on average** — more engagement does not necessarily mean more positivity.
+  Strongly **intensify existing relationships** rather than creating new ones: the number of hyperlinks between clusters nearly doubles and often remains elevated after the event. Despite this surge, sentiment stays roughly **neutral on average** — more engagement does not necessarily mean more positivity.
 
 - **Sports events**  
-  - Strengthen connections between Sports, World, and Gaming communities, but in a **transient** way: activity gradually returns to baseline.  
-  - These events tend to be **emotionally uplifting**, with a clear uptick in positive sentiment during the event window.
+  Strengthen connections between Sports, World, and Gaming communities, but in a **transient** way: activity gradually returns to baseline. These events tend to be **emotionally uplifting**, with a clear uptick in positive sentiment during the event window.
 
 - **Entertainment events**  
-  - Increase overall hyperlink volume but do not consistently reorganize the network. Strengthened and weakened ties tend to **cancel out** structurally.  
-  - Sentiment shifts show **no strong direction**, reflecting diverse and often fragmented reactions.
+  Increase overall hyperlink volume but do not consistently reorganize the network. Strengthened and weakened ties tend to **cancel out** structurally, and sentiment shifts show **no strong direction**, reflecting diverse and fragmented reactions.
 
 - **Social and natural disasters**  
-  - Intuitively, one might expect strong negative sentiment — yet the data shows a **positive average shift**.  
-  - This suggests that, during large-scale hardship, Reddit may tilt toward **support and solidarity** more than toward conflict, even if the underlying topic is tragic.
+  Intuitively, one might expect strong negative sentiment — yet the data shows a **positive average shift**. This suggests that, during large-scale hardship, Reddit may tilt toward **support and solidarity** more than toward conflict, even if the underlying topic is tragic.
 
 - **Holidays**  
-  - Produce **minimal structural change**: few links are clearly strengthened or weakened, and interaction patterns remain stable.  
-  - However, they coincide with a broad **improvement in tone**, hinting at a quieter, more diffuse positive effect.
+  Produce **minimal structural change**: few links are clearly strengthened or weakened, and interaction patterns remain stable. However, they coincide with a broad **improvement in tone**, hinting at a quieter, more diffuse positive effect.
 
 - **Gaming events**  
-  - Primarily reshape connections **around the Gaming community itself**, with noticeable strengthening (and occasional weakening) of links involving gaming subreddits.  
-  - Overall, they align with a **positive sentiment shift**, confirming gaming as a powerful, emotionally engaging driver of collective attention.
+  Primarily reshape connections **around the Gaming community itself**, with noticeable strengthening (and occasional weakening) of links involving gaming subreddits. Overall, they align with a **positive sentiment shift**, confirming gaming as a powerful, emotionally engaging driver of collective attention.
 
 Taken together, these patterns show that not all events transform the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections altogether.
 
