@@ -1,4 +1,4 @@
-## 5. Zooming into Events and Communities 
+# 5. Zooming into Events and Communities 
 
 Well, now that you have seen how communities interact **with one another** on Reddit, you might be wondering what all of this means if you mostly stay within a single space. Many users are lurkers or regular contributors to just one community, with little interest in crossing categories.
 
