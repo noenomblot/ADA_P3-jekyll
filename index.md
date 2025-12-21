@@ -271,4 +271,166 @@ Major events leave the deepest structural footprints. Elections, crises, and glo
       https://snap.stanford.edu/data/soc-RedditHyperlinks.html
     </a>.
   </li>
+
+  <li>
+    Pokémon GO – Augmented reality mobile game interface.  
+    <i>Pokémon GO official promotional image</i>.  
+    Available at:
+    <a href="https://pokemongo.com/post/moving-to-a-new-home-2025" target="_blank">
+      https://pokemongo.com/post/moving-to-a-new-home-2025
+    </a>.
+  </li>
+
+  <li>
+    Grand Theft Auto V – Urban open-world city environment.  
+    <i>GTA V Los Santos promotional screenshot</i>.  
+    Available at:
+    <a href="https://www.loaded.com/grand-theft-auto-v-5-gta-5-premium-online-edition-rockstar-social-club-pc" target="_blank">
+      https://www.loaded.com/grand-theft-auto-v-5-gta-5-premium-online-edition-rockstar-social-club-pc
+    </a>.
+  </li>
+
+  <li>
+    Nintendo Switch – Hybrid home and portable gaming console.  
+    <i>Nintendo Switch official launch imagery</i>.  
+    Available at:
+    <a href="https://www.nintendo.com/en-gb/News/2017/January/Nintendo-Switch-launches-on-3rd-March--1173122.html" target="_blank">
+      https://www.nintendo.com/en-gb/News/2017/January/Nintendo-Switch-launches-on-3rd-March--1173122.html
+    </a>.
+  </li>
+
+  <li>
+    Ebola outbreak – Viral epidemic and emergency response.  
+    <i>Ebola outbreak explanatory report</i>.  
+    Available at:
+    <a href="https://edition.cnn.com/2018/05/29/health/ebola-outbreak-2018-response-explainer" target="_blank">
+      https://edition.cnn.com/2018/05/29/health/ebola-outbreak-2018-response-explainer
+    </a>.
+  </li>
+
+  <li>
+    Bataclan attack – 2015 Paris terrorist attack aftermath.  
+    <i>Paris attacks judicial outcome report</i>.  
+    Available at:
+    <a href="https://www.pbs.org/newshour/world/lone-surviving-attacker-in-2015-paris-attacks-gets-life-in-prison-no-parole" target="_blank">
+      https://www.pbs.org/newshour/world/lone-surviving-attacker-in-2015-paris-attacks-gets-life-in-prison-no-parole
+    </a>.
+  </li>
+
+  <li>
+    Chile earthquake – 2016 seismic event analysis.  
+    <i>M7.6 Chile earthquake scientific summary</i>.  
+    Available at:
+    <a href="https://blogs.egu.eu/geolog/2016/12/30/shaking-on-christmas-day-what-we-know-about-the-7-6-m-chile-earthquake/" target="_blank">
+      https://blogs.egu.eu/geolog/2016/12/30/shaking-on-christmas-day-what-we-know-about-the-7-6-m-chile-earthquake/
+    </a>.
+  </li>
+
+  <li>
+    Fourth of July – United States Independence Day celebration.  
+    <i>Independence Day historical overview</i>.  
+    Available at:
+    <a href="https://eu.usatoday.com/story/news/nation/2023/07/03/history-of-independence-day-usa/70371383007/" target="_blank">
+      https://eu.usatoday.com/story/news/nation/2023/07/03/history-of-independence-day-usa/70371383007/
+    </a>.
+  </li>
+
+  <li>
+    Christmas – Global religious and cultural holiday.  
+    <i>Christmas traditions and meaning</i>.  
+    Available at:
+    <a href="https://kids.nationalgeographic.com/celebrations/article/christmas" target="_blank">
+      https://kids.nationalgeographic.com/celebrations/article/christmas
+    </a>.
+  </li>
+
+  <li>
+    Thanksgiving – U.S. national harvest holiday.  
+    <i>Thanksgiving Day historical background</i>.  
+    Available at:
+    <a href="https://www.britannica.com/story/thanksgiving-day-in-the-united-states" target="_blank">
+      https://www.britannica.com/story/thanksgiving-day-in-the-united-states
+    </a>.
+  </li>
+
+  <li>
+    The Force Awakens – Star Wars film release (2015).  
+    <i>Star Wars: The Force Awakens official page</i>.  
+    Available at:
+    <a href="https://www.disneyplus.com/en-ch/browse/entity-2854a94d-3702-40bd-97a4-12d55a809188" target="_blank">
+      https://www.disneyplus.com/en-ch/browse/entity-2854a94d-3702-40bd-97a4-12d55a809188
+    </a>.
+  </li>
+
+  <li>
+    Oscars 2015 – Academy Awards ceremony.  
+    <i>87th Academy Awards overview</i>.  
+    Available at:
+    <a href="https://www.thegoldknight.com/2015/01/oscars-2015-imagine-whats-possible.html" target="_blank">
+      https://www.thegoldknight.com/2015/01/oscars-2015-imagine-whats-possible.html
+    </a>.
+  </li>
+
+  <li>
+    Game of Thrones Season 6 – Television series release.  
+    <i>Game of Thrones season six promotional content</i>.  
+    Available at:
+    <a href="https://www.elysium-uk.com/site/desire/game-of-thrones-season-6/" target="_blank">
+      https://www.elysium-uk.com/site/desire/game-of-thrones-season-6/
+    </a>.
+  </li>
+
+  <li>
+    Crimea 2014 – Russian occupation of Crimea.  
+    <i>Geopolitical event summary</i>.  
+    Available at:
+    <a href="https://en.wikipedia.org/wiki/Russian_occupation_of_Crimea" target="_blank">
+      https://en.wikipedia.org/wiki/Russian_occupation_of_Crimea
+    </a>.
+  </li>
+
+  <li>
+    Brexit – United Kingdom withdrawal from the EU.  
+    <i>Post-referendum political process overview</i>.  
+    Available at:
+    <a href="https://www.dachser.com/en/mediaroom/Brexit-After-the-exit-is-before-the-exit-4009" target="_blank">
+      https://www.dachser.com/en/mediaroom/Brexit-After-the-exit-is-before-the-exit-4009
+    </a>.
+  </li>
+
+  <li>
+    U.S. elections 2016 – Presidential election cycle.  
+    <i>2016 U.S. election analysis</i>.  
+    Available at:
+    <a href="https://www.tutor2u.net/politics/reference/the-us-presidential-election-2016" target="_blank">
+      https://www.tutor2u.net/politics/reference/the-us-presidential-election-2016
+    </a>.
+  </li>
+
+  <li>
+    World Cup 2014 opening – FIFA World Cup opening ceremony.  
+    <i>Brazil 2014 opening ceremony coverage</i>.  
+    Available at:
+    <a href="https://abcnews.go.com/Sports/2014-fifa-world-cup-questions-opening-ceremony/story" target="_blank">
+      https://abcnews.go.com/Sports/2014-fifa-world-cup-questions-opening-ceremony/story
+    </a>.
+  </li>
+
+  <li>
+    Super Bowl 2015 – NFL championship game.  
+    <i>Super Bowl XLIX match report</i>.  
+    Available at:
+    <a href="https://www.nytimes.com/2015/02/02/sports/football/patriots-win-super-bowl-xlix-defeating-seahawks.html" target="_blank">
+      https://www.nytimes.com/2015/02/02/sports/football/patriots-win-super-bowl-xlix-defeating-seahawks.html
+    </a>.
+  </li>
+
+  <li>
+    Rio Olympics 2016 opening – Olympic Games opening ceremony.  
+    <i>Rio de Janeiro 2016 opening ceremony coverage</i>.  
+    Available at:
+    <a href="https://www.newyorker.com/culture/culture-desk/the-olympic-opening-ceremony-in-rio-let-the-games-begin" target="_blank">
+      https://www.newyorker.com/culture/culture-desk/the-olympic-opening-ceremony-in-rio-let-the-games-begin
+    </a>.
+  </li>
 </ul>
