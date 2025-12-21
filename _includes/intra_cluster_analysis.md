@@ -144,7 +144,7 @@ Taken together, these results show that major political events do more than gene
 <details class="event-block">
   <summary>
     <span class="event-pill">Gaming cluster</span>
-    <span>*Pokémon GO*: A Localized Shock</span>
+    <span>Pokémon GO: A Localized Shock</span>
   </summary>
   <div markdown="1">
 
