@@ -274,18 +274,10 @@ The relationship between political and entertainment communities reveals a clear
 
 The reverse, however, does not hold. When <em>Star Wars: The Force Awakens<em> was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
 
-<div style="width:100%; overflow:hidden;">
-  <iframe
-    src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
-    loading="lazy"
-    style="
-      width:100%;
-      height:420px;
-      border:none;
-      display:block;
-    ">
-  </iframe>
-</div>
+<iframe src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
+loading="lazy"
+style="width:100%; max-width:100%; height:380px; border:none;">
+</iframe>
   <figcaption>
     <strong>Figure 8.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
   </figcaption>
