@@ -202,7 +202,7 @@ In this sense, *Pokémon GO* represents a **localized shock** — powerful withi
 <details class="event-block">
   <summary>
     <span class="event-pill">World cluster</span>
-    <span>Two Paris Attacks, Two Different Ripples</span>
+    <span>Two Terrorist Attacks in France: Unequal Reactions</span>
   </summary>
   <div markdown="1">
 
