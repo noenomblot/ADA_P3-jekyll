@@ -49,7 +49,8 @@ Certain events pull political discussion into nearly every corner of the platfor
 The Brexit referendum in June 2016 produced a similar effect. As the United Kingdom voted to leave the European Union, discussions spilled across national, economic, and cultural boundaries. That same year, political attention reached a peak during the United States presidential election, an event that dominated Reddit in November 2016 and sparked intense, polarized conversations worldwide.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/img/events/politics.png">
+  <img src="assets/img/events/politics.png"
+       style="max-width:100%; height:auto; display:block; margin:0 auto;">
 </div>
 
 These moments did not just increase activity — they **reconfigured connections** between communities that rarely interacted before.
@@ -69,7 +70,8 @@ Major sporting events have a unique ability to unite attention across borders. T
 This shared focus continued with Super Bowl XLIX in February 2015, a cultural milestone in the United States that drew in both sports and non-sports communities alike. The opening ceremony of the Rio de Janeiro Olympic Games in August 2016 extended this effect even further, concentrating global attention around a single, time-bound moment.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/img/events/sports.png">
+  <img src="assets/img/events/sports.png"
+       style="max-width:100%; height:auto; display:block; margin:0 auto;">
 </div>
 
   </div>
@@ -87,7 +89,8 @@ Few things travel across Reddit as effortlessly as pop culture. The release of *
 The film industry remained in focus during the 88th Academy Awards in February 2016, while television took center stage with the premiere of *Game of Thrones* Season 6 in April of the same year. These moments show how shared narratives can synchronize attention across otherwise unrelated spaces.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/img/events/movies.png">
+  <img src="assets/img/events/movies.png"
+       style="max-width:100%; height:auto; display:block; margin:0 auto;">
 </div>
 
   </div>
@@ -103,7 +106,8 @@ The film industry remained in focus during the 88th Academy Awards in February 2
 Not all events are anticipated. Some arrive abruptly, leaving behind sharp spikes in attention and emotion. The Ebola outbreak in West Africa in August 2014 escalated into a global health crisis, generating fear, uncertainty, and widespread discussion.  
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/img/events/social.png">
+  <img src="assets/img/events/social.png"
+       style="max-width:100%; height:auto; display:block; margin:0 auto;">
 </div>
 
 Similarly, the terrorist attacks in Paris in November 2015 triggered waves of shock, grief, and international solidarity. Natural disasters follow a comparable pattern: the Illapel earthquake in Chile in September 2015 prompted immediate, emotionally charged responses as news spread across the platform.
@@ -125,7 +129,8 @@ Alongside singular events, recurring holidays provide a different lens on collec
 Rather than sudden shocks, these days reveal **rhythms** — how shared traditions subtly reshape online interaction year after year.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/img/events/holidays.png">
+  <img src="assets/img/events/holidays.png"
+       style="max-width:100%; height:auto; display:block; margin:0 auto;">
 </div>
 
   </div>
@@ -143,7 +148,8 @@ Finally, no exploration of Reddit would be complete without gaming. The release 
 Earlier, the PlayStation 4 release of *Grand Theft Auto V* in November 2014 extended the life of an already iconic title, while the reveal of the Nintendo Switch in October 2016 generated widespread anticipation for a new hybrid console.
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="assets/img/events/games.png">
+  <img src="assets/img/events/games.png"
+       style="max-width:100%; height:auto; display:block; margin:0 auto;">
 </div>
 
 These moments highlight how virtual worlds can trigger very real shifts in online attention.
@@ -169,7 +175,8 @@ Entertainment events generate strong activity in Entertainment and Gaming, with 
   <div class="plotly-embed-heatmap">
     <iframe
       src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
-      loading="lazy">
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
     </iframe>
   </div>
   <figcaption>
@@ -197,29 +204,31 @@ Gaming events stand apart due to the central position of the Gaming community it
 
 Taken together, these patterns reveal that not all events ripple through the network in the same way. Some reinforce long-standing pathways, others briefly synchronize attention, and a few fracture connections entirely — each leaving a distinct signature in how Reddit responds when the world changes.
 
- <figure id="fig-plot-conn">
-    <div class="plotly-embed-bar">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/strengthened_vs_weakened_connections.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 6.</strong> Number of strengthened and weakened inter-community connections by event category.
-    </figcaption>
-  </figure>
+<figure id="fig-plot-conn">
+  <div class="plotly-embed-bar">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/strengthened_vs_weakened_connections.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 6.</strong> Number of strengthened and weakened inter-community connections by event category.
+  </figcaption>
+</figure>
 
-  <figure id="fig-plot-sentiment">
-    <div class="plotly-embed-bar">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/sentiment_shift_barplot.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 7.</strong> Average sentiment shift observed across Reddit communities for each event category.
-    </figcaption>
-  </figure>
+<figure id="fig-plot-sentiment">
+  <div class="plotly-embed-bar">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/sentiment_shift_barplot.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 7.</strong> Average sentiment shift observed across Reddit communities for each event category.
+  </figcaption>
+</figure>
 
 ---
 
@@ -240,29 +249,31 @@ The relationship between political and entertainment communities reveals a clear
 
 The reverse, however, does not hold. When *Star Wars: The Force Awakens* was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
 
- <figure id="fig-plot-politics-entertainment-election">
-    <div class="plotly-embed-long">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 8.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
-    </figcaption>
-  </figure>
+<figure id="fig-plot-politics-entertainment-election">
+  <div class="plotly-embed-long">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 8.</strong> Posting trend between the Politics community and the Entertainment community around the US elections of 2016.
+  </figcaption>
+</figure>
 
-  <figure id="fig-plot-politics-entertainment-starwars">
-    <div class="plotly-embed-long">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 9.</strong> Posting trend between the Politics community and the Entertainment community around the release of "The Force Awakens".
-    </figcaption>
-  </figure>
+<figure id="fig-plot-politics-entertainment-starwars">
+  <div class="plotly-embed-long">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 9.</strong> Posting trend between the Politics community and the Entertainment community around the release of "The Force Awakens".
+  </figcaption>
+</figure>
 
   </div>
 </details>
@@ -278,29 +289,31 @@ A very different picture emerges when politics intersects with sports. Examining
 
 Despite their shared visibility in public life, political and sports communities largely operate in parallel. Major sporting events generate intense internal engagement, yet they do not meaningfully cross into political discussion in a lasting way. This pairing illustrates **parallel coexistence** — two communities occupying the same platform, reacting to the world independently, and rarely influencing one another.
 
- <figure id="fig-plot-politics-sports-election">
-    <div class="plotly-embed-long">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/graph1_9.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 10.</strong> Posting trend between the Politics community and the Sports community around the US elections of 2016.
-    </figcaption>
-  </figure>
+<figure id="fig-plot-politics-sports-election">
+  <div class="plotly-embed-long">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/graph1_9.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 10.</strong> Posting trend between the Politics community and the Sports community around the US elections of 2016.
+  </figcaption>
+</figure>
 
-  <figure id="fig-plot-politics-sports-superbowl">
-    <div class="plotly-embed-long">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 11.</strong> Posting trend between the Politics community and the Sports community around the 2015 Superbowl.
-    </figcaption>
-  </figure>
+<figure id="fig-plot-politics-sports-superbowl">
+  <div class="plotly-embed-long">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 11.</strong> Posting trend between the Politics community and the Sports community around the 2015 Superbowl.
+  </figcaption>
+</figure>
 
   </div>
 </details>
@@ -316,29 +329,31 @@ The strongest coupling appears between political and social communities. Both th
 
 In both directions, interactions strengthen around moments of shared concern and remain elevated beyond the event window. This bidirectional sensitivity reflects **mutual amplification** — a relationship where engagement in one domain actively reinforces engagement in the other whenever events blur the line between social experience and political interpretation.
 
- <figure id="fig-plot-politics-social-election">
-    <div class="plotly-embed-long">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/graph1_18.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 12.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
-    </figcaption>
-  </figure>
+<figure id="fig-plot-politics-social-election">
+  <div class="plotly-embed-long">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/graph1_18.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 12.</strong> Posting trend between the Politics community and the Social community around the US elections of 2016.
+  </figcaption>
+</figure>
 
-  <figure id="fig-plot-politics-social-paris">
-    <div class="plotly-embed-long">
-      <iframe
-        src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 13.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
-    </figcaption>
-  </figure>
+<figure id="fig-plot-politics-social-paris">
+  <div class="plotly-embed-long">
+    <iframe
+      src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
+      loading="lazy"
+      style="width:100%; max-width:100%; height:420px; border:none;">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 13.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
+  </figcaption>
+</figure>
 
   </div>
 </details>
