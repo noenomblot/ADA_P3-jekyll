@@ -262,6 +262,10 @@ Major events leave the deepest structural footprints. Elections, crises, and glo
 
 ## References
 
+<details class="event-block">
+  <summary>Click to view the full reference list</summary>
+  <div markdown="1">
+
 <ul>
   <li>
     SNAP – Stanford Network Analysis Project.  
@@ -434,3 +438,6 @@ Major events leave the deepest structural footprints. Elections, crises, and glo
     </a>.
   </li>
 </ul>
+
+  </div>
+</details>
