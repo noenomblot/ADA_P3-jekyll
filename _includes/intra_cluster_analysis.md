@@ -19,7 +19,7 @@ That intuition is fair and the data supports it. The majority of hyperlink inter
   </figcaption>
 </figure>
 
-To understand how major events affect users at this more personal scale, the analysis now zooms inward. Instead of looking at connections *between* clusters, we focus on **intra-cluster dynamics** — how a single community reacts to shocks, and how large global events compare to smaller, more localized moments.
+To understand how major events affect users at this more personal scale, the analysis now zooms inward. Instead of looking at connections *between* clusters, we focus on **intra-cluster dynamics** : how a single community reacts to shocks, and how large global events compare to smaller, more localized moments.
 
 ---
 
@@ -46,7 +46,7 @@ Each case is folded into a collapsible block so you can open only the stories yo
 
 What happens within a cluster when a major event unfolds? To answer this, we focus on the politics/news cluster.
 
-Unsurprisingly, the most central subreddits in terms of internal hyperlink activity are explicitly political. At the core sits **r/The_Donald**, a right-wing subreddit (now banned) that played a dominant role during the 2016 U.S. presidential election. Closely following are **r/conspiracy**, **r/politics**, and **r/news** — heavily involved in the same election cycle, but often positioned in opposition to *The_Donald*. In this sense, *r/politics* and *r/news* act as a counter-pole within the cluster, anchoring a different political narrative.
+Unsurprisingly, the most central subreddits in terms of internal hyperlink activity are explicitly political. At the core sits **r/The_Donald**, a right-wing subreddit (now banned) that played a dominant role during the 2016 U.S. presidential election. Closely following are **r/conspiracy**, **r/politics**, and **r/news** , heavily involved in the same election cycle, but often positioned in opposition to *The_Donald*. In this sense, *r/politics* and *r/news* act as a counter-pole within the cluster, anchoring a different political narrative.
 
 <figure id="fig-plot-top-subreddits-politics">
   <div class="plotly-embed-top">
@@ -80,19 +80,19 @@ Two patterns immediately stand out.
   </figcaption>
 </figure>
 
-First, as hyperlink activity increases, posting behavior becomes noticeably more erratic. Peaks grow sharper and fluctuations more volatile, reflecting rapid, real-time reactions to unfolding events. Major moments do not just add posts — they create denser, more unstable bursts of interaction.
+First, as hyperlink activity increases, posting behavior becomes noticeably more erratic. Peaks grow sharper and fluctuations more volatile, reflecting rapid, real-time reactions to unfolding events. Major moments do not just add posts. They create denser, more unstable bursts of interaction.
 
-Second — and far more striking — is the **post-election collapse**. Even after averaging across neighboring days, hyperlink intensity drops sharply following the 2016 election and does not recover over the remaining observation window. The fall is not a brief dip, but a sustained depression in activity.
+Second and far more striking is the **post-election collapse**. Even after averaging across neighboring days, hyperlink intensity drops sharply following the 2016 election and does not recover over the remaining observation window. The fall is not a brief dip, but a sustained depression in activity.
 
 This collapse provides strong evidence that the heightened volatility observed earlier is driven by real-world events rather than organic growth alone. Once the defining political moment passes, the network settles: activity stabilizes, fluctuations shrink, and the intense, reactive behavior fades.
 
-In other words, major world events do not just create spikes — they temporarily change the **internal rhythm** of communities. Within politics, the election acts as a gravitational center, pulling attention inward and amplifying interaction. Once that center disappears, so does the chaos it generated. Even for users who never leave a single subreddit, the world still arrives — quietly restructuring the conversations around them.
+In other words, major world events do not just create spikes. They temporarily change the **internal rhythm** of communities. Within politics, the election acts as a gravitational center, pulling attention inward and amplifying interaction. Once that center disappears, so does the chaos it generated. Even for users who never leave a single subreddit, the world still arrives, quietly restructuring the conversations around them.
 
 #### Who Dominated the Cluster During the Election?
 
 We now zoom further into **how the U.S. presidential election reorganized the internal structure of the politics cluster itself**. Rather than looking at aggregate intensity alone, this view exposes *who* dominated attention and *how long* those effects endured.
 
-As shown in Figure&nbsp;[17](#fig-cluster-graph-US-election), the period surrounding the U.S. election is overwhelmingly centered on Donald Trump and the election itself. A small set of subreddits — **r/The_Donald**, **r/conspiracy**, **r/politics**, and **r/hillaryclinton** — rise above the rest, reshaping the internal topology of the cluster.
+As shown in Figure&nbsp;[17](#fig-cluster-graph-US-election), the period surrounding the U.S. election is overwhelmingly centered on Donald Trump and the election itself. A small set of subreddits, **r/The_Donald**, **r/conspiracy**, **r/politics**, and **r/hillaryclinton**, rise above the rest, reshaping the internal topology of the cluster.
 
 <figure id="fig-cluster-graph-US-election">
   <div class="plotly-embed">
@@ -126,13 +126,13 @@ In the run-up to the election, hyperlink activity between political communities 
 
 #### How Long Do Election-Induced Links Last?
 
-These visual patterns can also be detected statistically. If the hypothesis is that the election itself drove the increase in hyperlink connections — particularly between **r/politics** and **r/The_Donald** — this can be tested directly. Using a t-test over the pre-election period, the p-value on election day reaches **0.081**. While not fully decisive, this strongly suggests a correlation between the event and the observed rise in hyperlink activity.
+These visual patterns can also be detected statistically. If the hypothesis is that the election itself drove the increase in hyperlink connections, particularly between **r/politics** and **r/The_Donald**, this can be tested directly. Using a t-test over the pre-election period, the p-value on election day reaches **0.081**. While not fully decisive, this strongly suggests a correlation between the event and the observed rise in hyperlink activity.
 
 The signal becomes clearer when examining the relationship between **r/The_Donald** and **r/conspiracy**. Applying the same methodology yields a p-value of **0.034**, allowing the null hypothesis to be rejected. In both cases, the connections formed around the election show **low stability**, consistent with the sharp post-election decline in activity: for a brief moment, attention pulls away from politics altogether.
 
-Yet the pause is temporary. The links forged during the election do not simply disappear — they decay slowly, and in some cases, not at all. The connection between **r/The_Donald** and **r/politics** exhibits a statistical half-life of **55 weeks**, an exceptionally long persistence. For comparison, the half-life of the connection between **r/The_Donald** and **r/news** is only **22 weeks**.
+Yet the pause is temporary. The links forged during the election do not simply disappear. They decay slowly, and in some cases, not at all. The connection between **r/The_Donald** and **r/politics** exhibits a statistical half-life of **55 weeks**, an exceptionally long persistence. For comparison, the half-life of the connection between **r/The_Donald** and **r/news** is only **22 weeks**.
 
-Even more striking, the relationship between **r/conspiracy** and **r/The_Donald** does not decay in the weeks following the election. Instead, it continues to strengthen — a pattern that closely mirrors real-world political dynamics during Donald Trump’s time in office.
+Even more striking, the relationship between **r/conspiracy** and **r/The_Donald** does not decay in the weeks following the election. Instead, it continues to strengthen, a pattern that closely mirrors real-world political dynamics during Donald Trump’s time in office.
 
 Taken together, these results show that major political events do more than generate temporary noise. They **restructure communities internally**, elevate specific actors, and forge connections that can persist long after the headlines fade. Even when activity subsides, the network remembers.
 
@@ -148,11 +148,11 @@ Taken together, these results show that major political events do more than gene
   </summary>
   <div markdown="1">
 
-### Do Smaller Events Evoke a Similar Reaction? — Release of *Pokémon GO*
+### Do Smaller Events Evoke a Similar Reaction? Release of *Pokémon GO*
 
 In the case of the U.S. election, we saw one of the most important events on Reddit, culminating in an enormous, cluster-wide reaction. A natural follow-up question is: **how does Reddit react to something more niche?**
 
-For this, we examine the release of the augmented-reality mobile game *Pokémon GO*. The subreddits most central to this event are **r/pokemon** and **r/pokemongo**, both belonging to the Gaming cluster. With 621 hyperlink interactions over the observation period, **r/pokemongo** ranks as the 32nd most connected subreddit within the cluster — impressive for a community that only became active after the game’s release in June 2016.
+For this, we examine the release of the augmented-reality mobile game *Pokémon GO*. The subreddits most central to this event are **r/pokemon** and **r/pokemongo**, both belonging to the Gaming cluster. With 621 hyperlink interactions over the observation period, **r/pokemongo** ranks as the 32nd most connected subreddit within the cluster, which is impressive for a community that only became active after the game’s release in June 2016.
 
 <figure id="fig-plot-top-subreddits-gaming">
   <div class="plotly-embed-top">
@@ -192,7 +192,7 @@ The natural follow-up question is whether this intense burst of activity mattere
 
 Neither **r/pokemon** nor **r/pokemongo** ranks among the top ten subreddits by total hyperlink interactions within the cluster (see Figure&nbsp;[19](#fig-plot-top-subreddits-gaming)). Highly dominant communities such as **r/leagueoflegends** exert far greater gravitational pull, effectively dampening the cluster-wide impact of even globally popular releases.
 
-In this sense, *Pokémon GO* represents a **localized shock** — powerful within its immediate neighborhood, yet unable to overcome the structural inertia imposed by entrenched hubs. Together with the political case study, this contrast highlights a key insight: **not all viral moments scale equally**. Some events reorganize entire clusters, while others burn brightly within a confined region of the network before settling back into the existing hierarchy.
+In this sense, *Pokémon GO* represents a **localized shock** : powerful within its immediate neighborhood, yet unable to overcome the structural inertia imposed by entrenched hubs. Together with the political case study, this contrast highlights a key insight: **not all viral moments scale equally**. Some events reorganize entire clusters, while others burn brightly within a confined region of the network before settling back into the existing hierarchy.
 
   </div>
 </details>
@@ -295,4 +295,4 @@ Bringing together the intra-cluster analyses above, several clear patterns emerg
    Some events resonate powerfully within a narrow region of the network without reshaping the cluster as a whole. The release of *Pokémon GO* generated a clear surge of activity around **r/pokemongo**, yet this excitement remained largely localized and failed to propagate across the broader Gaming cluster.
 
 3. **Event magnitude shapes whether clusters react at all.**  
-   Not all events cross the threshold required to mobilize an entire cluster. Smaller shocks, like the Charlie Hebdo attack, leave only faint structural traces, while larger ones, such as the November 2015 attacks, trigger visible but temporary reorganizations. The likelihood of a collective reaction increases with the perceived impact of the event — suggesting an implicit tipping point beyond which attention spreads from local neighborhoods to the cluster at large.
+   Not all events cross the threshold required to mobilize an entire cluster. Smaller shocks, like the Charlie Hebdo attack, leave only faint structural traces, while larger ones, such as the November 2015 attacks, trigger visible but temporary reorganizations. The likelihood of a collective reaction increases with the perceived impact of the event, suggesting an implicit tipping point beyond which attention spreads from local neighborhoods to the cluster at large.
