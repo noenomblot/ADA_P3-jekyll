@@ -216,7 +216,7 @@ The two plots below summarize, for each event category:
   Increase overall hyperlink volume but do not consistently reorganize the network. Strengthened and weakened ties tend to **cancel out** structurally, and sentiment shifts show **no strong direction**, reflecting diverse and fragmented reactions.
 
 - **Social and natural disasters**  
-  Intuitively, one might expect strong negative sentiment — yet the data shows a **positive average shift**. This suggests that, during large-scale hardship, Reddit may tilt toward **support and solidarity** more than toward conflict, even if the underlying topic is tragic.
+  Intuitively, one might expect a positive, empathetic sentiment — yet the data shows a **negative average shift**. This suggests that, during large-scale hardship, Reddit may tilt toward **toward conflict** more than toward solidarity. This shift, however, may arise from the sentiment scoring process, as disaster-related language is intrinsically negative and may not accurately capture empathetic intent.
 
 - **Holidays**  
   Produce **minimal structural change**: few links are clearly strengthened or weakened, and interaction patterns remain stable. However, they coincide with a broad **improvement in tone**, hinting at a quieter, more diffuse positive effect.
