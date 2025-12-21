@@ -229,13 +229,18 @@ To truly understand how Reddit functions as a social system, it is not enough to
 
 A natural place to begin is the political segment of Reddit. Political discourse often leaks into other domains, yet at times remains surprisingly contained. Which of these outcomes occurs depends heavily on the nature of the event.
 
-#### Politics Meets Entertainment: One-Way Spillover
+<details class="event-block">
+  <summary>
+    <span class="event-pill">Politics × Entertainment</span>
+    <span>One-Way Spillover</span>
+  </summary>
+  <div markdown="1">
 
 The relationship between political and entertainment communities reveals a clear asymmetry. During the 2016 U.S. presidential election, interactions between these clusters increase noticeably. Hyperlinks surge following the event and remain elevated well beyond the immediate aftermath. Politically charged moments pull entertainment communities into the conversation — through satire, commentary, late-night humor, or media framing — leaving behind a lasting imprint on their connection.
 
 The reverse, however, does not hold. When *Star Wars: The Force Awakens* was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
 
- <figure id="fig-plot-top-subreddits-politics">
+ <figure id="fig-plot-politics-entertainment-election">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
@@ -247,7 +252,7 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     </figcaption>
   </figure>
 
-  <figure id="fig-plot-top-subreddits-politics">
+  <figure id="fig-plot-politics-entertainment-starwars">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph4_1.html' | relative_url }}"
@@ -259,13 +264,21 @@ The reverse, however, does not hold. When *Star Wars: The Force Awakens* was rel
     </figcaption>
   </figure>
 
-#### Politics and Sports: Parallel Worlds
+  </div>
+</details>
+
+<details class="event-block">
+  <summary>
+    <span class="event-pill">Politics × Sports</span>
+    <span>Parallel Worlds</span>
+  </summary>
+  <div markdown="1">
 
 A very different picture emerges when politics intersects with sports. Examining interactions around the 2015 Super Bowl shows remarkable stability. Posting behavior remains consistent before and after the event, and hyperlink exchange does not display any sustained change.
 
 Despite their shared visibility in public life, political and sports communities largely operate in parallel. Major sporting events generate intense internal engagement, yet they do not meaningfully cross into political discussion in a lasting way. This pairing illustrates **parallel coexistence** — two communities occupying the same platform, reacting to the world independently, and rarely influencing one another.
 
- <figure id="fig-plot-top-subreddits-politics">
+ <figure id="fig-plot-politics-sports-election">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph1_9.html' | relative_url }}"
@@ -277,7 +290,7 @@ Despite their shared visibility in public life, political and sports communities
     </figcaption>
   </figure>
 
-  <figure id="fig-plot-top-subreddits-politics">
+  <figure id="fig-plot-politics-sports-superbowl">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph9_1.html' | relative_url }}"
@@ -289,13 +302,21 @@ Despite their shared visibility in public life, political and sports communities
     </figcaption>
   </figure>
 
-#### Politics and Social Communities: Mutual Amplification
+  </div>
+</details>
+
+<details class="event-block">
+  <summary>
+    <span class="event-pill">Politics × Social</span>
+    <span>Mutual Amplification</span>
+  </summary>
+  <div markdown="1">
 
 The strongest coupling appears between political and social communities. Both the 2016 U.S. election and the November 2015 Paris terrorist attacks trigger pronounced, synchronized reactions. Political events lead to heightened interaction with social communities as discussions around identity, values, and collective response intensify. At the same time, socially defined crises provoke political engagement, producing similar peaks in activity.
 
 In both directions, interactions strengthen around moments of shared concern and remain elevated beyond the event window. This bidirectional sensitivity reflects **mutual amplification** — a relationship where engagement in one domain actively reinforces engagement in the other whenever events blur the line between social experience and political interpretation.
 
- <figure id="fig-plot-top-subreddits-politics">
+ <figure id="fig-plot-politics-social-election">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph1_18.html' | relative_url }}"
@@ -307,21 +328,7 @@ In both directions, interactions strengthen around moments of shared concern and
     </figcaption>
   </figure>
 
-  <figure>
-    <div class="plotly-container">
-      <div class="plotly-embed lg">
-        <iframe
-          src="{{ 'assets/img/plotly_plots/inter_category_heatmap_elegant.html' | relative_url }}"
-          loading="lazy">
-        </iframe>
-      </div>
-    </div>
-    <figcaption>
-      <strong>Figure 13.</strong> Inter-category interaction heatmap.
-    </figcaption>
-  </figure>
-
-  <figure id="fig-plot-top-subreddits-politics">
+  <figure id="fig-plot-politics-social-paris">
     <div class="plotly-embed-long">
       <iframe
         src="{{ 'assets/img/plotly_plots/graph18_1.html' | relative_url }}"
@@ -329,9 +336,12 @@ In both directions, interactions strengthen around moments of shared concern and
       </iframe>
     </div>
     <figcaption>
-      <strong>Figure 14.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
+      <strong>Figure 13.</strong> Posting trend between the Politics community and the Social community around the Paris attacks of 2015.
     </figcaption>
   </figure>
+
+  </div>
+</details>
 
 ---
 
