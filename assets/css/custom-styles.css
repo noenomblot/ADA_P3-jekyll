@@ -1,0 +1,35 @@
+/* === Graphs & figures: full-width, no horizontal scroll === */
+
+/* Conteneurs de graphes (Plotly, Flourish, etc.) */
+.plotly-embed-long,
+.plotly-embed-heatmap,
+.plotly-embed-bar,
+.plotly-container,
+.flourish-figure,
+.flourish-embed {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.5rem 0;
+  overflow-x: hidden;     /* empêche la barre de scroll horizontale */
+}
+
+/* Iframes à l'intérieur */
+.plotly-embed-long iframe,
+.plotly-embed-heatmap iframe,
+.plotly-embed-bar iframe,
+.plotly-container iframe,
+.flourish-embed iframe {
+  width: 100%;
+  max-width: 100%;
+  height: 420px;          /* tu peux monter à 500 si tu veux plus de hauteur */
+  border: none;
+}
+
+/* Images de figures classiques */
+.figure img,
+.flourish-figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
