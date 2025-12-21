@@ -5,8 +5,7 @@ subtitle: How global events impact Reddit communities
 cover-img: /assets/img/reddit_header.png
 ---
 
-
-# When the World Breaks In: How Reddit Reacts to Major Events
+# When the World Breaks In: How Reddit Reacts to Major Events {#part1}
 
 Have you ever opened Reddit expecting something light — maybe a few cute pet photos — only to find yourself pulled into the breaking news of an earthquake on the other side of the world?
 
@@ -62,7 +61,7 @@ So let’s zoom out, map the network, and explore how Reddit reacts when the wor
 
 
 
-## Turning Reddit Data Into a Living Network
+## Turning Reddit Data Into a Living Network {#part2}
 
 What you may not know is that Reddit quietly accumulates vast amounts of data — and putting that data to good use is what we do best. Using the **SNAP Hyperlink Network dataset**, we track how subreddits reference one another through shared hyperlinks, and we pair these connections with the sentiment that travels alongside them. The result is not just a graph of links, but a **network of interactions**, where attention, emotion, and information move together.
 
@@ -110,7 +109,7 @@ The accompanying visualization highlights the fifteen subreddits with the highes
 
 ---
 
-## From Chaos to Communities
+## From Chaos to Communities {#part3}
 
 With bots removed, the Reddit Hyperlink Network is more authentic — but it is still vast, tangled, and nearly impossible to navigate at the level of individual subreddits.
 
@@ -166,18 +165,20 @@ What looks like randomness is, in fact, a network quietly shaped by shared atten
 
 
 <!-- The file is under _includes/intercluster.md -->
+<a id="part4"></a>
 {% include intercluster.md %}
 
 
 
 <!-- The file is under _includes/intra_cluster_analysis.md -->
+<a id="part5"></a>
 {% include intra_cluster_analysis.md %}
 
 
 
 ---
 
-## In conclusion
+## In conclusion {#part6}
 
 The Reddit Hyperlink Network, once examined through rigorous analysis, reveals itself to be far more complex than it first appears. What often feels like a space for absent-minded scrolling — a way to momentarily escape the real world — turns out to be a remarkably faithful mirror of it.
 
@@ -202,4 +203,3 @@ So the next time you follow a hyperlink to another subreddit, pause for a moment
     </a>.
   </li>
 </ul>
-
