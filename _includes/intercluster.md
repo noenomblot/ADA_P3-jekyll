@@ -1,6 +1,6 @@
 # 4. When Events Ripple Through the Network
 
-With the Reddit map now in hand, it is time to choose the moments that send shockwaves through both the real world and the digital one. To capture the diversity of collective attention, the events span multiple domains — from politics to gaming, from global sports to quiet holidays.
+With the Reddit map now in hand, it is time to choose the moments that send shockwaves through both the real world and the digital one. To capture the diversity of collective attention, the events span multiple domains : from politics to gaming, from global sports to quiet holidays.
 
 Some of these moments are impossible to forget. Others may have passed quietly, yet still left a mark on how communities interacted. The question is simple: **how did these events reshape Reddit’s social space?**
 
@@ -53,7 +53,7 @@ The Brexit referendum in June 2016 produced a similar effect. As the United King
        style="max-width:100%; height:auto; display:block; margin:0 auto;">
 </div>
 
-These moments did not just increase activity — they **reconfigured connections** between communities that rarely interacted before.
+These moments did not just increase activity. They reconfigured connections between communities that rarely interacted before.
 
   </div>
 </details>
