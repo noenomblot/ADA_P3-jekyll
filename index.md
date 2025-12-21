@@ -62,7 +62,7 @@ So let’s zoom out, map the network, and explore how Reddit reacts when the wor
 
 ---
 
-## 2. Turning Reddit Data Into a Living Network {#part2}
+# 2. Turning Reddit Data Into a Living Network {#part2}
 
 Reddit quietly accumulates vast amounts of interaction data — but in its raw form, it’s closer to noise than insight. Using the **SNAP Reddit Hyperlink Network dataset**, we track how subreddits reference one another through shared hyperlinks and pair these connections with the sentiment that travels alongside them. The result is not just a static graph of links, but a **network of interactions**, where attention, emotion, and information move together.
 
@@ -86,7 +86,7 @@ Reddit quietly accumulates vast amounts of interaction data — but in its raw f
 
 ---
 
-### Clearing the Noise: When Bots Get in the Way
+## Clearing the Noise: When Bots Get in the Way
 
 The modern internet is not populated by humans alone. It is crowded with automated accounts designed to farm engagement, collect clicks, and inflate visibility. If Reddit is to be treated as a mirror of the real world, this noise has to go.
 
@@ -148,7 +148,7 @@ The accompanying visualization highlights the fifteen subreddits with the highes
 
 ---
 
-## 3. From Chaos to Communities {#part3}
+# 3. From Chaos to Communities {#part3}
 
 With bots removed, the Reddit Hyperlink Network is more authentic — but it is still vast, tangled, and nearly impossible to navigate at the level of individual subreddits.
 
@@ -224,7 +224,7 @@ What looks like randomness is, in fact, a network quietly shaped by shared atten
 
 ---
 
-## 6. In conclusion {#part6}
+# 6. In conclusion {#part6}
 
 The Reddit Hyperlink Network, once examined through rigorous analysis, reveals itself to be far more complex than it first appears. What often feels like a space for absent-minded scrolling — a way to briefly escape the real world — turns out to be a remarkably faithful mirror of it.
 
