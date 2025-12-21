@@ -136,26 +136,27 @@ navbar-var-length: false
 # --- Colours / background image --- #
 ######################################
 
-# Fond principal de la page : crème orangé (rappelle les visages)
-page-col: "#FFFFFF"   # "#FFF6EB" #"#FFE3C4" is crème, "#FFFFFF" is white
+# Fond principal de la page : blanc
+page-col: "#FFFFFF"
 
 # Couleur du texte principal : très foncé
 text-col: "#15171A"
 
-# Liens : orange Reddit-ish, surbrillance plus vive
-link-col: "#FF6A1A"
-hover-col: "#FF4500"
+# Liens : orange Reddit, surbrillance un peu plus foncée
+link-col:  "#FF4500"   # Reddit orange
+hover-col: "#E03D00"   # léger foncé pour le hover
 
 # Navbar : bleu nuit comme le fond de l'image, avec texte clair
 navbar-col: "#081824"
 navbar-text-col: "#FDEFD8"
-navbar-border-col: "#FF6A1A"
+navbar-border-col: "#FF4500"  # contour / soulignement de la navbar en orange Reddit
 
-# Footer : même bleu nuit, texte gris clair, liens crème/orange
+# Footer : même bleu nuit, texte gris clair, liens orange Reddit
 footer-col: "#081824"
 footer-text-col: "#B7BDC9"
-footer-link-col: "#FDEFD8"
-footer-hover-col: "#FF6A1A"
+footer-link-col: "#FF4500"
+footer-hover-col: "#E03D00"
+
 
 
 
