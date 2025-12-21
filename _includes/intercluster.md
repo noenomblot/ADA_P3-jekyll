@@ -272,7 +272,7 @@ A natural place to begin is the political segment of Reddit. Political discourse
 
 The relationship between political and entertainment communities reveals a clear asymmetry. During the 2016 U.S. presidential election, interactions between these clusters increase noticeably. Hyperlinks surge following the event and remain elevated well beyond the immediate aftermath. Politically charged moments pull entertainment communities into the conversation through satire, commentary, late-night humor, or media framing, leaving behind a lasting imprint on their connection.
 
-The reverse, however, does not hold. When Star Wars: The Force Awakens was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a **one-directional spillover**, where politics extends outward, while entertainment remains self-contained.
+The reverse, however, does not hold. When Star Wars: The Force Awakens was released, one of the most anticipated entertainment events of the decade, political communities remained largely unmoved. No comparable spike in interaction appears, and ties between the two clusters do not strengthen. Cultural moments may dominate attention, but they rarely redirect political discourse. This pattern reveals a one-directional spillover, where politics extends outward, while entertainment remains self-contained.
 
 <iframe src="{{ 'assets/img/plotly_plots/graph1_4.html' | relative_url }}"
 loading="lazy"
@@ -308,7 +308,7 @@ style="width:100%; max-width:100%; height:380px; border:none;">
 
 A very different picture emerges when politics intersects with sports. Examining interactions around the 2015 Super Bowl shows remarkable stability. Posting behavior remains consistent before and after the event, and hyperlink exchange does not display any sustained change.
 
-Despite their shared visibility in public life, political and sports communities largely operate in parallel. Major sporting events generate intense internal engagement, yet they do not meaningfully cross into political discussion in a lasting way. This pairing illustrates **parallel coexistence**. Two communities occupying the same platform, reacting to the world independently, and rarely influencing one another.
+Despite their shared visibility in public life, political and sports communities largely operate in parallel. Major sporting events generate intense internal engagement, yet they do not meaningfully cross into political discussion in a lasting way. This pairing illustrates parallel coexistence. Two communities occupying the same platform, reacting to the world independently, and rarely influencing one another.
 
 <figure id="fig-plot-politics-sports-election">
   <div class="plotly-embed-long">
