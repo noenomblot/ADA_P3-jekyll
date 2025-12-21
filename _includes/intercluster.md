@@ -1,4 +1,4 @@
-## When Events Ripple Through the Network
+# 4. When Events Ripple Through the Network
 
 With the Reddit map now in hand, it is time to choose the moments that send shockwaves through both the real world and the digital one. To capture the diversity of collective attention, the events span multiple domains — from politics to gaming, from global sports to quiet holidays.
 
