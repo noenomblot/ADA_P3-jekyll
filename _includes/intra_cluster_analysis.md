@@ -1,11 +1,8 @@
 ## 5. Zooming into Events and Communities 
 
-
-
-Well now that you have seen how communities interact **with one another** on Reddit, you might be wondering what all of this means if you mostly stay within a single space. Many users are lurkers or regular contributors to just one community, with little interest in crossing categories.
+Well, now that you have seen how communities interact **with one another** on Reddit, you might be wondering what all of this means if you mostly stay within a single space. Many users are lurkers or regular contributors to just one community, with little interest in crossing categories.
 
 That intuition is fair and the data supports it. The majority of hyperlink interactions on Reddit happen **within the same community**. So even if you never leave your favorite subreddit, shifts in hyperlink traffic still shape what you see, what gains visibility, and how discussion evolves.
-
 
 
 <figure class="flourish-figure">
@@ -18,7 +15,7 @@ That intuition is fair and the data supports it. The majority of hyperlink inter
   </div>
 
   <figcaption>
-    <strong>Figure 14.</strong> Network representation of the Hyperlink network.
+    <strong>Figure 14.</strong> Chord diagram of interactions within and between Reddit communities.
   </figcaption>
 </figure>
 
@@ -26,169 +23,199 @@ To understand how major events affect users at this more personal scale, the ana
 
 ---
 
-## Inside a Community: A Case Study of Politics
+### Inside Communities: Three Case Studies
 
-What happens within a cluster when a major event unfolds? To answer this, we focus on the politics/news cluster.
+Below, we explore three different kinds of events inside their main clusters:
 
-Unsurprisingly, the most central subreddits in terms of internal hyperlink activity are explicitly political. At the core sits **r/The_Donald**, a right-wing subreddit (now banned) that played a dominant role during the 2016 U.S. presidential election. Closely following are **r/conspiracy**, and then **r/politics** and **r/news** — both heavily involved in the same election cycle, but generally positioned in opposition to *The_Donald*. In this sense, *r/politics* and *r/news* act as a counter-pole within the cluster, anchoring a different political narrative.
+- a **major political shock** (the 2016 U.S. election) inside the Politics/News cluster,  
+- a **viral game release** (*Pokémon GO*) inside the Gaming cluster,  
+- and **two terrorist attacks** of different magnitude within the World/Geography cluster.
 
-<figure id="fig-plot-top-subreddits-politics">
-    <div class="plotly-embed-top">
-      <iframe
-        src="{{ 'assets/img/plots/top-subreddit-interaction-politics.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 15.</strong> Top subreddits in the politics/news cluster.
-    </figcaption>
-  </figure>
-
-This internal tension makes the politics cluster an ideal lens through which to study how events reshape attention.
-
-
-### Reading the Pulse of Political Attention
-
-Figure [16](#fig-sliding-event-intensity-politics) shows the **sliding event intensity** within the politics cluster. To isolate short-term reactions, the absolute number of hyperlinks is averaged over a three-day window. This smoothing removes the long-term growth in Reddit activity and allows local fluctuations to come into focus.
-
-
-
-Two patterns immediately stand out.
-
- <figure id="fig-sliding-event-intensity-politics">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/plots/sliding_event_intensity_politics.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 16.</strong> Sliding event intensity in the politics/news cluster.
-    </figcaption>
-  </figure>
-
-First, as hyperlink activity increases, posting behavior becomes noticeably more erratic. Peaks grow sharper, and fluctuations more volatile. This likely reflects rapid, real-time reactions to unfolding events. At the same time, it may also be amplified by structural effects — as major moments trigger more posts containing multiple hyperlinks, the system becomes denser and more unstable in the short term.
-
-Second — and far more striking — is the **post-election collapse**. Even after averaging across neighboring days, hyperlink intensity drops sharply following the 2016 election and does not recover. The fall is not a brief dip, but a sustained depression in activity.
-
-This collapse provides strong evidence that the heightened volatility observed earlier is driven by real-world events rather than organic growth alone. Once the defining political moment passes, the network settles. Activity stabilizes, fluctuations shrink, and the intense, reactive behavior fades.
-
-
-In other words, major world events do not just create spikes — they reshape the internal rhythm of communities. Within politics, the election acted as a gravitational center, pulling attention inward and amplifying interaction. Once that center disappeared, so did the chaos it generated.
-
-Even for users who never leave a single subreddit, the world still arrives — quietly restructuring the conversations around them.
-
-We now zoom further into **how the U.S. presidential election reorganized the internal structure of the politics cluster itself**. Rather than looking at aggregate intensity alone, this view exposes *who* dominated attention and *how long* those effects endured.
-
-
-
-As shown in Figure [17](#fig-cluster-graph-US-election), the period surrounding the U.S. election is overwhelmingly centered on Donald Trump and the election itself. A small set of subreddits — **r/The_Donald**, **r/conspiracy**, **r/politics**, and **r/hillaryclinton** — rise above the rest, reshaping the internal topology of the cluster.
-
-  <figure id="fig-cluster-graph-US-election">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 17.</strong> Daily hyperlink activities around the US election.
-    </figcaption>
-  </figure>
-
-Among them, **r/The_Donald** is unmistakably dominant. Its position at the center of the graph, surrounded by a dense neighborhood of closely connected subreddits, reveals how attention gravitated toward a single ideological hub. The cluster does not simply grow more active; it becomes structurally skewed, with influence concentrating around a few key actors.
-
-This structural dominance is mirrored in posting behavior. The difference in intra-cluster daily post counts before and after November 8 is shown in Figure [18](#fig-before-after-graph-US-election).
-
- <figure id="fig-before-after-graph-US-election">
-    <div class="plotly-embed-smallest">
-      <iframe
-        src="{{ 'assets/img/plots/before-after-comparison_politics_2016_11_08.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 18.</strong> Activities the year before and after the US election.
-    </figcaption>
-  </figure>
-
-In the run-up to the election, hyperlink activity between political communities rises sharply, reflecting heightened engagement and cross-referencing. Immediately after the election, however, this intensity drops. The network exhales. While activity does not vanish, the extraordinary level of interconnection fades, marking the end of the election-driven surge.
-
-
-
-These visual patterns can also be detected statistically. If the hypothesis is that the election itself drove the increase in hyperlink connections — particularly between **r/politics** and **r/The_Donald** — this can be tested directly. Using a t-test over the pre-election period, the p-value on election day reaches **0.081**. While not fully decisive, this result strongly suggests a correlation between the event and the observed rise in hyperlink activity.
-
-The signal becomes even clearer when examining the relationship between **r/The_Donald** and **r/conspiracy**. Applying the same methodology yields a p-value of **0.034**, allowing the null hypothesis to be confidently rejected. In both cases, the connections formed around the election show **low stability**, consistent with the sharp post-election decline in activity. For a brief moment, attention pulls away from politics altogether.
-
-Yet the pause is temporary.
-
-The links forged during the election do not simply disappear — they decay slowly, and in some cases, not at all. The connection between **r/The_Donald** and **r/politics** exhibits a statistical half-life of **55 weeks**, an exceptionally long persistence. For comparison, the half-life of the connection between **r/The_Donald** and **r/news** is only **22 weeks**.
-
-Even more striking, the relationship between **r/conspiracy** and **r/The_Donald** does not decay in the weeks following the election. Instead, it continues to strengthen — a pattern that closely mirrors real-world political dynamics during both of Donald Trump’s terms in office.
-
-Taken together, these results show that major political events do more than generate temporary noise. They **restructure communities internally**, elevate specific actors, and forge connections that can persist long after the headlines fade. Even when activity subsides, the network remembers.
+Each case is folded into a collapsible block so you can open only the stories you care about.
 
 ---
 
-### Do smaller events evoke a similar reaction? - Release of *Pokémon Go*
+<details class="event-block">
+  <summary>
+    <span class="event-pill">Politics cluster</span>
+    <span>Election Shocks and Their Aftermath</span>
+  </summary>
+  <div markdown="1">
 
-  In the case of the US election, we saw an important, if not the most important, event on Reddit which culminates in an enormous, cluster wide reaction. Now it is only pertinent to ask, how Reddit's reaction to something more niche would be. For this, we will look at the release of the augmented reality mobile game *Pokémon Go*. The subreddits most central to this event are **r/pokemon** and **r/pokemongo**, both belonging to the Gaming cluster. With 621 hyperlink interactions over the available observation period, r/pokemongo ranks as the 32nd most connected subreddit within the cluster. This level of importance is particularly notable given that the subreddit only became active after the game’s release in June 2016, meaning it accumulated this influence within just the second half of the data collection window.
+### Inside a Community: A Case Study of Politics
 
+What happens within a cluster when a major event unfolds? To answer this, we focus on the politics/news cluster.
 
-  <figure id="fig-plot-top-subreddits-gaming">
-    <div class="plotly-embed-top">
-      <iframe
-        src="{{ 'assets/img/plots/top-subreddit-interaction-gaming.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 19.</strong> Top subreddits in the gaming cluster by number of interactions.
-    </figcaption>
-  </figure>
+Unsurprisingly, the most central subreddits in terms of internal hyperlink activity are explicitly political. At the core sits **r/The_Donald**, a right-wing subreddit (now banned) that played a dominant role during the 2016 U.S. presidential election. Closely following are **r/conspiracy**, **r/politics**, and **r/news** — heavily involved in the same election cycle, but often positioned in opposition to *The_Donald*. In this sense, *r/politics* and *r/news* act as a counter-pole within the cluster, anchoring a different political narrative.
 
+<figure id="fig-plot-top-subreddits-politics">
+  <div class="plotly-embed-top">
+    <iframe
+      src="{{ 'assets/img/plots/top-subreddit-interaction-politics.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 15.</strong> Top subreddits in the politics/news cluster.
+  </figcaption>
+</figure>
 
-  A big reason for why a subreddit created in 2016 can still be in the top 50, is the more or less unique development the pokemongo community followed: Instead of only being organized in a global subreddit, almost immediately regional groups were formed. This makes sense for a game which, [before Covid](https://www.gamedeveloper.com/design/how-i-pokemon-go-i-evolved-in-response-to-the-covid-19-pandemic){:target="_blank"}, was a local game with multiplayer aspects. In Figure [20](#fig-cluster-graph-pokemongo) the daily evolution of activity surrounding the worldwide release in June can be clearly traced. Highlighted in the analysis are the primary subreddit r/pokemongo, the broader franchise hub r/pokemon, and several regional offshoots associated with each, capturing both global and localized engagement patterns.
+This internal tension makes the politics cluster an ideal lens through which to study how events reshape attention.
 
-  <figure id="fig-cluster-graph-pokemongo">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_pokemongo.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure 20.</strong> Daily hyperlink activities around releases of Pokémon Go around the world.
-    </figcaption>
-  </figure>
+#### Reading the Pulse of Political Attention
 
- Building on the earlier observations, we now turn to how the release of *Pokémon GO* reshaped interactions **within** the Gaming cluster, and whether these local effects scaled up to influence the cluster as a whole.
+Figure&nbsp;[16](#fig-sliding-event-intensity-politics) shows the **sliding event intensity** within the politics cluster. To isolate short-term reactions, the absolute number of hyperlinks is averaged over a three-day window. This smoothing removes long-term growth in Reddit activity and lets local fluctuations come into focus.
 
-In June alone, the main subreddit **r/pokemongo** established connections with at least **89 other subreddits** that continued to exchange hyperlinks at least once over the following two months. This rapid expansion signals more than background noise — it reflects a burst of attention directly tied to the game’s worldwide release.
+Two patterns immediately stand out.
 
-This interpretation is reinforced statistically. Testing the null hypothesis that the increase in hyperlinks between **r/pokemon** and **r/pokemongo** is unrelated to the release yields a **p-value of 0.045**, allowing the null hypothesis to be rejected at conventional significance levels. Combined with a **Cohen’s d of 0.618**, indicating a moderately strong effect size, the results support a clear conclusion: the launch of *Pokémon GO* is strongly associated with the surge in hyperlink activity directed toward **r/pokemongo**.
+<figure id="fig-sliding-event-intensity-politics">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/plots/sliding_event_intensity_politics.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 16.</strong> Sliding event intensity in the politics/news cluster.
+  </figcaption>
+</figure>
 
+First, as hyperlink activity increases, posting behavior becomes noticeably more erratic. Peaks grow sharper and fluctuations more volatile, reflecting rapid, real-time reactions to unfolding events. Major moments do not just add posts — they create denser, more unstable bursts of interaction.
 
+Second — and far more striking — is the **post-election collapse**. Even after averaging across neighboring days, hyperlink intensity drops sharply following the 2016 election and does not recover over the remaining observation window. The fall is not a brief dip, but a sustained depression in activity.
 
-The natural follow-up question is whether this locally intense burst of activity mattered for the Gaming cluster as a whole. Here, the answer is more restrained.
+This collapse provides strong evidence that the heightened volatility observed earlier is driven by real-world events rather than organic growth alone. Once the defining political moment passes, the network settles: activity stabilizes, fluctuations shrink, and the intense, reactive behavior fades.
 
-Neither **r/pokemon** nor **r/pokemongo** ranks among the top ten subreddits by total hyperlink interactions within the cluster (see Figure [19](#fig-plot-top-subreddits-gaming)). As a result, their sudden rise, while highly visible at the local level, is insufficient to shift the global structure of the Gaming cluster.
+In other words, major world events do not just create spikes — they temporarily change the **internal rhythm** of communities. Within politics, the election acts as a gravitational center, pulling attention inward and amplifying interaction. Once that center disappears, so does the chaos it generated. Even for users who never leave a single subreddit, the world still arrives — quietly restructuring the conversations around them.
 
-Highly dominant communities such as **r/leagueoflegends** exert far greater gravitational pull, effectively dampening the cluster-wide impact of even globally popular releases. In this sense, *Pokémon GO* represents a **localized shock** — powerful within its immediate neighborhood, yet unable to overcome the structural inertia imposed by entrenched hubs.
+#### Who Dominated the Cluster During the Election?
 
+We now zoom further into **how the U.S. presidential election reorganized the internal structure of the politics cluster itself**. Rather than looking at aggregate intensity alone, this view exposes *who* dominated attention and *how long* those effects endured.
 
-Together with the political case study, this contrast highlights a key insight: **not all viral moments scale equally**. Some events reorganize entire clusters, while others burn brightly within a confined region of the network before settling back into the existing hierarchy.
+As shown in Figure&nbsp;[17](#fig-cluster-graph-US-election), the period surrounding the U.S. election is overwhelmingly centered on Donald Trump and the election itself. A small set of subreddits — **r/The_Donald**, **r/conspiracy**, **r/politics**, and **r/hillaryclinton** — rise above the rest, reshaping the internal topology of the cluster.
 
-------
+<figure id="fig-cluster-graph-US-election">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_US_election.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 17.</strong> Daily hyperlink activities around the U.S. election.
+  </figcaption>
+</figure>
 
+Among them, **r/The_Donald** is unmistakably dominant. Its position at the center of the graph, surrounded by a dense neighborhood of closely connected subreddits, reveals how attention gravitated toward a single ideological hub. The cluster does not simply grow more active; it becomes structurally skewed, with influence concentrating around a few key actors.
 
+This structural dominance is mirrored in posting behavior. The difference in intra-cluster daily post counts before and after November&nbsp;8 is shown in Figure&nbsp;[18](#fig-before-after-graph-US-election).
 
+<figure id="fig-before-after-graph-US-election">
+  <div class="plotly-embed-smallest">
+    <iframe
+      src="{{ 'assets/img/plots/before-after-comparison_politics_2016_11_08.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 18.</strong> Activities the year before and after the U.S. election.
+  </figcaption>
+</figure>
 
-### What importance does an event have to have for Reddit to react? - Terrorism
+In the run-up to the election, hyperlink activity between political communities rises sharply, reflecting heightened engagement and cross-referencing. Immediately after the election, however, this intensity drops: the network exhales. While activity does not vanish, the extraordinary level of interconnection fades, marking the end of the election-driven surge.
 
-After having studied the reaction of the politics cluster on a large scale event, the US elections, and on an event of medium importance, the release of *Pokémon Go*, we want to test out the boundary of event impact in a case study on two incidences with similar circumstances. Those two incidents under study are the two major terrorist attacks in Paris in 2015. The first incident is the shooting in the Parisian satire magazine *Charlie Hebdo* on January 7, 2015. The second terrorist attack happening in the same year on November 13 in multiple locations throughout the city. Due to their geographical and temporal closeness, they provide an ideal basis to study a subreddit cluster's reaction.
+#### How Long Do Election-Induced Links Last?
 
-From the start of January, we can see the immediate temporal reaction of the Geography/World cluster in Figure [21](#fig-cluster-graph-charlie-hebdo). Days after the attack, there are some connections from and to the highlighted subreddits "france" and "paris", but the increase is only small compared to earlier examples.
+These visual patterns can also be detected statistically. If the hypothesis is that the election itself drove the increase in hyperlink connections — particularly between **r/politics** and **r/The_Donald** — this can be tested directly. Using a t-test over the pre-election period, the p-value on election day reaches **0.081**. While not fully decisive, this strongly suggests a correlation between the event and the observed rise in hyperlink activity.
+
+The signal becomes clearer when examining the relationship between **r/The_Donald** and **r/conspiracy**. Applying the same methodology yields a p-value of **0.034**, allowing the null hypothesis to be rejected. In both cases, the connections formed around the election show **low stability**, consistent with the sharp post-election decline in activity: for a brief moment, attention pulls away from politics altogether.
+
+Yet the pause is temporary. The links forged during the election do not simply disappear — they decay slowly, and in some cases, not at all. The connection between **r/The_Donald** and **r/politics** exhibits a statistical half-life of **55 weeks**, an exceptionally long persistence. For comparison, the half-life of the connection between **r/The_Donald** and **r/news** is only **22 weeks**.
+
+Even more striking, the relationship between **r/conspiracy** and **r/The_Donald** does not decay in the weeks following the election. Instead, it continues to strengthen — a pattern that closely mirrors real-world political dynamics during Donald Trump’s time in office.
+
+Taken together, these results show that major political events do more than generate temporary noise. They **restructure communities internally**, elevate specific actors, and forge connections that can persist long after the headlines fade. Even when activity subsides, the network remembers.
+
+  </div>
+</details>
+
+---
+
+<details class="event-block">
+  <summary>
+    <span class="event-pill">Gaming cluster</span>
+    <span>*Pokémon GO*: A Localized Shock</span>
+  </summary>
+  <div markdown="1">
+
+### Do Smaller Events Evoke a Similar Reaction? — Release of *Pokémon GO*
+
+In the case of the U.S. election, we saw one of the most important events on Reddit, culminating in an enormous, cluster-wide reaction. A natural follow-up question is: **how does Reddit react to something more niche?**
+
+For this, we examine the release of the augmented-reality mobile game *Pokémon GO*. The subreddits most central to this event are **r/pokemon** and **r/pokemongo**, both belonging to the Gaming cluster. With 621 hyperlink interactions over the observation period, **r/pokemongo** ranks as the 32nd most connected subreddit within the cluster — impressive for a community that only became active after the game’s release in June 2016.
+
+<figure id="fig-plot-top-subreddits-gaming">
+  <div class="plotly-embed-top">
+    <iframe
+      src="{{ 'assets/img/plots/top-subreddit-interaction-gaming.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 19.</strong> Top subreddits in the gaming cluster by number of interactions.
+  </figcaption>
+</figure>
+
+A major reason a subreddit created in 2016 can still be in the top 50 is the **unusual structure** of the *Pokémon GO* community. Instead of remaining centralized in a single global subreddit, regional groups appeared almost immediately. For a game that (before COVID-19) rewarded walking outside and meeting other players, local coordination made perfect sense.
+
+In Figure&nbsp;[20](#fig-cluster-graph-pokemongo), the daily evolution of activity surrounding the worldwide release in June can be clearly traced. Highlighted in the analysis are the primary subreddit **r/pokemongo**, the broader franchise hub **r/pokemon**, and several regional offshoots, capturing both global and localized engagement patterns.
+
+<figure id="fig-cluster-graph-pokemongo">
+  <div class="plotly-embed">
+    <iframe
+      src="{{ 'assets/img/clusters/temporal_cluster_graph_pokemongo.html' | relative_url }}"
+      loading="lazy">
+    </iframe>
+  </div>
+  <figcaption>
+    <strong>Figure 20.</strong> Daily hyperlink activities around releases of *Pokémon GO* around the world.
+  </figcaption>
+</figure>
+
+#### Local Shock, Measurable but Limited
+
+In June alone, **r/pokemongo** established connections with at least **89 other subreddits** that continued to exchange hyperlinks at least once over the following two months. This rapid expansion reflects a burst of attention directly tied to the game’s worldwide release.
+
+Statistical tests support this interpretation. Testing the null hypothesis that the increase in hyperlinks between **r/pokemon** and **r/pokemongo** is unrelated to the release yields a **p-value of 0.045** and a **Cohen’s d of 0.618**, indicating a moderately strong effect. The launch of *Pokémon GO* is therefore strongly associated with the surge in hyperlink activity directed toward **r/pokemongo**.
+
+The natural follow-up question is whether this intense burst of activity mattered for the Gaming cluster as a whole. Here, the answer is more restrained.
+
+Neither **r/pokemon** nor **r/pokemongo** ranks among the top ten subreddits by total hyperlink interactions within the cluster (see Figure&nbsp;[19](#fig-plot-top-subreddits-gaming)). Highly dominant communities such as **r/leagueoflegends** exert far greater gravitational pull, effectively dampening the cluster-wide impact of even globally popular releases.
+
+In this sense, *Pokémon GO* represents a **localized shock** — powerful within its immediate neighborhood, yet unable to overcome the structural inertia imposed by entrenched hubs. Together with the political case study, this contrast highlights a key insight: **not all viral moments scale equally**. Some events reorganize entire clusters, while others burn brightly within a confined region of the network before settling back into the existing hierarchy.
+
+  </div>
+</details>
+
+---
+
+<details class="event-block">
+  <summary>
+    <span class="event-pill">World cluster</span>
+    <span>Two Paris Attacks, Two Different Ripples</span>
+  </summary>
+  <div markdown="1">
+
+### What Importance Must an Event Have for Reddit to React? — Terrorism
+
+After studying the reaction of the politics cluster to a large-scale event (the U.S. elections) and a medium-scale one (*Pokémon GO*), we turn to the **World/Geography cluster** to explore the boundary of event impact. Here, we compare two terrorist attacks in Paris in 2015:
+
+- the **Charlie Hebdo** shooting on January 7,  
+- and the coordinated attacks of **November 13** (often associated with the Bataclan).  
+
+Their geographical and temporal closeness makes them an ideal pair for analyzing how a cluster reacts to events of different magnitude.
+
+From the start of January, we observe the immediate reaction of the Geography/World cluster in Figure&nbsp;[21](#fig-cluster-graph-charlie-hebdo). Days after the Charlie Hebdo attack, there are some connections from and to the highlighted subreddits **r/france** and **r/paris**, but the increase is modest compared to earlier examples.
 
 <figure id="fig-cluster-graph-charlie-hebdo">
   <div class="plotly-embed">
@@ -202,8 +229,7 @@ From the start of January, we can see the immediate temporal reaction of the Geo
   </figcaption>
 </figure>
 
-The observations from the temporal clustering graph are also be shown in Figure [22](#fig-before-after-graph-charlie-hebdo). The average number of hyperlink connections in the year before, the year after and the days around the incident reveals there is no significant increase of hyperlink connections visible in the Geography/World cluster.
-
+The observations from the temporal clustering graph are confirmed in Figure&nbsp;[22](#fig-before-after-graph-charlie-hebdo). The average number of hyperlink connections in the year before, the year after, and the days around the incident reveals **no significant increase** in connections within the Geography/World cluster.
 
 <figure id="fig-before-after-graph-charlie-hebdo">
   <div class="plotly-embed-smallest">
@@ -213,13 +239,13 @@ The observations from the temporal clustering graph are also be shown in Figure 
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 22.</strong> Activities the year before and after the terrorist attacks.
+    <strong>Figure 22.</strong> Hyperlink activities the year before and after the Charlie Hebdo attack.
   </figcaption>
 </figure>
 
-Looking more carefully at the relationship of the subreddits "france" and "paris", we may deduce a newly reformed but temporary relationship between the two, due to the event on January 7th. This being said, the connections between the two subreddits are sparse and far between, but those which do occur predominantly convey positive and supportive sentiments.
+Looking more closely at the relationship between **r/france** and **r/paris**, we can detect a newly formed but temporary relationship likely triggered by the event on January 7. The connections remain sparse, but those that do appear predominantly convey positive and supportive sentiment.
 
-Reddit's reaction to the second terrorist attack in Paris in 2015 is shown in Figure [23](#fig-cluster-graph-bataclan). Immediately, one can see how this time Reddit reacts much more strongly. The group around "france" especially shows a big increase in hyperlink connections, although it remains unclear to what extent this increase can be directly attributed to the event itself.
+By contrast, Reddit’s reaction to the **November 13 attacks** is much stronger.
 
 <figure id="fig-cluster-graph-bataclan">
   <div class="plotly-embed">
@@ -233,9 +259,7 @@ Reddit's reaction to the second terrorist attack in Paris in 2015 is shown in Fi
   </figcaption>
 </figure>
 
-
-The difference between the two events is even more visible when looking at the average interaction graph of the subreddit before and after the second attack. Around November 13, there is indeed a cluster wide increase in hyperlink connections which diminishes again in the time after. The same happens locally, the connections between "france" and "paris" increase again but only to then diminish in the time after.
-
+The group around **r/france** shows a clear surge in hyperlink connections, although it is difficult to attribute the entire increase solely to the attacks. The difference between the two events becomes even more visible when looking at the average interaction graph before and after November&nbsp;13 in Figure&nbsp;[24](#fig-before-after-graph-bataclan).
 
 <figure id="fig-before-after-graph-bataclan">
   <div class="plotly-embed-smallest">
@@ -245,260 +269,22 @@ The difference between the two events is even more visible when looking at the a
     </iframe>
   </div>
   <figcaption>
-    <strong>Figure 24.</strong> Hyperlink activities in the geography cluster a year before and after the november attacks.
+    <strong>Figure 24.</strong> Hyperlink activities in the Geography/World cluster the year before and after the November attacks.
   </figcaption>
 </figure>
 
-While these events are first and foremost human tragedies, this analysis shows how the magnitude of an incident is important in how big Reddit's reaction becomes. This being said, both attacks are tragedies and Reddit's reaction should not, and does not, quantify the real loss of life in any way. If anything, these patterns suggest that in moments of large-scale human catastrophe, inter-community engagement on Reddit is more often driven by expressions of empathy than by sustained structural change.
+Here, a **cluster-wide increase** in hyperlink connections appears around the date of the attacks, followed by a gradual return to baseline. Locally, connections between **r/france** and **r/paris** strengthen again, but only temporarily.
 
---------------
+While these events are first and foremost human tragedies, this analysis shows that the **magnitude** of an incident matters for how strongly Reddit reacts. Reddit’s engagement should not be interpreted as a measure of real-world loss, but the patterns suggest that during large-scale catastrophes, inter-community engagement is often driven by expressions of empathy rather than long-term structural change.
 
-
-
-
-
-<!---------
-### Entertainment  
-  **Entertainment → Politics**
-
-  <figure id="fig-plot-normalized-weekly-entertainment">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/plots/normalized_weekly_Entertainment.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Weekly activity in the Entertainment subreddit.
-    </figcaption>
-  </figure>
-
-  The daily activity in the cluster predictably increases over time if only due to increased size of Reddit itself. The analysis shows some strong peaks, though we were unable to relate them to a specific event. No event is dominating enough for it to be easily visible on the temporal graph and the amount of posts increases near linearly over time.
-
-  <figure id="fig-sliding-event-intensity-entertainment">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/plots/sliding_event_intensity_entertainment.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Sliding event intensity in the entertainment cluster.
-    </figcaption>
-  </figure>
-
-  Analyzing the sliding event intensity of the entertainment cluster in [figure ???](#fig-sliding-event-intensity-entertainment) with the [sliding event intensity of the politics cluster](#fig-sliding-event-intensity-politics) seen earlier, it is possible to make out how the erraticness of the cluster intensity. While the sliding event intensity of the politics cluster changes over time based on an event, the entertainment cluster sliding event intensity has near unchanging peak-to-peak values and frequency. 
-
-  Back inside the entertainment cluster when analyzing the top subreddits by hyperlink numbers, we can notice most of them are generalist or humorist subreddits which cover a whole branch of media. The first non-generalist subreddit is "pokemongivaway", though being a giveaway subreddit it is heavily skewed towards linking and being linked to. The second interesting one is "starwars" and as it is, there was a huge blockbuster release in 2015, so inside the period of our dataset.
-
-  <figure id="fig-plot-top-subreddits-entertainment">
-    <div class="plotly-embed-top">
-      <iframe
-        src="{{ 'assets/img/plots/top-subreddit-interaction-entertainment.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Top subreddits in the entertainment cluster by number of interactions.
-    </figcaption>
-  </figure>
-
-#### Star Wars: *The Force Awakens* (December 2015) — massive attention, zero political pull
-
-  [Figure ???](#fig-cluster-graph-force-awakens) shows the temporal graph around the release of *The Force Awakens* on December 18, 2015, the first film of the so called "sequel-trilogy". We see many hyperlinks leading to or away from the main star wars subreddit "starwars", but this effect is only visible for a few days after the film's release.
-
-  <figure id="fig-cluster-graph-force-awakens">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_force_awakens.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around release of the film "The Force Awakens".
-    </figcaption>
-  </figure>
-
-  Despite the seemingly visual increase in activity that day, we cannot confirm any significant or lasting effect following on the whole cluster following the film's release. However what we are able to tell is that in the ego-network of the subreddit "starwars", the ties to a subreddit called "starwarsspeculation" got strengthened. This makes sense, as a new film in a long series always leads to new and exciting speculations by fans on what future movie instances in the star wars universe bring forth.
---------->
-
-<!-- ### Can Longer Lasting Events be Distinguished? - Release of Season 6 of *Game of Thrones*
-
-We come to a topic, which at the time was highly celebrated, but now in hindsight many consider the [beginning of the downfall](https://www.reddit.com/r/gameofthrones/comments/xa3t7d/why_do_people_now_include_season_6_along_7_8_as/) of the popular TV-Series *Game of Thrones*. It, like the election cycle for the US Presidential election, is a longer lasting process due to the nature of the serial release. Usually episodes do not air at the same time, but are published in a weekly frequency. As such, we would not necessarily expect an event, even of the cultural impact of *Game of Thrones* to be well visible on a temporal graph. 
-
-<figure id="fig-plot-normalized-weekly-entertainment">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/plots/normalized_weekly_Entertainment.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
   </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Weekly activity in the Entertainment subreddit.
-  </figcaption>
-</figure>
-
-Taking into account the normalized weekly intra-cluster activity in [figure ???](fig-plot-normalized-weekly-entertainment) we have to consider the evidence inconclusive. There may be a temporary increase in activity, but due to the erratic nature of the activity in the entertainment cluster, the temporal graph alone does not suffice.
-
-Analyzing the sliding event intensity of the entertainment cluster in [figure ???](#fig-sliding-event-intensity-entertainment), we may again see a slight indication of a continued event between April and July 2016, the smoothed event intensity seems to loose some of it's erraticness and even peaks during this period. But again, we have inconclusive visual evidence of the release of the new *Game of Thrones* season being the reason. 
-
-<figure id="fig-sliding-event-intensity-entertainment">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/plots/sliding_event_intensity_entertainment.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Sliding event intensity in the entertainment cluster.
-  </figcaption>
-</figure>
-
-
-Looking at the clustering graph around the season release in [figure ???](#fig-cluster-graph-gameofthrones), we may see markedly more hyperlink connections after the 24th of April, the date of the episode release. The persisting hyperlink frequency after that date is likely due to the continuous serial nature of the event. Though again, from visual analysis alone, it is impossible to conclude anything concrete.
-
-<figure id="fig-cluster-graph-gameofthrones">
-  <div class="plotly-embed">
-    <iframe
-      src="{{ 'assets/img/clusters/temporal_cluster_graph_gameofthrones.html' | relative_url }}"
-      loading="lazy">
-    </iframe>
-  </div>
-  <figcaption>
-    <strong>Figure ???.</strong> Daily hyperlink activities around release the first episode of season 6 of Game of Thrones.
-  </figcaption>
-</figure>
-
-To get evidence for or against the theory of the series releas being the reason for an increased cluster activity, we look at the subreddit relation between the two most important *Game of Thrones* themed subreddits: "freefolk" and "gameofthrones". Statistical evidence shows a slight increase in lasting subreddit relations in the weeks after the release of the first episode. The Cohen's d-test results in a value of 0.484, which signifies a moderate increase in activity and confirms our visual observations of earlier. This being said, the p-value of the event really causing this increase is only 0.16. This is clearly not inside the tolerance of 0.05 usually necessary to exclude the null hypothesis of the increase being not caused by the event. Still, a p-value of this magnitude *may* be an indicator of a correlation.
-
-Now the logical follow up question would be to see the values after the release of the last of season 6's episodes on June 26th.Indeed, we a decay in activity between the two subreddits "freefolk" and "gameofthrones". This decay however is quite a bit smaller, for Cohen's d being -0.374 and here we can reject the hypothesis of the last episode of the season causing a break of previously forged bonds between "freefolk" and "gameofthrones", because our p-value proving it is 0.28.
-
-In the end, we cannot conclusively confirm if season 6 of the series *Game of Thrones* really lead to increased cluster activity and lasting relationships between two of the series main subreddits, but we can tentatively say it lead to an increase in their bonds and state that while there is decrease in inter-subreddit activity between "freefolk" and "gameofthrones", it is statistically not proven that the decrease stems from season 6's last episode being released.
-
- -->
-
-
-
-<!--------------
-
-### Sports
-
-  Sports is something, which in the media depends heavily on an event-based schedule. The question which poses itself is always "When is the next championship?", "Did you see the Champions League final?" and "What do you do the next Super Bowl?", and this over many types of sports. But does this high saturation of "big" events drown out everything else, or can we still see a cluster-wide reaction on a specific sports competition?
-
-  Let's begin with the biggest subreddits. For Europeans it may seem surprising that "nfl" is the top subreddit and decidedly not "soccer", or football as it is better known as. But, because Reddit was, and still is, mainly US American, the most [popular US sport](https://theenterpriseworld.com/most-popular-sports-in-the-usa/) is also dominant here. "soccer" is only third, after the in the US and Europe popular ice hockey subreddit. "cfb", "nfl_draft" and "oaklandraiders" are all football related and "mls" the north american soccer league subreddit.
-
-  <figure id="fig-plot-top-subreddits-sports">
-    <div class="plotly-embed-top">
-      <iframe
-        src="{{ 'assets/img/plots/top-subreddit-interaction-sports.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Top subreddits in the sports cluster by number of interactions.
-    </figcaption>
-  </figure>
-
-  The popularity of american football is immediatly visible in both the [normalized temporal graph](#fig-normalized-weekly-sports) and the [sliding event intensity graph](#fig-sliding-event-intensity-sports). Every peak in the early parts of every year corresponds to the yearly Super Bowl, the final of the NFL league every year and a huge event in the US.
-
-  <figure id="fig-normalized-weekly-sports">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/plots/normalized_weekly_sports.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Hyperlink activities over time in the politics/news cluster.
-    </figcaption>
-  </figure>
-
-  <figure id="fig-sliding-event-intensity-sports">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/plots/sliding_event_intensity_sports.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Sliding event intensity in the politics/news cluster.
-    </figcaption>
-  </figure>
-
-#### Super Bowl 2016 (February 2016)
-
-  As the peaks are visible to such an extent, it would be interesting to see, if any other sport championship can even be noticed in our analysis. For this, we first have to establish the dominance of the Super Bowl. In the graph taking into account the hyperlink engagement [the year before and after](#fig-before-after-graph-super-bowl), there is a clear dominance of this event on February 2nd over any other events the same year.
-
-  <figure id="fig-before-after-graph-super-bowl">
-    <div class="plotly-embed-smallest">
-      <iframe
-        src="{{ 'assets/img/plots/before-after-comparison_sports_2016_02_07' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Activities the year before and after the 2016 Super Bowl.
-    </figcaption>
-  </figure>
-
-  In terms of inter-subreddit relations, many links to subreddit showed only temporary connections. For example it's connection to "nflrountable" and "footballstrategy" disappeared nearly completely afterwards. It also stirred up emotions, an example being the improvement of emotional tone with the New Orleans team's subreddit "saints" and at the same time it also worsened it's tone with for example with the subreddit of San Francisco's team "49ers". 
-
-  <figure id="fig-cluster-graph-super-bowl">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_superbowl.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around the 2016 Super Bowl.
-    </figcaption>
-  </figure>
-
-  It would be possible to do a whole data analysis project only on the Super Bowl and how it is perceived on Reddit, but this is out of the scope of this project, as our goal here is to compare it to another event impacting the same cluster.
-
-#### European Championships 2016 (June/July 2016)
-
-  This other event is the UEFA European Championships 2016 in France. It took place from 10th of June to 10th of July. 
-
-  <figure id="fig-cluster-graph-eu-championships">
-    <div class="plotly-embed">
-      <iframe
-        src="{{ 'assets/img/clusters/temporal_cluster_graph_eu_championships.html' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Daily hyperlink activities around the European Championships 2016 in France.
-    </figcaption>
-  </figure>
-  
-  The [engagement graph of the year](#fig-before-after-graph-europe-cup-2016) shows what we already could have expected from the cluster wide temporal graph. There is no specific increase in activity in the whole cluster during the time of the championship. It even seems like the engagement decreased.
-
-  <figure id="fig-before-after-graph-europe-cup-2016">
-    <div class="plotly-embed-smallest">
-      <iframe
-        src="{{ 'assets/img/plots/before-after-comparison_sports_2016_06_25' | relative_url }}"
-        loading="lazy">
-      </iframe>
-    </div>
-    <figcaption>
-      <strong>Figure ???.</strong> Activities the year before and after the European Championships 2016.
-    </figcaption>
-  </figure>
-
-  One could only speculate for this decrease in engagement, but one reasonable theory seems to be the rational of why the championship is at the time it is. The theory being that during the summer, most big sports leagues are on pause, be that the NFL, NHL or the European football leagues. Having no club-based sports could concentrate the engagement into few subreddits or even halt it completely. This would be interesting to analyze, but unfortunately it is not possible with the current dataset. Looking again at the [sliding event intensity graph](#fig-sliding-event-intensity-sports), the decreasing engagement in the beginning of June can clearly be seen.
-
-  The ego network of "soccer" reveals more or less what you'd expect. Similarly to the "nfl" subreddit, there are a lot of emotional shifts in relations with subreddits, for example a positive shift with "soccercirclejerk", a subreddit making fun of the main "soccer" subreddit, or a negative shift with Arsenal London's subreddit "gunners", though those shifts are not as strong as around the Super Bowl.
-
-  It would also be possible to do a more extensive analysis on the European Championships and how it interacts with Reddit, especially taking into account the in Europe very popular local club seasons. Though this, like a possible study around the Super Bowl, is outside the scope of this project.
------->
-
+</details>
 
 ---
-### Take-away from intra-cluster analysis
-Bringing together the intra-cluster analyses above, several clear patterns emerge that help explain how Reddit communities respond when the outside world intrudes.
 
+## Takeaways from Intra-Cluster Analysis
+
+Bringing together the intra-cluster analyses above, several clear patterns emerge that help explain how Reddit communities respond when the outside world intrudes.
 
 ### What We Learn from Inside the Clusters
 
@@ -508,8 +294,5 @@ Bringing together the intra-cluster analyses above, several clear patterns emerg
 2. **Local importance does not guarantee global impact.**  
    Some events resonate powerfully within a narrow region of the network without reshaping the cluster as a whole. The release of *Pokémon GO* generated a clear surge of activity around **r/pokemongo**, yet this excitement remained largely localized and failed to propagate across the broader Gaming cluster.
 
-3. **Event impact determines whether clusters respond.**  
-   Not all events cross the threshold required to mobilize an entire cluster. The likelihood of a collective reaction increases with the perceived impact of the event, suggesting the existence of an implicit tipping point beyond which attention spreads beyond local neighborhoods and into the cluster at large.
-
-
-
+3. **Event magnitude shapes whether clusters react at all.**  
+   Not all events cross the threshold required to mobilize an entire cluster. Smaller shocks, like the Charlie Hebdo attack, leave only faint structural traces, while larger ones, such as the November 2015 attacks, trigger visible but temporary reorganizations. The likelihood of a collective reaction increases with the perceived impact of the event — suggesting an implicit tipping point beyond which attention spreads from local neighborhoods to the cluster at large.
