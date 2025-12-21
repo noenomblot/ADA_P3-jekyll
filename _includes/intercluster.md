@@ -86,7 +86,7 @@ This shared focus continued with Super Bowl XLIX in February 2015, a cultural mi
 
 Few things travel across Reddit as effortlessly as pop culture. The release of *Star Wars: The Force Awakens* in December 2015 reignited a legendary franchise and pulled together fans, critics, and casual viewers across dozens of communities.  
 
-The film industry remained in focus during the 88th Academy Awards in February 2016, while television took center stage with the premiere of *Game of Thrones* Season 6 in April of the same year. These moments show how shared narratives can synchronize attention across otherwise unrelated spaces.
+The film industry remained in focus during the 88th Academy Awards in February 2016, while television took center stage with the premiere of Game of Thrones Season 6 in April of the same year. These moments show how shared narratives can synchronize attention across otherwise unrelated spaces.
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="assets/img/events/movies.png"
@@ -126,7 +126,7 @@ These events compress time and space, briefly pulling distant communities into a
 
 Alongside singular events, recurring holidays provide a different lens on collective behavior. Independence Day in July 2014, Christmas Day in December 2015, and Thanksgiving in November 2016 represent predictable moments of cultural alignment.  
 
-Rather than sudden shocks, these days reveal **rhythms** — how shared traditions subtly reshape online interaction year after year.
+Rather than sudden shocks, these days reveal rhythms : how shared traditions subtly reshape online interaction year after year.
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="assets/img/events/holidays.png"
@@ -145,7 +145,7 @@ Rather than sudden shocks, these days reveal **rhythms** — how shared traditio
 
 Finally, no exploration of Reddit would be complete without gaming. The release of *Pokémon GO* in July 2016 rapidly evolved into a global phenomenon, blending physical movement with digital play and spilling into communities far beyond gaming itself.  
 
-Earlier, the PlayStation 4 release of *Grand Theft Auto V* in November 2014 extended the life of an already iconic title, while the reveal of the Nintendo Switch in October 2016 generated widespread anticipation for a new hybrid console.
+Earlier, the PlayStation 4 release of Grand Theft Auto V in November 2014 extended the life of an already iconic title, while the reveal of the Nintendo Switch in October 2016 generated widespread anticipation for a new hybrid console.
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="assets/img/events/games.png"
