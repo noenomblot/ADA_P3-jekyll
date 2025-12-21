@@ -7,7 +7,7 @@ cover-img: /assets/img/reddit_header.png
 
 # 1. When the World Breaks In: How Reddit Reacts to Major Events {#part1}
 
-Have you ever opened Reddit expecting something light — maybe a few cute pet photos — only to find yourself pulled into the breaking news of an earthquake on the other side of the world?
+Have you ever opened Reddit expecting something light, maybe a few cute pet photos, only to find yourself pulled into the breaking news of an earthquake on the other side of the world?
 
 Or started your scroll casually, only to realize that *something big* is happening, simply because every corner of your feed feels different?
 
@@ -15,13 +15,13 @@ That’s Reddit.
 
 ---
 
-### A Network That Feels Chaotic — But Isn’t
+### A Network That Feels Chaotic, But Isn’t
 
 At first glance, Reddit can feel overwhelming. Thousands of communities. Millions of users. Endless posts, links, arguments, jokes, and memes.
 
 Yet beneath this apparent chaos lies a surprisingly structured system.
 
-Reddit is not just a collection of isolated forums — it is a **dense network of hyperlinks**, where communities constantly reference one another, intentionally or not. And when a major world event occurs, this network doesn’t stay still.
+Reddit is not just a collection of isolated forums. It is a **dense network of hyperlinks**, where communities constantly reference one another, intentionally or not. And when a major world event occurs, this network doesn’t stay still.
 
 It **reacts**.
 
@@ -29,7 +29,7 @@ It **reacts**.
 
 ### Collective Attention in Motion
 
-Elections, unexpected product launches, breaking news, global crises — when moments like these happen, millions of people turn to the internet to make sense of them. They comment, debate, explain, speculate, and joke.
+Elections, unexpected product launches, breaking news, global crises, when moments like these happen, millions of people turn to the internet to make sense of them. They comment, debate, explain, speculate, and joke.
 
 Reddit becomes a living map of collective attention.
 
@@ -39,7 +39,7 @@ This raises an essential question:
 
 - Do communities that usually ignore each other suddenly connect?
 - Do political spaces spill into entertainment or gaming communities?
-- Once the event passes, do these connections disappear — or do they leave behind a lasting trace?
+- Once the event passes, do these connections disappear ? Or do they leave behind a lasting trace?
 
 ---
 
@@ -56,7 +56,7 @@ In other words, Reddit lets us watch collective behavior **form, spread, and dec
 
 ### Let’s Dive In
 
-By following the flow of hyperlinks across Reddit before, during, and after major world events, we can begin to understand how digital communities respond to shocks — much like societies do in the real world.
+By following the flow of hyperlinks across Reddit before, during, and after major world events, we can begin to understand how digital communities respond to shocks, much like societies do in the real world.
 
 So let’s zoom out, map the network, and explore how Reddit reacts when the world suddenly demands everyone’s attention.
 
@@ -64,7 +64,7 @@ So let’s zoom out, map the network, and explore how Reddit reacts when the wor
 
 # 2. Turning Reddit Data Into a Living Network {#part2}
 
-Reddit quietly accumulates vast amounts of interaction data — but in its raw form, it’s closer to noise than insight. Using the **SNAP Reddit Hyperlink Network dataset**, we track how subreddits reference one another through shared hyperlinks and pair these connections with the sentiment that travels alongside them. The result is not just a static graph of links, but a **network of interactions**, where attention, emotion, and information move together.
+Reddit quietly accumulates vast amounts of interaction data, but in its raw form. It’s closer to noise than insight. Using the **SNAP Reddit Hyperlink Network dataset**, we track how subreddits reference one another through shared hyperlinks and pair these connections with the sentiment that travels alongside them. The result is not just a static graph of links, but a **network of interactions**, where attention, emotion, and information move together.
 
 <details class="event-block">
   <summary>
@@ -119,7 +119,7 @@ Because many of these characteristics overlap or move together, the data is comp
 
 Within this simplified space, irregular behavior begins to stand out. Highly automated subreddits tend to follow narrow, repetitive patterns, making them easier to isolate than the messier, more diverse behavior of human communities. Subreddits that repeatedly exhibit these signatures are flagged as bot-heavy and filtered out of the network.
 
-The accompanying visualization highlights the fifteen subreddits with the highest estimated levels of automated activity — the noisiest corners of the platform.
+The accompanying visualization highlights the fifteen subreddits with the highest estimated levels of automated activity, the noisiest corners of the platform.
 
 <figure class="figure text-center">
   <img src="assets/img/Top15subreddits.png"
@@ -150,7 +150,7 @@ The accompanying visualization highlights the fifteen subreddits with the highes
 
 # 3. From Chaos to Communities {#part3}
 
-With bots removed, the Reddit Hyperlink Network is more authentic — but it is still vast, tangled, and nearly impossible to navigate at the level of individual subreddits.
+With bots removed, the Reddit Hyperlink Network is more authentic. But it is still vast, tangled, and nearly impossible to navigate at the level of individual subreddits.
 
 So the perspective shifts.
 
@@ -172,7 +172,7 @@ Instead of focusing on thousands of small communities, hyperlink interactions ar
   </figcaption>
 </figure>
 
-Connections form quickly when the world demands attention, intensify as conversations converge, and then either fade away or settle into more permanent pathways — depending on the nature of the event that sparked them.
+Connections form quickly when the world demands attention, intensify as conversations converge, and then either fade away or settle into more permanent pathways, depending on the nature of the event that sparked them.
 
 ---
 
@@ -180,7 +180,7 @@ Connections form quickly when the world demands attention, intensify as conversa
 
 Seen from a distance, the structure of Reddit snaps into focus. Thousands of subreddits merge into a smaller number of recognizable communities, each reflecting a facet of human curiosity.
 
-This is why, on Reddit, it feels perfectly normal to learn about a new restaurant opening while searching for a gaming tutorial — or to stumble upon a season finale spoiler while trying to figure out how to farm Bitcoin in your basement.
+This is why, on Reddit, it feels perfectly normal to learn about a new restaurant opening while searching for a gaming tutorial, or to stumble upon a season finale spoiler while trying to figure out how to farm Bitcoin in your basement.
 
 What looks like randomness is, in fact, a network quietly shaped by shared attention.
 
@@ -226,7 +226,7 @@ What looks like randomness is, in fact, a network quietly shaped by shared atten
 
 # 6. In conclusion {#part6}
 
-The Reddit Hyperlink Network, once examined through rigorous analysis, reveals itself to be far more complex than it first appears. What often feels like a space for absent-minded scrolling — a way to briefly escape the real world — turns out to be a remarkably faithful mirror of it.
+The Reddit Hyperlink Network, once examined through rigorous analysis, reveals itself to be far more complex than it first appears. What often feels like a space for absent-minded scrolling, a way to briefly escape the real world, turns out to be a remarkably faithful mirror of it.
 
 Within this network, communities form, evolve, and interact in ways that closely resemble offline social systems. They argue, align, fragment, and occasionally converge around shared moments. World events act as catalysts, pulling attention inward and reshaping how communities relate to one another. Some connections are strengthened through shared focus and collective engagement, while others are strained or weakened as disagreement and emotional intensity rise.
 
@@ -241,7 +241,7 @@ Major events leave the deepest structural footprints. Elections, crises, and glo
   Large-scale events can reorganize whole clusters, while more local shocks like niche game releases or regional crises produce focused but still detectable ripples.
 
 - **The network remembers.**  
-  Even after activity settles, the links forged during intense periods — especially around politics and crises — can persist for weeks or months, leaving long-term imprints on how communities interact.
+  Even after activity settles, the links forged during intense periods, especially around politics and crises, can persist for weeks or months, leaving long-term imprints on how communities interact.
 
 <details class="event-block">
   <summary>
@@ -250,10 +250,10 @@ Major events leave the deepest structural footprints. Elections, crises, and glo
   </summary>
   <div>
     <p>
-      Across all levels of analysis — between clusters, within clusters, and between specific communities — one pattern remains consistent: Reddit does not react uniformly. Attention spreads asymmetrically, influence depends on context and perceived importance, and engagement is shaped by the same selective pressures that govern real-world interaction.
+      Across all levels of analysis between clusters, within clusters, and between specific communities, one pattern remains consistent: Reddit does not react uniformly. Attention spreads asymmetrically, influence depends on context and perceived importance, and engagement is shaped by the same selective pressures that govern real-world interaction.
     </p>
     <p>
-      So the next time you follow a hyperlink to another subreddit, pause for a moment before scrolling past. That click may pull you into the center of an unfolding conversation — one that strengthens old ties, challenges existing narratives, or subtly reshapes the structure of a community. In doing so, you become part of the same collective dynamics that quietly turn Reddit into a map of the world it reflects.
+      So the next time you follow a hyperlink to another subreddit, pause for a moment before scrolling past. That click may pull you into the center of an unfolding conversation, one that strengthens old ties, challenges existing narratives, or subtly reshapes the structure of a community. In doing so, you become part of the same collective dynamics that quietly turn Reddit into a map of the world it reflects.
     </p>
   </div>
 </details>
